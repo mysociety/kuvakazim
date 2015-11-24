@@ -9,16 +9,38 @@ DB = Sequel.connect(ENV['DATABASE_URL'])
 infopages_path = File.expand_path('../../info', __FILE__)
 FileUtils.mkdir_p(infopages_path)
 
+LINK_REGEX = /\[(?<text>.+?)\]\((?<url>.+?)(?: (?<title>".*?"))?\)/
+
+def tidy_markdown(markdown)
+  markdown.tr!("\r\n", "\n")
+  markdown.gsub!(/\n+$/, "\n")
+  markdown.gsub!("\n\n**\n", "**\n")
+  markdown.strip!
+  links = markdown.to_enum(:scan, LINK_REGEX).map { Regexp.last_match }
+  return markdown unless links.any?
+  links.each do |link|
+    if link[:title] == '""'
+      # Get rid of empty title
+      markdown.sub!(link.to_s, "[#{link[:text].strip}](#{link[:url].strip})")
+    end
+    if !link[:url].lstrip.start_with?('/') && !link[:url].lstrip.start_with?('http')
+      # Fix relative links to be absolute
+      markdown.sub!(link.to_s, "[#{link[:text].strip}](/info/#{link[:url].strip})")
+    end
+  end
+  markdown
+end
+
 DB[:info_infopage].where(kind: 'page').each do |page|
   # Tidy up the content to have clean line endings and no excess trailing whitespace
-  content = <<CONTENT.tr("\r\n", "\n").gsub(/\n+$/, "\n")
+  content = <<CONTENT
 ---
 title: #{page[:title]}
 slug: #{page[:slug]}
 permalink: "/info/#{page[:slug]}/"
 ---
 
-#{page[:markdown_content]}
+#{tidy_markdown(page[:markdown_content])}
 CONTENT
 
   File.write(File.join(infopages_path, "#{page[:slug]}.md"), content)
