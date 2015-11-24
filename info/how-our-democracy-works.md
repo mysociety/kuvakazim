@@ -1,5 +1,5 @@
 ---
-title:  How Our Democracy Works
+title: How Our Democracy Works
 slug: how-our-democracy-works
 permalink: "/info/how-our-democracy-works/"
 ---

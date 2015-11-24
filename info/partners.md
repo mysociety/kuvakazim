@@ -1,5 +1,5 @@
 ---
-title:  Partners
+title: Partners
 slug: partners
 permalink: "/info/partners/"
 ---
