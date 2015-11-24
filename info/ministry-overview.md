@@ -18,9 +18,7 @@ The Minister and 2 Deputies: Joseph Made, Davis Marapira (cropping, Mechanisatio
 
 Contacts: Ministry of Agriculture and Rural Development 1 Borrowdale Road Ngungunyana Building Telephone: +263-4-709081/+263-4-706081 Fax: +263-4-734646. Email: postmaster@moa.gov.zw
 
-**2. Ministry of Defence
-
-**
+**2. Ministry of Defence**
 
 -----------------------
 
@@ -40,9 +38,7 @@ Contacts: Defence House Cnr Kwame Nkrumah / 3rd Street Harare
 
 Telephone:+263-4 250042, 252050-7, 700155-8,700077–8 Website: 
 
-**3. Ministry of Primary and Secondary Education
-
-**
+**3. Ministry of Primary and Secondary Education**
 
 ------------------------------------------------
 
@@ -54,9 +50,7 @@ Contacts: Ambassador House 14th Floor Union Avenue, Harare
 
 Telephone: +263-4 734071/4, 734051/9 Fax: +263 734075
 
-**4. Ministry of Energy & Power Development
-
-**
+**4. Ministry of Energy & Power Development**
 
 -------------------------------------------
 
@@ -76,9 +70,7 @@ Contacts: Chaminuka Building, Ground floor Cnr 4th st/Central Avenue, Harare
 
 Email: postmaster@energy.gov.zw, power@energy.gov.zw, Telephone:+263-4 733095-9, +263-4 799194 
 
-**5. Ministry of Finance
-
-**
+**5. Ministry of Finance**
 
 -----------------------
 
@@ -104,9 +96,7 @@ The Minister and Deputy: Patrick Chinamasa, Sam Undenge
 
 Contacts: New Complex Building, Government Composite Offices, Cnr 3rd Street/ Samora Machel Avenue; Harare, Telephone:+263-4-794571-7, Fax:+263-4-796563, Email: finance@energy.gov.zw
 
-**6. Ministry of Foreign Affairs
-
-**
+**6. Ministry of Foreign Affairs**
 
 -------------------------------
 
@@ -126,9 +116,7 @@ The Minister and Deputy: Simbarashe Mumbengegwi, Christopher Mutsvangwa
 
 Contacts: Munhumutapa Building, Samora Machel Ave P.O. Box 4240 Harare, Zimbabwe Telephone : 263- 4 727005/9 : 263-4-794681/Fax: +263-4-705161.
 
-**7. Ministry of Health & Child Welfare
-
-**
+**7. Ministry of Health & Child Welfare**
 
 ---------------------------------------
 
@@ -146,9 +134,7 @@ Contacts: Kaguvi Building, 4th Floor Central Avenue (Between 4th and 5th Street)
 
 Telephone: +263-4-798537-60 Fax: +263-4-729154/ 793634 Email: pr@mohcw.gov.zw
 
-**8. Ministry of Higher & Tertiary Education, Science and Technology Development
-
-**
+**8. Ministry of Higher & Tertiary Education, Science and Technology Development**
 
 ------------------------------------------------------------------------------------
 
@@ -164,9 +150,7 @@ The Minister and Deputy: Olivia Muchena, Godfrey Gandawa.
 
 Contacts: New Complex Building, 6th Floor, F Block, Cnr 3rd Street/ Samora Machel Avenue; Harare Telephone:+263-4-736862 Fax:+263-4-706516
 
-**9. Ministry of Home Affairs
-
-**
+**9. Ministry of Home Affairs**
 
 -----------------------------
 
@@ -204,9 +188,7 @@ The Minister and Deputy: Mike Bimha, Alice Mabhuwa.
 
 Contacts: Mkwati Building, 13th Floor, Corner Fourth Street and Livingstone Avenue Harare, Telephone: +263-4-791823-7/796498. Fax: +263-4-253137
 
-**11. Ministry of Information Communication Technology, Postal and Courier Services
-
-**
+**11. Ministry of Information Communication Technology, Postal and Courier Services**
 
 ----------------------------------------------------------------------------------
 
@@ -234,9 +216,7 @@ The Minister and Deputy: Webster Shamu, Win Mlambo.
 
 Contacts: Bank Chambers Building, 76 Samora Machel Avenue, Harare, Telephone: +263-4-707347/ 708407, Fax:+263-4-763016, Email: postmaster@ictministry.gov.zw
 
-**12. Ministry of Justice, Legal Affairs and Parliamentary Affairs
-
-**
+**12. Ministry of Justice, Legal Affairs and Parliamentary Affairs**
 
 -----------------------------------------------------------------
 
@@ -278,9 +258,7 @@ Contacts: 9th Floor, Kaguvi Building, Cnr. Central Avenue/Fourth Street; Harare
 
 Telephone: +263-4-704085/703871/705151, Fax: +263-4-793930
 
-**14. Ministry of Lands & Rural Resettlement
-
-**
+**14. Ministry of Lands & Rural Resettlement**
 
 ------------------------------------------
 
@@ -312,9 +290,7 @@ The Minister and Deputy: Hon Ignatius Chombo, Hon Biggie Matiza
 
 Contacts: Makombe Building, 1st Floor, Cnr Leopold Takawira St/Herbert Chitepo St, Harare, Telephone: +263-4-794166/796757/793700/251114, Fax: +263-4-791470. Email: auditors@mlgurd.gov.zw
 
-**16. Ministry of Media, Information, & Broadcasting Services
-
-**
+**16. Ministry of Media, Information, & Broadcasting Services**
 
 -----------------------------------------------------------
 
@@ -334,9 +310,7 @@ Contacts: Munhumutapa Building, 1st Floor, 55 Samora Machel Avenue
 
 Harare, Telephone: +263-4-706891-4/737502, Fax: +263-4-937537, Email: info@zim.gov.zw 
 
-**17. Ministry of Mines & Mining Development
-
-**
+**17. Ministry of Mines & Mining Development**
 
 -------------------------------------------
 
@@ -352,9 +326,7 @@ Contacts: ZIMRE Centre, 6th Floor, Cnr Leopold Takawira/ Kwame Nkrumah
 
 Harare, Telephone: +263-4-777022/9, 798771-3,798775, Fax: +263-4-777044, 798774, Email: postmaster@mines.gov.zw
 
-**18. Ministry of Small & Medium Enterprises and Cooperative Development
-
-**
+**18. Ministry of Small & Medium Enterprises and Cooperative Development**
 
 -----------------------------------------------------------------------
 
@@ -374,9 +346,7 @@ The Minister and Deputy: Sithembiso Nyoni, Noveti Mukonora
 
 Contacts: Liquenda House, Corner Nelson Mandela/First Street, Harare, Telephone: +263-4-731002/3/6/8, Fax: +263-4-704953, Email: info@smecd.gov.zw
 
-**19. Ministry of Tourism & Hospitality Industry
-
-**
+**19. Ministry of Tourism & Hospitality Industry**
 
 ----------------------------------------------
 
@@ -404,9 +374,7 @@ The Minister and Deputy: Obert Mpofu, Petronella Kagonye
 
 Contacts. Kaguvi Building , 13-17th floor, Central Avenue, Between 4th & 5th Street. Telephone: 263-4-700991-9/700693-9/707121-9 Fax +263-4-708225, 737358. 
 
-**21. Ministry of Environment, Water and Climate Resources
-
-**
+**21. Ministry of Environment, Water and Climate Resources**
 
 ---------------------------------------------------------
 
@@ -424,9 +392,7 @@ The Minister and Deputy: Savior Kasukuwere, Simon Musanhu
 
 Contacts: Kaguvi Building, 11th Floor, Central Avenue (Between 4th and 5th Street) Harare, Telephone: +263-4-701681/5, Fax: +263-4-753649.
 
-**22. Ministry of Women’s Affairs, Gender, & Community Development
-
-**
+**22. Ministry of Women’s Affairs, Gender, & Community Development**
 
 -----------------------------------------------------------------
 
@@ -444,9 +410,7 @@ The Minister and Deputy: Oppah Muchinguri, Abigail Damasane.
 
 Contacts: Kaguvi Building, 8th Floor, Central Avenue (Between 4th and 5th Street), Harare, Telephone: +263-4-251599/707741-2, 
 
-**23. Ministry of Youth Indigenization, and Economic Empowerment
-
-**
+**23. Ministry of Youth Indigenization, and Economic Empowerment**
 
 ----------------------------------------------------------------
 
@@ -462,9 +426,7 @@ The Minister and Deputy: Francis Nhema, Mathias Tongofa.
 
 Contacts: Mkwati Building, 17th  & 20th  Floor, Corner Fourth Street and Livingstone Avenue, Harare, Telephone: +263-4-707741-3, Email: postmaster@mydie.gov.zw
 
-**24. Ministry of Sports, Arts and Culture
-
-**
+**24. Ministry of Sports, Arts and Culture**
 
 ----------------------------------------
 
@@ -484,9 +446,7 @@ Contacts: Ambassador House 14th Floor Union Avenue, Harare
 
 Telephone: +263-4 734071/4, 734051/9 Fax: +263 734075
 
-**25. Ministry of State for Liaising on Psychomotor Activities in Education Vocational
-
-**
+**25. Ministry of State for Liaising on Psychomotor Activities in Education Vocational**
 
 -------------------------------------------------------------------------------------
 
@@ -500,9 +460,7 @@ To synchronise primary, secondary and vocational training.
 
 The Minister: Josiah Hungwe
 
-**26. Ministry of State for Presidential Affairs
-
-**
+**26. Ministry of State for Presidential Affairs**
 
 ------------------------------------------------
 
@@ -510,9 +468,7 @@ Functions: This Ministry is a non-cabinet ministerial position and the functions
 
 The Minister: Flora Buka.
 
-**27. Ministry of Presidential Affairs
-
-**
+**27. Ministry of Presidential Affairs**
 
 ------------------------------------
 
@@ -520,9 +476,7 @@ Functions : This Ministry is a non-cabinet ministerial position and the function
 
 The Minister: Didymus Mutasa
 
-**Full List of Ministries
-
-**
+**Full List of Ministries**
 
 Ministry of Local Government Public Works and National Housing
 
@@ -530,21 +484,21 @@ Ministry of Local Government Public Works and National Housing
 
 Ministry of Justice, Legal and Parliamentary Affairs
 
-Ministry of Finance: [Website](http://www.zimtreasury.gov.zw "")
+Ministry of Finance: [Website](http://www.zimtreasury.gov.zw)
 
-Ministry of Energy and Power Development: [Website]( http://www.energy.gov.zw "")
+Ministry of Energy and Power Development: [Website](http://www.energy.gov.zw)
 
-Ministry Youth, Indigenisation and Economic Empowerment: [Website](http://www.mydie.gov.zw "")
+Ministry Youth, Indigenisation and Economic Empowerment: [Website](http://www.mydie.gov.zw)
 
-Ministry of Lands and Rural Resettlement: [Website](http://www.lands.gov.zw "")
+Ministry of Lands and Rural Resettlement: [Website](http://www.lands.gov.zw)
 
 Ministry of Media, Information and Broadcasting Services
 
-Ministry of Defence: [Website]( http://www.mod.gov.zw "")
+Ministry of Defence: [Website](http://www.mod.gov.zw)
 
 Ministry of Presidential Affairs
 
-Ministry of Tourism and Hospitality Industry: [Website]( http://www.tourism.gov.zw "")
+Ministry of Tourism and Hospitality Industry: [Website](http://www.tourism.gov.zw)
 
 Ministry of Sports, Arts and Culture
 
@@ -556,21 +510,21 @@ Ministry of Primary and Secondary Education
 
 Ministry of Higher and Tertiary Education, Science and Technology Development
 
-Ministry of Health and Child Care: [Website]( http://www.mohcw.gov.zw "")
+Ministry of Health and Child Care: [Website](http://www.mohcw.gov.zw)
 
-Ministry of Home Affairs: [Website]( http://www.mohcw.gov.zw "")
+Ministry of Home Affairs: [Website](http://www.mohcw.gov.zw)
 
-Ministry of Women Affairs, Gender and Community Development: [Website](http://www.women.gov.zw "")
+Ministry of Women Affairs, Gender and Community Development: [Website](http://www.women.gov.zw)
 
-Ministry of Industry and Commerce: [Website]( http://www.miit.gov.zw "")
+Ministry of Industry and Commerce: [Website](http://www.miit.gov.zw)
 
 Ministry of Public Service, Labour and Social Welfare
 
-Ministry of Mines and Mining Development: [Website: ]( http://www.mines.gov.zw "")
+Ministry of Mines and Mining Development: [Website:](http://www.mines.gov.zw)
 
-Ministry of Transport and Infrastructural Development: [Website]( http://www.transcom.gov.zw "")
+Ministry of Transport and Infrastructural Development: [Website](http://www.transcom.gov.zw)
 
-Ministry of Foreign Affairs: [Website]( http://www.zimfa.gov.zw "")
+Ministry of Foreign Affairs: [Website](http://www.zimfa.gov.zw)
 
 Ministry of Small and Medium Enterprises and Cooperative Development: [Website
 

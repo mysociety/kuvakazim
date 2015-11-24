@@ -8,13 +8,9 @@ Committees of Parliament undertake such specialized functions which the House as
 
 Parliament performs Executive Oversight by scrutinizing government policies, programmes, and expenditure plans. This is done, among other things, by making inputs into, approving and monitoring the national budget. Parliament, through its system of Portfolio and the recently established Thematic Committees, monitors all government policies and programmes to ensure efficient use and allocation of national resources. In addition, individual members can raise questions or move motions that relate to government policies and programmes.
 
-**Management Committees 
+**Management Committees **
 
-**
-
-**Parliamentary Committee
-
-**
+**Parliamentary Committee**
 
 A Committee is a group of members appointed by a House of Parliament from amongst its members to perform a specific function, which the House has entrusted to it, and to report back to the House on the matter referred to it.
 
@@ -50,25 +46,19 @@ The Committee comprises of all Committee Chairperson, the Government and Opposit
 
  
 
-**The Library Committee
-
-**
+**The Library Committee**
 
 The Committee advises the President of the Senate and the Speaker of the House of Assembly on matters relating to the policy, conduct and management of the Library of Parliament. The Deputy Speaker and Deputy President of the Senate are the ex officio Chairperson and Deputy Chairperson, respectively, of the Committee.
 
  
 
-**Internal Arrangements Committee
-
-**
+**Internal Arrangements Committee**
 
 The committee makes recommendations to the President of the Senate and the Speaker of the House of Assembly on matters concerning the facilities and amenities of the members. The Deputy President of the Senate and Deputy Speaker are the ex-officio Chairperson and Deputy Chairperson of the Committee respectively.
 
  
 
-**Investigative Committees.
-
-**
+**Investigative Committees.**
 
 Examples of investigative Committees include Portfolio Committees, Thematic Committees, the Public Accounts Committee and Ad Hoc Committees.
 
@@ -84,17 +74,13 @@ These are newly introduced Committees that are provided for in the Senate Standi
 
  
 
-**Ad-Hoc Committees
-
-**
+**Ad-Hoc Committees**
 
 These are another type of investigative Committees. They are appointed to investigate and report on a specific issue and they cease to exist once they have reported to the House on the matter A good example is the Privileges Committee which is appointed to allegations of breach of privilege.
 
  
 
-**Public Accounts Committee
-
-**
+**Public Accounts Committee**
 
 This is an example of a post audit Committee in the Parliament of Zimbabwe. It is mandated to examine the financial affairs and accounts of Government Departments and state owned enterprises. It also examines all reports of the Comptroller and Auditor General. The Committee also fullfils the oversight function of Parliament by looking at the financial accounts of Departments funded from public funds.
 
@@ -102,8 +88,6 @@ There are Committees appointed in terms of the Constitution and the Standing Ord
 
  
 
-**Parliamentary Legal Committee 
-
-**
+**Parliamentary Legal Committee **
 
 The Committee is mandated to examine the constitutionality of every Bill, draft Bill, Statutory Instrument, draft Statutory Instrument, amendment to a Bill, or amendment to a Statutory Instrument. It also ensures that no Statutory Instrument makes the rights and liberties of persons unduly dependent upon administrative decisions, which are not subject to review by judicial tribunal nor change an Act Of Parliament.

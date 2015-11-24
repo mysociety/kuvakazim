@@ -22,7 +22,7 @@ In respect of the 8 Commissioners appointed under this new system, the Parliamen
 
 ------------------
 
-- [Electoral Act](http://www.kuvakazim.com/media_root/file_archive/Zimbabwe_consolidated_electoral_act.pdf "")
+- [Electoral Act](http://www.kuvakazim.com/media_root/file_archive/Zimbabwe_consolidated_electoral_act.pdf)
 
 - [SADC Guidelines and Principles
 

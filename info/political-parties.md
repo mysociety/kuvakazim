@@ -4,9 +4,7 @@ slug: political-parties
 permalink: "/info/political-parties/"
 ---
 
-**Zimbabwe African National Union Patriotic Front (ZANU PF)
-
-**
+**Zimbabwe African National Union Patriotic Front (ZANU PF)**
 
 **Founded: August 1963 **
 
@@ -64,9 +62,7 @@ On the 11th of January 2009, President Morgan Tsvangirai became the Prime Minist
 
 ------------------
 
-**Movement for Democratic Change (MDC)
-
-**
+**Movement for Democratic Change (MDC)**
 
 **Founded: October 2005**
 
@@ -84,9 +80,7 @@ The theatre for confrontation between the ruling ZANU PF party and civic groups 
 
 ------------------
 
-**Zimbabwe African People’s Union (ZAPU)
-
-**
+**Zimbabwe African People’s Union (ZAPU)**
 
 **Founded-December 1961**
 
@@ -108,9 +102,7 @@ The political independence elections, which were supervised by the British gover
 
 **Mavambo/Dawn/Kusile**
 
-**Founded: 2008
-
-**
+**Founded: 2008**
 
 **National Executive: ** Simba Makoni, Kudzai Mbudzi
 
@@ -124,9 +116,7 @@ In 2009, a power struggle developed within the organisation, with Kudzai Mbudzi 
 
 ------------------
 
-**Zimbabwe National African Union-NDONGA (ZANU-NDONGA)
-
-**
+**Zimbabwe National African Union-NDONGA (ZANU-NDONGA)**
 
 **National Executive:** Reketai Semwayo
 
@@ -146,4 +136,4 @@ ZANU–Ndonga's candidate, Wilson Kumbila, won 1.0% in the March 2002 presidenti
 
 ------------------
 
-Source: [Wikipedia](http://en.wikipedia.org/wiki/List_of_political_parties_in_Zimbabwe "")
+Source: [Wikipedia](http://en.wikipedia.org/wiki/List_of_political_parties_in_Zimbabwe)

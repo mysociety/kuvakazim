@@ -10,4 +10,4 @@ From KuvakaZim’s inception, we have worked with volunteers helping on a wide r
 
 Volunteering and sharing is an essential pillar of the success of KuvakaZim. Donating time, hosting meetings at one’s home, and offering food, were some of the volunteers’ ways to facilitate the running of our activities.
 
-If you are interested in volunteering we will be grateful. Contact us on the [Contact Page](/info/contact "").
+If you are interested in volunteering we will be grateful. Contact us on the [Contact Page](/info/contact).

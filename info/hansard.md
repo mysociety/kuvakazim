@@ -36,18 +36,18 @@ Distribution is done by the Public Relations Department and queries related to t
 
 ------------------
 
-[ National Assembly 2013-09-17](http://www.parlzim.gov.zw/attachments/article/30/17_September_2013_40-02.pdf "")
+[National Assembly 2013-09-17](http://www.parlzim.gov.zw/attachments/article/30/17_September_2013_40-02.pdf)
 
-[National Assembly 2013-09-24](http://www.parlzim.gov.zw/attachments/article/30/24_September_2013_40_03.pdf "")
+[National Assembly 2013-09-24](http://www.parlzim.gov.zw/attachments/article/30/24_September_2013_40_03.pdf)
 
 [National Assembly 2013-09-25
 
 ](http://www.parlzim.gov.zw/attachments/article/30/25_September_2013_40-04.pdf "")
 
-[National Assembly 2013-09-26](http://www.parlzim.gov.zw/attachments/article/30/26_September_2013_40-05.pdf "")
+[National Assembly 2013-09-26](http://www.parlzim.gov.zw/attachments/article/30/26_September_2013_40-05.pdf)
 
-[National Assembly 2013-10-01](http://www.parlzim.gov.zw/attachments/article/30/01_October_2013_40-06.pdf "")
+[National Assembly 2013-10-01](http://www.parlzim.gov.zw/attachments/article/30/01_October_2013_40-06.pdf)
 
-[National Assembly 2013-10-02](http://www.parlzim.gov.zw/attachments/article/30/02_September_2013_40-07.pdf "")
+[National Assembly 2013-10-02](http://www.parlzim.gov.zw/attachments/article/30/02_September_2013_40-07.pdf)
 
-[National Assembly 2013-10-03](http://www.parlzim.gov.zw/attachments/article/30/03_October_2013_40-08.pdf "")
+[National Assembly 2013-10-03](http://www.parlzim.gov.zw/attachments/article/30/03_October_2013_40-08.pdf)

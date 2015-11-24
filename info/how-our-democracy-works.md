@@ -4,9 +4,7 @@ slug: how-our-democracy-works
 permalink: "/info/how-our-democracy-works/"
 ---
 
-**THE STRUCTURE OF ZIMBABWE GOVERNMENT 2013
-
-**
+**THE STRUCTURE OF ZIMBABWE GOVERNMENT 2013**
 
 -----------------------------------------
 
@@ -18,9 +16,7 @@ There is a Cabinet consisting of the President, as head of the Cabinet, the Vice
 
 Presidents and such Ministers as the President may appoint to the Cabinet. Cabinet meetings are presided over by the President or, in his or her absence, by a Vice President or, in their absence, by a Minister. The President is the head-of-state as well as the Commander-in-Chief of the Defense Forces.  He/she must be a Zimbabwean citizen by birth or descent, age 40 or above, and reside in Zimbabwe. The President and the Vice-Presidents are directly elected jointly by registered voters throughout Zimbabwe, and the procedure for their election is as prescribed in the Electoral Law. Their functions include assisting to discharge executive responsibilities. The Vice-Presidents and Ministers can be removed by the President or replaced upon death or resignation.
 
-**Executive Functions of the President
-
-**
+**Executive Functions of the President**
 
 The President has the powers conferred by the Constitution and by any Act of 
 
@@ -80,9 +76,7 @@ In the exercise of his or her executive functions, the President must act on the
 
 The assignment or reassignment of functions to Vice-Presidents, Ministers and Deputy Ministers, and the cancellation of any such assignment or reassignment;
 
-**The Legislative Branch
-
-**
+**The Legislative Branch**
 
 The Legislature of Zimbabwe consists of Parliament and the President acting in accordance with the constitution. Parliament consists of Senate and National Assembly.
 
@@ -114,17 +108,13 @@ elected through a system of proportional representation based on the votes cast 
 
 Elections of members of the National Assembly must be conducted in accordance with the Electoral Law.
 
-**Speaker of House Assembly
-
-**
+**Speaker of House Assembly**
 
 At its first sitting after a general election, and before proceeding to any other business, the National Assembly must elect a presiding officer to be known as the Speaker. Whenever there is a vacancy in the office of Speaker, the National Assembly must without delay elect a person to fill the vacancy.
 
 A person is qualified for election as Speaker if he or she is or has been a Member of the National Assembly or is qualified to be elected to the National Assembly Elections to the office of Speaker must be conducted by the Clerk of Parliament under the supervision of the Zimbabwe Electoral Commission, by secret ballot in accordance with Standing Orders, and the results must be announced forthwith.
 
-**Composition of Senate
-
-**
+**Composition of Senate**
 
 The Senate consists of 86 Senators, of whom: 6 are elected from each of the 10 provinces in Zimbabwe by a system of proportional representation. 16 are chiefs, of whom 2 are elected by the provincial assembly of Chiefs from each of the provinces, other than the metropolitan provinces the President and Deputy President of the National Council of Chiefs;  and 8 are Provincial Governors, one from each of the provinces, other than the metropolitan provinces. 2 are elected  to represent persons with disabilities. 
 
@@ -136,9 +126,7 @@ A person is qualified for election as President of the Senate if he or she is or
 
 accordance with Standing Orders, and the results must be announced forthwith.
 
-**General Matters relating to Parliament; Privileges and immunities of Parliament
-
-**
+**General Matters relating to Parliament; Privileges and immunities of Parliament**
 
 (1) The President of the Senate, the Speaker and Members of Parliament have freedom of speech in Parliament and in all parliamentary committees and, while they must obey the rules and orders of the House concerned, they are not liable to civil or criminal proceedings, arrest or imprisonment or damages for anything said in, produced before or submitted to Parliament or any of its committees.
 
@@ -166,9 +154,7 @@ An application for the review of a decision to dissolve Parliament must be filed
 
 The Constitutional Court must determine the application within fourteen days after it was filed; and pending the Constitutional Court’s determination of the application, the decision to dissolve Parliament is suspended.
 
-**Qualifications and disqualifications for election to National Assembly
-
-**
+**Qualifications and disqualifications for election to National Assembly**
 
 The Constitution of Zimbabwe has provisions of qualification and disqualifications for anyone who wants to be elected as a Member of the National Assembly. 
 

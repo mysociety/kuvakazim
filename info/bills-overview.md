@@ -12,25 +12,19 @@ This page provides an overview of the process by which a bill becomes law and de
 
 After a bill has been gazetted, the member responsible must serve notice of a motion that leave be granted by the house to bring in the bill.The clerks will read the  title of the bill. The bringing of the copy to the clerks and the subsequent reading of the title is regarded as the first reading.
 
-**Stage 2- Reference to the Parliamentary Legal Committee (PLC)
-
-**
+**Stage 2- Reference to the Parliamentary Legal Committee (PLC)**
 
 ------------------
 
 The house in which the bill originates refers it to the PLC. This committee examines the bill and statutory instruments and determine whether or not they are in conformity with the Bill of Rights and any other provisions of the Constitution. If the provisions of the bill contravene the Bill of rights and or some sections of the constitution the committee makes an adverse report. If PLC fails to make a report fails to present its report within the specified period in the standing orders the House of Assembly will proceed with the bill.
 
-**Stage 3- Second Reading. 
-
-**
+**Stage 3- Second Reading. **
 
 ------------------
 
 The third stage is opened by the sponsoring minister, who makes a speech outlining the principles upon which the bill is based. This is then followed by the debate on the principles. There is no discussion on the individuals clauses  although reference may be made to the clauses as part of the debate. This is also the stage that the relevant Parliamentary Portfolio Committee (PPC) will present its report on the bill.
 
-**Stage 4- Consideration by committee
-
-**
+**Stage 4- Consideration by committee**
 
 ------------------
 
@@ -52,9 +46,7 @@ If the Bill is amended at the committee and/or report stage, it is referred to t
 
 This is the stage at which the bill is put to a vote either for approval or rejection. No reading per se takes place unless some members have given notice that they wish to do so.
 
-**Stage 8-Transmission to the other House
-
-**
+**Stage 8-Transmission to the other House**
 
 ------------------
 
