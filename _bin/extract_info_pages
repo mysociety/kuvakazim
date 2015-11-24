@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+require 'sequel'
+require 'fileutils'
+
+abort "Usage: DATABASE_URL=postgres://localhost/mzalendo-zw #$0" unless ENV['DATABASE_URL']
+
+DB = Sequel.connect(ENV['DATABASE_URL'])
+
+infopages_path = File.expand_path('../../info', __FILE__)
+FileUtils.mkdir_p(infopages_path)
+
+DB[:info_infopage].where(kind: 'page').each do |page|
+  # Tidy up the content to have clean line endings and no excess trailing whitespace
+  content = <<CONTENT.tr("\r\n", "\n").gsub(/\n+$/, "\n")
+---
+title: #{page[:title]}
+slug: #{page[:slug]}
+permalink: "/info/#{page[:slug]}/"
+---
+
+#{page[:markdown_content]}
+CONTENT
+
+  File.write(File.join(infopages_path, "#{page[:slug]}.md"), content)
+end
