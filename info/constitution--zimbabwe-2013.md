@@ -1,0 +1,13 @@
+---
+title:  The Constitution of Zimbabwe 2013
+slug: constitution--zimbabwe-2013
+permalink: "/info/constitution--zimbabwe-2013/"
+---
+
+Background Information
+
+----------------------
+
+The Independence Constitution, signed at the Lancaster House Conference in 1979 together with 19 amendments, was the fundamental law which determined Zimbabwe's governmental structure. A proposed new constitution was rejected by the electorate in the February 2000 referendum. A new constitution was signed into law in May 2013.The Ministers are appointed by the President. Ministers are accountable to the President.
+
+The process of making a new constitution was carried carried out as one of the major deliverables of the Global Political Agreement (GPA) which was signed on 15 September 2008. Article VI of the GPA sets out a broad framework to be followed in the Constitution making process. It also prescribed the different stages to be followed in coming up with a people driven Constitution. In April 2009, the Parliamentary Constitution Select Committee (COPAC) was appointed to spearhead the process of coming up with a new Constitution for Zimbabwe. It represented the composition of Parliament, which included the three main political parties that formed the GPA- ZANU (PF), MDC-T;and MDC as well as a chief. A secretariat was also put in  place to support the work of COPAC. Public meetings and consultations to gather the views of Zimbabweans started in June 2010 and were concluded in October 2010. According to COPAC 4,943 meetings were held in all 1957 wards. The outreach process was managed by 70 outreach teams with an average of 14 members in a team. 70 percent of the outreach team members were from civil society while 30 percent were from political parties. Provincial teams were led and supervised by members of the Select Committee. COPAC also received data from 52 institutions, special meetings with Parliamentarians, children and people living with disabilities. Zimbabweans living in the diaspora contributed their views through the website. Zimbabweans had 3 weeks to read the 170-page strong constitution drafted by COPAC. The aim of the constitution drafting process was to be ‘people-driven, people-owned, inclusive and democratic’. Three Principal Drafters assisted by 17 technical experts under the instructions of the COPAC drafted the Constitution. The proposed Constitution was officially published to Parliament on February 5, 2013 and was subjected to a referendum on March 16, 2013. The new Constitution was approved by 94.49% of Zimbabwean voters that participated in the referendum.

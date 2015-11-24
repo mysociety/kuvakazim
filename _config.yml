@@ -12,3 +12,9 @@ twitter_username: KuvakaZim
 # Build settings
 markdown: kramdown
 
+defaults:
+  -
+    scope:
+      path: "info"
+    values:
+      layout: page
