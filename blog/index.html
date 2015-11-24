@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: /blog/
+---
+
+
+<h1>Blog Posts</h1>
+
+<p><a href="/blog/feed.rss">RSS Feed</a></p>
+
+{% for post in site.posts %}
+
+<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+<div>{{ post.date | date: "%b. %e, %Y" }}</div>
+
+<div>{{ post.content }}</div>
+
+{% endfor %}
