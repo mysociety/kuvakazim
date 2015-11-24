@@ -1,13 +1,11 @@
 #!/usr/bin/env ruby
 require 'sequel'
 require 'fileutils'
+require 'yaml'
 
 abort "Usage: DATABASE_URL=postgres://localhost/mzalendo-zw #$0" unless ENV['DATABASE_URL']
 
 DB = Sequel.connect(ENV['DATABASE_URL'])
-
-infopages_path = File.expand_path('../../info', __FILE__)
-FileUtils.mkdir_p(infopages_path)
 
 LINK_REGEX = /\[(?<text>.+?)\]\((?<url>.+?)(?: (?<title>".*?"))?\)/
 
@@ -31,17 +29,34 @@ def tidy_markdown(markdown)
   markdown
 end
 
-DB[:info_infopage].where(kind: 'page').each do |page|
-  # Tidy up the content to have clean line endings and no excess trailing whitespace
-  content = <<CONTENT
----
-title: #{page[:title]}
-slug: #{page[:slug]}
-permalink: "/info/#{page[:slug]}/"
----
+def content_for(item, front_matter = {})
+  <<CONTENT
+#{YAML.dump(front_matter)}---
 
-#{tidy_markdown(page[:markdown_content])}
+#{tidy_markdown(item[:markdown_content])}
 CONTENT
+end
 
-  File.write(File.join(infopages_path, "#{page[:slug]}.md"), content)
+infopages_path = File.expand_path('../../info', __FILE__)
+FileUtils.mkdir_p(infopages_path)
+
+DB[:info_infopage].where(kind: 'page').each do |page|
+  front_matter = {
+    'title' => page[:title].strip,
+    'slug' => page[:slug],
+    'permalink' => "/info/#{page[:slug]}/"
+  }
+  File.write(File.join(infopages_path, "#{page[:slug]}.md"), content_for(page, front_matter))
+end
+
+posts_path = File.expand_path('../../_posts', __FILE__)
+FileUtils.mkdir_p(posts_path)
+
+DB[:info_infopage].exclude(kind: 'page').each do |post|
+  front_matter = {
+    'title' => post[:title].strip,
+    'slug' => post[:slug],
+    'layout' => 'post'
+  }
+  File.write(File.join(posts_path, "#{post[:publication_date].to_date.to_s}-#{post[:slug]}.md"), content_for(post, front_matter))
 end
