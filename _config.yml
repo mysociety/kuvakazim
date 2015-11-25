@@ -8,6 +8,7 @@ title: Kuvakazim
 baseurl: ""
 url: "http://www.kuvakazim.com"
 twitter_username: KuvakaZim
+popolo_url: https://github.com/everypolitician/everypolitician-data/raw/master/data/Zimbabwe/Assembly/ep-popolo-v1.0.json
 
 # Build settings
 markdown: kramdown
@@ -15,16 +16,16 @@ permalink: /blog/:title/
 exclude: [Gemfile, Gemfile.lock]
 
 collections:
-  persons__en:
+  persons:
     output: true
     permalink: '/person/:path/'
-  organizations__en:
+  organizations:
     output: true
     permalink: '/organisation/:path/'
-  areas__en:
+  areas:
     output: true
     permalink: '/place/:path/'
-  events__en:
+  events:
     output: true
     permalink: '/event/:path/'
 
@@ -33,27 +34,3 @@ defaults:
       path: "info"
     values:
       layout: page
-  - scope:
-      page: ""
-    values:
-      lang: en
-  - scope:
-      path: ""
-      type: persons__en
-    values:
-      layout: person
-  - scope:
-      path: ""
-      type: organizations__en
-    values:
-      layout: organization
-  - scope:
-      path: ""
-      type: areas__en
-    values:
-      layout: area
-  - scope:
-      path: ""
-      type: areas__en
-    values:
-      layout: area

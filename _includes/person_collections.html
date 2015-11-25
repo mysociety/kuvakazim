@@ -1,5 +1,3 @@
-{% include collections.html %}
-
-{% assign membership = site.data.memberships | where:"person_id", person.id | first %}
-{% assign party = organizations | where:"id", membership.on_behalf_of_id | first %}
-{% assign area = areas | where:"id", membership.area_id | first %}
+{% assign membership = person.memberships | first %}
+{% assign party = membership.party %}
+{% assign area = membership.area %}
