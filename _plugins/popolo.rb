@@ -5,9 +5,6 @@ require 'active_support'
 require 'active_support/core_ext/string'
 
 module Jekyll
-  class PopoloDocument < Document
-  end
-
   class Popolo < Generator
     def generate(site)
       popolo = JSON.parse(open(site.config['popolo_url']).read)
@@ -17,7 +14,7 @@ module Jekyll
         popolo[collection_name].each do |item|
           next unless item['id']
           path = File.join(site.config['source'], "_#{collection_name}", "#{item['id'].parameterize}.md")
-          doc = PopoloDocument.new(path, collection: collection, site: site)
+          doc = Document.new(path, collection: collection, site: site)
           doc.merge_data!(item)
           doc.merge_data!(
             'title' => item['name'],
