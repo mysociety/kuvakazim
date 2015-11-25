@@ -5,7 +5,7 @@ require 'active_support'
 require 'active_support/core_ext/string'
 
 module Jekyll
-  class Popolo < Generator
+  class EverypoliticianPopolo < Generator
     def generate(site)
       popolo = JSON.parse(open(site.config['popolo_url']).read)
       popolo.keys.each do |collection_name|
