@@ -25,6 +25,7 @@ module Jekyll
         site.collections[collection_name] = collection
       end
 
+      # Expose memberships as a "Jekyll datafile", because they don't have ids
       site.data['memberships'] = popolo['memberships']
     end
   end
