@@ -13,7 +13,7 @@ popolo_url: https://github.com/everypolitician/everypolitician-data/raw/master/d
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
-exclude: [Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock, vendor]
 
 collections:
   persons:
