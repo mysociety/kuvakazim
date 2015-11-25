@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% assign organization = page %}
-{% include organization_collections.html %}
 
 <script type="text/javascript">
 
@@ -94,7 +93,7 @@ addDisqusScriptTag('count');
   There
   are
   <a href="{{ organization.url }}people/">
-    {{ memberships | size }}
+    {{ organization.memberships | size }}
     people
   </a>
   related to {{ organization.name }}.

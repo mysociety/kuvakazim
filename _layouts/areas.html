@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% assign area = page %}
-{% include area_collections.html %}
 
 <script type="text/javascript">
 
@@ -110,8 +109,9 @@ addDisqusScriptTag('count');
   <h2>Current Politicians Representing {{ area.name }}</h2>
 
   <ul class="listing">
-    {% for membership in memberships %}
-    {% include membership_collections.html %}
+    {% for membership in area.memberships %}
+    {% assign person = membership.person %}
+    {% assign organization = membership.organization %}
     <li>
       <a href="{{ person.url }}">
 
