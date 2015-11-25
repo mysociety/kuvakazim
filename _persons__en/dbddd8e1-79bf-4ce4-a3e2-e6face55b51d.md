@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Nyasha Chikwinya
 lang: en
+title: Nyasha Chikwinya
 
 ---

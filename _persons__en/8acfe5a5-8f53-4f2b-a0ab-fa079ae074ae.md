@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Lucia Matibenga
 lang: en
+title: Lucia Matibenga
 
 ---

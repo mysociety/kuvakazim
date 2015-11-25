@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Noveti Muponora
 lang: en
+title: Noveti Muponora
 
 ---

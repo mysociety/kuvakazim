@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Bekithemba Mpofu
 lang: en
+title: Bekithemba Mpofu
 
 ---

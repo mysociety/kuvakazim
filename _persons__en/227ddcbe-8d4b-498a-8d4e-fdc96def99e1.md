@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Phineas Chiota
 lang: en
+title: Phineas Chiota
 
 ---

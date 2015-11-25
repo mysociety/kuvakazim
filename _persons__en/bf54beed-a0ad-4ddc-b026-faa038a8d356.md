@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Bekithemba Nyathi
 lang: en
+title: Bekithemba Nyathi
 
 ---

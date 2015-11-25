@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Tendai Savanhu
 lang: en
+title: Tendai Savanhu
 
 ---

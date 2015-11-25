@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Fred Moyo
 lang: en
+title: Fred Moyo
 
 ---

@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Tapiwanashe Matangaidze
 lang: en
+title: Tapiwanashe Matangaidze
 
 ---

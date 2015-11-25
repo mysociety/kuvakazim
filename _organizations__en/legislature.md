@@ -7,5 +7,6 @@ identifiers:
 name: House of Assembly
 seats: 210
 lang: en
+title: House of Assembly
 
 ---

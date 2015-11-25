@@ -5,5 +5,6 @@ identifiers:
   scheme: everypolitician_legacy
 name: Tose Wesley Sansole
 lang: en
+title: Tose Wesley Sansole
 
 ---
