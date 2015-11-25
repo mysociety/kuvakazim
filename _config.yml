@@ -12,6 +12,7 @@ twitter_username: KuvakaZim
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
+exclude: [Gemfile, Gemfile.lock]
 
 defaults:
   -
