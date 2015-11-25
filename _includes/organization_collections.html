@@ -1,0 +1,3 @@
+{% include collections.html %}
+
+{% assign memberships = site.data.memberships | where:"on_behalf_of_id", organization.id %}

@@ -1,0 +1,5 @@
+{% include collections.html %}
+
+{% assign person = people | where:"id", membership.person_id | first %}
+{% assign area = areas | where:"id", membership.area_id | first %}
+{% assign organization = organizations | where:"id", membership.on_behalf_of_id | first %}
