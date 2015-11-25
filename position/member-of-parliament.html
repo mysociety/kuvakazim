@@ -1,0 +1,77 @@
+---
+layout: default
+permalink: /position/member-of-parliament/
+---
+
+<div class="view-selector">
+  <a href="/position/member-of-parliament/?view=grid">View as grid</a>
+</div>
+
+<h1 class="page-title">Member of the National Assembly</h1>
+
+<div class="content_box">
+  <h3>Current Position Holders</h3>
+
+  <div class="search-filters">
+    <form method="get">
+      Where:
+
+      <select name="place_slug">
+        <option value="">All</option>
+        {% for area in site.areas %}
+          <option value="{{ area.id }}">{{ area.name }}</option>
+        {% endfor %}
+      </select>
+
+      <input type="submit" value="Search" />
+    </form>
+  </div>
+
+  <div class="search-pagination">
+    Showing <strong>1</strong> to <strong>10</strong> of <strong>255</strong>.
+  </div>
+
+  <ul class="position-listing">
+    {% include collections.html %}
+    {% for person in people %}
+    {% include person_collections.html %}
+    <li class="position">
+
+      <a href="{{ person.url }}">
+
+        <img src="{{ person.image }}" alt="{{ person.name }}" width="50" height="50" />
+
+        <span class="name">{{ person.name }}</span>
+
+        <span class="more">more&hellip;</span>
+      </a>
+
+      <div>
+        Member of the National Assembly
+        for
+        <a href="{{ area.url }}">{{ area.name }}</a>
+        Member of
+        <a href="{{ organization.url }}">{{ organization.name }}</a>
+        .
+      </div>
+
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div class="pagination">
+
+    <span class="disabled prev">&lsaquo;&lsaquo; previous</span>
+
+    <span class="current page">1</span>
+
+    <a href="?page=2" class="page">2</a>
+    ...
+    <a href="?page=25" class="page">25</a>
+
+    <a href="?page=26" class="page">26</a>
+
+    <a href="?page=2" class="next">next &rsaquo;&rsaquo;</a>
+  </div>
+
+</div>
