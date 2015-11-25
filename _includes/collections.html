@@ -1,7 +1,3 @@
-{% capture persons_collection %}persons__{{ page.lang }}{% endcapture %}
-{% capture organizations_collection %}organizations__{{ page.lang }}{% endcapture %}
-{% capture areas_collection %}areas__{{ page.lang }}{% endcapture %}
-
-{% assign people = site[persons_collection] %}
-{% assign organizations = site[organizations_collection] %}
-{% assign areas = site[areas_collection] %}
+{% assign people = site.persons %}
+{% assign organizations = site.organizations %}
+{% assign areas = site.areas %}
