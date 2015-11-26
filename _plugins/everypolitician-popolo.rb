@@ -15,14 +15,12 @@ module Jekyll
         collection = Collection.new(site, collection_name)
         popolo[collection_name].each do |item|
           next unless item['id']
-          path = File.join(site.config['source'], "_#{collection_name}", "#{item['id'].parameterize}.md")
+          path = File.join(site.source, "_#{collection_name}", "#{item['id'].parameterize}.md")
           doc = Document.new(path, collection: collection, site: site)
           doc.merge_data!(item)
           doc.merge_data!(
             'title' => item['name'],
-            'layout' => collection_name
-          )
-          doc.merge_data!(
+            'layout' => collection_name,
             'memberships' => memberships_for(item, collection_name, memberships)
           )
           collection.docs << doc
@@ -37,9 +35,6 @@ module Jekyll
         membership['organization'] = site.collections['organizations'].docs.find { |o| o.data['id'] == membership['organization_id'] }
         membership['party'] = site.collections['organizations'].docs.find { |o| o.data['id'] == membership['on_behalf_of_id'] }
       end
-
-      # Expose memberships as a "Jekyll datafile", because they don't have ids
-      site.data['memberships'] = memberships
     end
 
     def memberships_for(item, collection_name, memberships)
