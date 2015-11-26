@@ -7,7 +7,8 @@ require 'active_support/core_ext/string'
 module Jekyll
   class EverypoliticianPopolo < Generator
     def generate(site)
-      popolo = JSON.parse(open(site.config['popolo_url']).read)
+      popolo_url = File.read('DATASOURCE').chomp
+      popolo = JSON.parse(open(popolo_url).read)
       memberships = popolo['memberships']
       popolo.keys.each do |collection_name|
         next unless popolo[collection_name].is_a?(Array)
