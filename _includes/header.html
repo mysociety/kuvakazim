@@ -11,8 +11,18 @@
     </menu>
 
     <form action="/search/" method="get" id="header-search">
-      <input class="search-autocomplete-name" type="text" name="q" placeholder="name, place, party&hellip;" />
-      <button type="submit">Submit</button>
+      <select class="search-autocomplete-name js-search-autocomplete-name">
+        <option>name, place, party</option>
+        {% for person in site.persons %}
+        <option value="{{ person.url }}">{{ person.name }}</option>
+        {% endfor %}
+        {% for area in site.areas %}
+        <option value="{{ area.url }}">{{ area.name }}</option>
+        {% endfor %}
+        {% for organization in site.organizations %}
+        <option value="{{ organization.url }}">{{ organization.name }}</option>
+        {% endfor %}
+      </select>
     </form>
   </div>
 </header>
