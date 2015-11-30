@@ -23,6 +23,11 @@ module Jekyll
             'layout' => collection_name,
             'memberships' => memberships_for(item, collection_name, memberships)
           )
+          if collection_name == 'persons' && !item['image']
+            doc.merge_data!(
+              'image' => 'http://www.kuvakazim.com/static/images/person-210x210.jpg'
+            )
+          end
           collection.docs << doc
         end
         site.collections[collection_name] = collection
