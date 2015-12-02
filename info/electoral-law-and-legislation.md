@@ -22,6 +22,6 @@ In respect of the 8 Commissioners appointed under this new system, the Parliamen
 
 ------------------
 
-- [Electoral Act](/file_archive/Zimbabwe_consolidated_electoral_act.pdf)
-- [SADC Guidelines and Principles](/file_archive/Sadc_electoral_guidelines.pdf)
-- [Political Parties Code of Conduct](/file_archive/electoral_code_of_conduct_for_political_parties_and_candidates_1.pdf)
+- [Electoral Act](/media_root/file_archive/Zimbabwe_consolidated_electoral_act.pdf)
+- [SADC Guidelines and Principles](/media_root/file_archive/Sadc_electoral_guidelines.pdf)
+- [Political Parties Code of Conduct](/media_root/file_archive/electoral_code_of_conduct_for_political_parties_and_candidates_1.pdf)
