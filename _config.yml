@@ -5,9 +5,8 @@
 
 # Site settings
 title: Kuvakazim
-email: info@kuvakazim.com
-baseurl: ""
-url: "http://www.kuvakazim.com"
+email: chrism@mysociety.org
+url: "http://staging.kuvakazim.com"
 twitter_username: KuvakaZim
 
 # Build settings
