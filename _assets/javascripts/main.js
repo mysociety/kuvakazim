@@ -1,3 +1,5 @@
+//= require twitter_embed
+
 jQuery(function($) {
   var $searchBox = $('.js-search-autocomplete-name')
   $searchBox.select2();

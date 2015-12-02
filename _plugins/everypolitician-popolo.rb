@@ -25,7 +25,7 @@ module Jekyll
           )
           if collection_name == 'persons' && !item['image']
             doc.merge_data!(
-              'image' => 'http://www.kuvakazim.com/static/images/person-210x210.jpg'
+              'image' => '/assets/person-210x210.jpg'
             )
           end
           collection.docs << doc

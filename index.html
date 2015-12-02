@@ -26,27 +26,19 @@ disable_breadcrumbs: true
 
   <div id="home-featured-person">
     <div class="featured-person">
-      <a href="/person/thokozani-khupe/">
+      {% assign featured_person = site.persons | first %}
+      <a href="{{ featured_person.url }}">
 
-        <img src="http://www.kuvakazim.com/media_root/cache/02/b7/02b7214bf8335b0f6eb3885802a80b6d.jpg" alt="Thokozani Khupe" width="145" height="200" />
+        <img src="{{ featured_person.image }}" alt="{{ featured_person.name }}" width="145" height="200" />
 
       </a>
       <div class="featured-person-info">
         <div class="feature-nav">
-          <a class="feature-prev" href="/?before=thokozani-khupe">previous</a>
-          <a class="feature-next" href="/?after=thokozani-khupe">next</a>
+          <a class="feature-prev" href="#">previous</a>
+          <a class="feature-next" href="#">next</a>
         </div>
 
-        <h2><a href="/person/thokozani-khupe/">Thokozani Khupe</a></h2>
-
-
-        <p class="feature-person-role">Politician</p>
-
-
-        <div class="feature-person-summary">
-          <p>MDC-T Party Vice President &amp; Bulawayo Province Member of the National Assembly. Former Deputy Prime Minister (2009-2013)</p>
-        </div>
-
+        <h2><a href="{{ featured_person.url }}">{{ featured_person.name }}</a></h2>
 
       </div>
     </div>
@@ -59,20 +51,30 @@ disable_breadcrumbs: true
          data-chrome="noborders"
          data-tweet-limit="5"
          data-dnt="true"
-         href="https://twitter.com/KuvakaZIM"
+         href="https://twitter.com/{{ site.twitter_username }}"
          data-widget-id="363302699581710339"
-         >Tweets by @KuvakaZIM</a>
+         >Tweets by @{{ site.twitter_username }}</a>
     </div>
   </div>
 
   <div class="social-and-tools">
     <ul class="tools">
-      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.kuvakazim.com/&amp;t=KuvakaZim" target="_blank" class="big-btn-text-fb">Facebook</a>
-        <li><a href="https://twitter.com/share?via=KuvakaZIM&amp;text=KuvakaZim&amp;url=http://www.kuvakazim.com/" target="_blank" class="big-btn-text-tw">Twitter</a></li>
+      <li>
+        <a  href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}&amp;t={{ site.title | cgi_escape }}"
+            target="_blank"
+            class="big-btn-text-fb"
+            >Facebook</a>
+
+        <li>
+          <a  href="https://twitter.com/share?via={{ site.twitter_username }}&amp;text={{ site.title | cgi_escape }}&amp;url={{ page.url | prepend: site.url | cgi_escape }}"
+              target="_blank"
+              class="big-btn-text-tw"
+              >Twitter</a>
+        </li>
     </ul>
 
     <span class="tw-nub"></span>
-    <a href="http://twitter.com/KuvakaZIM" class="btn-text-green tw-follow" target="_blank">Follow</a>
+    <a href="http://twitter.com/{{ site.twitter_username }}" class="btn-text-green tw-follow" target="_blank">Follow</a>
   </div>
 
 </div>
