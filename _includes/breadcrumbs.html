@@ -1,1 +1,23 @@
+{% if page.disable_breadcrumbs %}
 <div id="breadcrumb-replacement">&nbsp;</div>
+{% else %}
+<div id="breadcrumb">
+  <nav class="wrapper">
+    <ul>
+      <li>
+        <a href="/" title="Breadcrumb link to the homepage.">Home</a>
+        <span class="sep">»</span>
+      </li>
+      {% if page.breadcrumbs %}
+      {% for breadcrumb in page.breadcrumbs %}
+      <li>
+        {{ breadcrumb }}
+        <span class="sep">»</span>
+      </li>
+      {% endfor %}
+      {% endif %}
+      <li>{{ page.title }}</li>
+    </ul>
+  </nav>
+</div>
+{% endif %}

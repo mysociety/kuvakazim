@@ -34,3 +34,10 @@ defaults:
       path: "info"
     values:
       layout: page
+      breadcrumbs:
+        - Information
+  - scope:
+      path: "blog"
+    values:
+      breadcrumbs:
+        - <a href="/blog">Blog</a>
