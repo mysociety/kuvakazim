@@ -60,7 +60,11 @@ addDisqusScriptTag('count');
 </div>
 
 <div class="profile-pic">
-  <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
+  {% if person.image %}
+    <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
+  {% else %}
+    {% image 'person-210x210.jpg' %}
+  {% endif %}
 </div>
 
 <div class="profile-info">
