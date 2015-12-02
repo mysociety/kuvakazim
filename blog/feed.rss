@@ -3,10 +3,10 @@
   <channel>
     <title>Kuvakazim</title>
     <description></description>
-    <link>http://www.kuvakazim.com/</link>
-    <atom:link href="http://www.kuvakazim.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Dec 2015 10:00:11 +0000</pubDate>
-    <lastBuildDate>Wed, 02 Dec 2015 10:00:11 +0000</lastBuildDate>
+    <link>http://staging.kuvakazim.com/</link>
+    <atom:link href="http://staging.kuvakazim.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Dec 2015 10:41:49 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Dec 2015 10:41:49 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 &lt;p&gt;We have decided to have the website go live before we finish the work so that we hear from you on what you want to see on the site. We would really love to hear from you and &lt;a href=&quot;/info/contact&quot;&gt;please give us feedback&lt;/a&gt;. We also welcome those who want to get involved by volunteering in cleaning up the site. We will greatly open it up for those who want to be part of this journey.&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
-        <link>http://www.kuvakazim.com/blog/why-kuvakazim/</link>
-        <guid isPermaLink="true">http://www.kuvakazim.com/blog/why-kuvakazim/</guid>
+        <link>http://staging.kuvakazim.com/blog/why-kuvakazim/</link>
+        <guid isPermaLink="true">http://staging.kuvakazim.com/blog/why-kuvakazim/</guid>
         
         
       </item>
