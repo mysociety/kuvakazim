@@ -38,6 +38,16 @@
 
   <body>
 
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
     <div id="main-menu">
   <nav class="wrapper">
     <ul>
@@ -1026,39 +1036,6 @@
       <div class="page-wrapper wrapper">
         
 
-<script type="text/javascript">
-
-var disqus_shortname = 'kuvakazim';
-
-var disqus_identifier, disqus_developer;
-
-// FIXME
-// disqus_identifier = 'organisation-3';
-
-disqus_identifier = undefined;
-
-var disqusScriptTagsAdded = {};
-
-function addDisqusScriptTag (name) {
-  if (!disqusScriptTagsAdded[name]) {
-    var dsq = document.createElement('script');
-    dsq.type  = 'text/javascript';
-    dsq.async = true;
-    dsq.src   = 'http://' + disqus_shortname + '.disqus.com/' + name + '.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    disqusScriptTagsAdded[name] = true;
-  }
-}
-
-// Load the correct tag using either of these lines in your code. Don't worry
-// about repeating them, subsequent calls are ignored. Annoyingly the 'embed'
-// one produces an exception if it can't find the element it wants :(
-//
-// addDisqusScriptTag('embed');
-// addDisqusScriptTag('count');
-
-</script>
-
 <div class="title-space">
 
   <h1>INDEPENDENT</h1>
@@ -1075,9 +1052,6 @@ function addDisqusScriptTag (name) {
 
         <li><a href="/organisation/party-independent/contact_details/">Contact details</a></li>
 
-        <script type="text/javascript" charset="utf-8">
-addDisqusScriptTag('count');
-        </script>
 
       </ul>
     </nav>
@@ -1117,7 +1091,7 @@ addDisqusScriptTag('count');
 
 
       <li>
-        <a  href="/organisation/party-independent/#disqus_thread"
+        <a  href="/organisation/party-independent/#comments"
             class="big-btn-text-green"
             >Post Comment</a>
       </li>
@@ -1131,11 +1105,6 @@ addDisqusScriptTag('count');
 
 <div class="large-container">
 
-
-
-
-
-
   <h2>People</h2>
 
   <p>
@@ -1148,35 +1117,11 @@ addDisqusScriptTag('count');
   related to INDEPENDENT.
   </p>
 
-
-
-
-
-
-
-
-
-
-
   <h2>Comments</h2>
 
-
-
-  <script type="text/javascript" charset="utf-8">
-addDisqusScriptTag('embed');
-  </script>
-
-  <div>
-    <div class="disqus_help">
-      (For <strong>newest</strong> comments first please choose 'Newest' from the 'Discussion' tab below.)
-    </div>
-    <div id="disqus_thread"></div>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </div>
-
-
-
+<div id="comments">
+  <div class="fb-comments" data-href="http://staging.kuvakazim.com/organisation/party-independent/" data-numposts="5" data-width="100%"></div>
+</div>
 
 
 </div>
