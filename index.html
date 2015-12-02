@@ -26,7 +26,7 @@ disable_breadcrumbs: true
 
   <div id="home-featured-person">
     <div class="featured-person">
-      {% assign featured_person = site.persons | first %}
+      {% assign featured_person = site.people | first %}
       <a href="{{ featured_person.url }}">
 
         <img src="{{ featured_person.image }}" alt="{{ featured_person.name }}" width="145" height="200" />

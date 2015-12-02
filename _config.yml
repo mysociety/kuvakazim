@@ -15,7 +15,7 @@ permalink: /blog/:title/
 exclude: [Gemfile, Gemfile.lock, vendor, README.md]
 
 collections:
-  persons:
+  people:
     output: true
     permalink: '/person/:path/'
   organizations:
