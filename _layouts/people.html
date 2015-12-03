@@ -50,6 +50,7 @@ layout: default
   <ul>
     {% for position in person.executive_positions %}
     <li>
+      <a href="{{ position.url }}">
       {% if position.organisation %}
       Organisation: {{ position.organisation }}<br>
       {% endif %}
@@ -64,6 +65,7 @@ layout: default
         {{ position.end_date }}
         {% endif %}
       </small>
+      </a>
     </li>
     {% endfor %}
   </ul>
