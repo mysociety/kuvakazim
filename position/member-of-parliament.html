@@ -4,10 +4,6 @@ permalink: /position/member-of-parliament/
 title: Member of the National Assembly
 ---
 
-<div class="view-selector">
-  <a href="/position/member-of-parliament/?view=grid">View as grid</a>
-</div>
-
 <h1 class="page-title">Member of the National Assembly</h1>
 
 <div class="content_box">
@@ -28,13 +24,6 @@ title: Member of the National Assembly
     </form>
   </div>
 
-  {% comment %}
-  <!-- We're not currently paginating, so leave this out for now -->
-  <div class="search-pagination">
-    Showing <strong>1</strong> to <strong>10</strong> of <strong>{{ site.assembly_people | size }}</strong>.
-  </div>
-  {% endcomment %}
-
   <ul class="position-listing">
     {% for person in site.assembly_people %}
     {% include person_collections.html %}
@@ -53,23 +42,5 @@ title: Member of the National Assembly
     </li>
     {% endfor %}
   </ul>
-
-  {% comment %}
-  <!-- We're not currently paginating, so leave this out for now -->
-  <div class="pagination">
-
-    <span class="disabled prev">&lsaquo;&lsaquo; previous</span>
-
-    <span class="current page">1</span>
-
-    <a href="?page=2" class="page">2</a>
-    ...
-    <a href="?page=25" class="page">25</a>
-
-    <a href="?page=26" class="page">26</a>
-
-    <a href="?page=2" class="next">next &rsaquo;&rsaquo;</a>
-  </div>
-  {% endcomment %}
 
 </div>
