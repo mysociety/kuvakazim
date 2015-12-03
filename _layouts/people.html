@@ -11,16 +11,6 @@ layout: default
 
   <p>Politician Profile Page</p>
 
-  <div class="object_menu">
-    <nav>
-      <ul>
-        <li>Overview</li>
-        <li><a href="{{ person.url }}experience/">Experience</a></li>
-        <li><a href="{{ person.url }}contact_details/">Contact details</a></li>
-      </ul>
-    </nav>
-  </div>
-
 </div>
 
 <div class="profile-pic">
@@ -79,13 +69,14 @@ layout: default
   </ul>
   {% endif %}
 
+  {% if person.education.size > 0 %}
   <h2>Education</h2>
-
   <ul>
   {% for education in person.education %}
     <li>{{ education.role }}</li>
   {% endfor %}
   </ul>
+  {% endif %}
 
   {% include comments.html %}
 
