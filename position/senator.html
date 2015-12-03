@@ -1,14 +1,10 @@
 ---
 layout: default
-permalink: /position/member-of-parliament/
-title: Member of the National Assembly
+permalink: /position/senator/
+title: Senator
 ---
 
-<div class="view-selector">
-  <a href="/position/member-of-parliament/?view=grid">View as grid</a>
-</div>
-
-<h1 class="page-title">Member of the National Assembly</h1>
+<h1 class="page-title">Senator</h1>
 
 <div class="content_box">
   <h3>Current Position Holders</h3>
@@ -19,7 +15,7 @@ title: Member of the National Assembly
 
       <select name="place_slug">
         <option value="">All</option>
-        {% for area in site.assembly_areas %}
+        {% for area in site.senate_areas %}
           <option value="{{ area.id }}">{{ area.name }}</option>
         {% endfor %}
       </select>
@@ -31,12 +27,12 @@ title: Member of the National Assembly
   {% comment %}
   <!-- We're not currently paginating, so leave this out for now -->
   <div class="search-pagination">
-    Showing <strong>1</strong> to <strong>10</strong> of <strong>{{ site.assembly_people | size }}</strong>.
+    Showing <strong>1</strong> to <strong>10</strong> of <strong>{{ site.senate_people | size }}</strong>.
   </div>
   {% endcomment %}
 
   <ul class="position-listing">
-    {% for person in site.assembly_people %}
+    {% for person in site.senate_people %}
     {% include person_collections.html %}
     <li class="position">
       <a href="{{ person.url }}">

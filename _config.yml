@@ -18,21 +18,32 @@ exclude: [Gemfile, Gemfile.lock, vendor, README.md]
 # setting the source one the Zimbabwe data is on master.
 everypolitician:
   sources:
-    - https://github.com/everypolitician/everypolitician-data/raw/kuvakazim/data/Zimbabwe/Assembly/ep-popolo-v1.0.json
+    assembly: https://github.com/everypolitician/everypolitician-data/raw/kuvakazim/data/Zimbabwe/Assembly/ep-popolo-v1.0.json
+    senate: https://github.com/everypolitician/everypolitician-data/raw/kuvakazim/data/Zimbabwe/Senate/ep-popolo-v1.0.json
 
 collections:
-  people:
+
+  # Assembly
+  assembly_people:
     output: true
-    permalink: '/person/:path/'
-  organizations:
+    permalink: '/assembly/person/:path/'
+  assembly_organizations:
     output: true
-    permalink: '/organisation/:path/'
-  areas:
+    permalink: '/assembly/organisation/:path/'
+  assembly_areas:
     output: true
-    permalink: '/place/:path/'
-  events:
+    permalink: '/assembly/place/:path/'
+
+  # Senate
+  senate_people:
     output: true
-    permalink: '/event/:path/'
+    permalink: '/senate/person/:path/'
+  senate_organizations:
+    output: true
+    permalink: '/senate/organisation/:path/'
+  senate_areas:
+    output: true
+    permalink: '/senate/place/:path/'
 
 defaults:
   - scope:
