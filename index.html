@@ -15,9 +15,8 @@ disable_breadcrumbs: true
   </h2>
 
   <form action="/search/" id="home-search">
-    <label for="core-search">Search people, places and organisations</label>
-    <input class="search-autocomplete-name" id="core-search" type="text" name="q" value="" placeholder="e.g. Place, name">
-    <button type="submit">Search</button>
+    <label for="core-search">Search:</label>
+    {% include search_select.html %}
   </form>
 </div>
 
