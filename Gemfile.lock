@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/everypolitician/jekyll-everypolitician-education
-  revision: 6a6e24536ebf8094eebe6f2703047d2191d49e70
+  revision: 727acc9fe79fd6e622b8c2bf2aeed6265fcba4ef
   branch: kuvakazim
   specs:
     jekyll-everypolitician-education (0.1.0)
