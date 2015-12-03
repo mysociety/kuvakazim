@@ -32,6 +32,11 @@ remote_csv:
     collections:
       assembly_people: kuvakazim_id
       senate_people: kuvakazim_id
+  job_history:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv&id=1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM&gid=724304320
+    collections:
+      assembly_people: kuvakazim_id
+      senate_people: kuvakazim_id
 
 collections:
 
