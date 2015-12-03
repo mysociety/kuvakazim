@@ -21,6 +21,13 @@ everypolitician:
     assembly: https://github.com/everypolitician/everypolitician-data/raw/kuvakazim/data/Zimbabwe/Assembly/ep-popolo-v1.0.json
     senate: https://github.com/everypolitician/everypolitician-data/raw/kuvakazim/data/Zimbabwe/Senate/ep-popolo-v1.0.json
 
+remote_csv:
+  education:
+    source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv&id=1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM&gid=0
+    collections:
+      assembly_people: kuvakazim_id
+      senate_people: kuvakazim_id
+
 collections:
 
   # Assembly

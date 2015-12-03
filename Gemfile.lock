@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/everypolitician/jekyll-remote_csv
+  revision: c96dd1b6bf870d3afa2207c2cab801bb4de0223e
+  branch: master
+  specs:
+    jekyll-remote_csv (0.1.0)
+      jekyll (>= 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -76,6 +84,7 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   jekyll-everypolitician
+  jekyll-remote_csv!
   pry
   uglifier
 
