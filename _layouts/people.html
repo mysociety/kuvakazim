@@ -55,6 +55,30 @@ layout: default
 
 <div class="large-container">
 
+  {% if person.executive_positions.size > 0 %}
+  <h2>Experience</h2>
+  <ul>
+    {% for position in person.executive_positions %}
+    <li>
+      {% if position.organisation %}
+      Organisation: {{ position.organisation }}<br>
+      {% endif %}
+      {% if position.role %}
+      Role: {{ position.role }}<br>
+      {% endif %}
+      <small>
+        {% if position.start_date %}
+        {{ position.start_date }} -
+        {% endif %}
+        {% if position.end_date %}
+        {{ position.end_date }}
+        {% endif %}
+      </small>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
   <h2>Education</h2>
 
   <ul>
