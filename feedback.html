@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h1 class="page-title">
+  Leave feedback
+</h1>
+
+<div class="infopage">
+
+  <div id="ajax_dialog_subcontent">
+    <form method="post" action="//formspree.io/{{ site.email }}" id="add_feedback">
+      <input type="hidden" name="page_url" value="{{ page.url | prepend:site.url }}" />
+
+      <input type="hidden" name="_next" value="{{ "/thanks/" | prepend:site.url }}" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <p><label for="id_comment">Your feedback:</label> <textarea cols="40" id="id_comment" name="comment" rows="10"></textarea></p>
+      <p><label for="id_email">Your email:</label> <input id="id_email" name="email" type="email"> <span class="helptext">optional - but lets us get back to you...</span></p>
+      <input type="submit" class="submit" value="Send feedback">
+    </form>
+  </div>
+
+</div>
