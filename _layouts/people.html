@@ -69,6 +69,30 @@ layout: default
   </ul>
   {% endif %}
 
+  {% if person.job_history.size > 0 %}
+  <h2>Job history</h2>
+  <ul>
+    {% for job in person.job_history %}
+    <li>
+      {% if job.organisation %}
+      Organisation: {{ job.organisation }}<br>
+      {% endif %}
+      {% if job.role %}
+      Role: {{ job.role }}<br>
+      {% endif %}
+      <small>
+        {% if job.start_date %}
+        {{ job.start_date }} -
+        {% endif %}
+        {% if job.end_date %}
+        {{ job.end_date }}
+        {% endif %}
+      </small>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
   {% if person.education.size > 0 %}
   <h2>Education</h2>
   <ul>
