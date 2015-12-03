@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/everypolitician/jekyll-everypolitician-education
-  revision: 727acc9fe79fd6e622b8c2bf2aeed6265fcba4ef
-  branch: kuvakazim
+  remote: https://github.com/everypolitician/jekyll-remote_csv
+  revision: c96dd1b6bf870d3afa2207c2cab801bb4de0223e
+  branch: master
   specs:
-    jekyll-everypolitician-education (0.1.0)
+    jekyll-remote_csv (0.1.0)
       jekyll (>= 3)
 
 GEM
@@ -84,7 +84,7 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   jekyll-everypolitician
-  jekyll-everypolitician-education!
+  jekyll-remote_csv!
   pry
   uglifier
 
