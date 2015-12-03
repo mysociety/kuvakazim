@@ -23,24 +23,7 @@ layout: default
 
   <ul class="listing">
     {% for membership in area.memberships %}
-    {% assign person = membership.person %}
-    {% assign organization = membership.organization %}
-    {% assign party = membership.party %}
-    <li>
-      <a href="{{ person.url }}">
-        <img src="{{ person.image }}" alt="{{ person.name }}" width="90" height="75" />
-      </a>
-
-      <section>
-        <h4><a href="{{ person.url }}">{{ person.name }}</a></h4>
-
-          Constituency: <a href="{{ area.url }}">{{ area.name }}</a> |
-          Party <a href="{{ party.url }}">{{ party.name }}</a>
-
-        <div class="read-more-wrap"><a href="{{ person.url }}" class="read-more">read more</a></div>
-
-      </section>
-    </li>
+      {% include membership_item.html %}
     {% endfor %}
   </ul>
 
