@@ -36,23 +36,15 @@ title: Member of the National Assembly
     {% for person in site.people %}
     {% include person_collections.html %}
     <li class="position">
-
       <a href="{{ person.url }}">
-
         <img src="{{ person.image }}" alt="{{ person.name }}" width="50" height="50" />
-
         <span class="name">{{ person.name }}</span>
-
         <span class="more">more&hellip;</span>
       </a>
 
       <div>
-        Member of the National Assembly
-        for
-        <a href="{{ area.url }}">{{ area.name }}</a>
-        Member of
-        <a href="{{ party.url }}">{{ party.name }}</a>
-        .
+        Constituency: <a href="{{ area.url }}">{{ area.name }}</a> |
+        Party: <a href="{{ party.url }}">{{ party.name }}</a>
       </div>
 
     </li>
