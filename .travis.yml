@@ -3,6 +3,9 @@ cache: bundler
 rvm:
 - 2.2.3
 script: "./_bin/deploy"
+branches:
+  only:
+    - master
 env:
   global:
     - GITHUB_REPO_SLUG=mysociety/kuvakazim
