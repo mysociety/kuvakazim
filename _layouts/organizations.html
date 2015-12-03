@@ -5,54 +5,28 @@ layout: default
 {% assign organization = page %}
 
 <div class="title-space">
-
   <h1>{{ organization.name }}</h1>
-
   <p>Political Party</p>
-
-  <div class="object_menu">
-    <nav>
-      <ul>
-
-        <li>Overview</li>
-
-        <li><a href="{{ organization.url }}people/">People</a></li>
-
-        <li><a href="{{ organization.url }}contact_details/">Contact details</a></li>
-
-
-      </ul>
-    </nav>
-  </div>
-
 </div>
 
 <div class="profile-pic">
-
   {% image 'organisation-210x210.jpg' %}
-
 </div>
 
 
 <div class="profile-info">
-
   {% include social.html %}
-
 </div>
 
 <div class="large-container">
 
-  <h2>People</h2>
+  <h2>Current Politicians Representing {{ organization.name }}</h2>
 
-  <p>
-  There
-  are
-  <a href="{{ organization.url }}people/">
-    {{ organization.memberships | size }}
-    people
-  </a>
-  related to {{ organization.name }}.
-  </p>
+  <ul class="listing">
+    {% for membership in organization.memberships %}
+      {% include membership_item.html %}
+    {% endfor %}
+  </ul>
 
   {% include comments.html %}
 

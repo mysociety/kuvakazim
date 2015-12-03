@@ -5,26 +5,8 @@ layout: default
 {% assign area = page %}
 
 <div class="title-space">
-
-
   <h1>{{ area.name }}</h1>
   <p class="object-kind">Constituency</p>
-
-  <div class="object_menu">
-    <nav>
-      <ul>
-
-        <li>Overview</li>
-
-        <li><a href="{{ area.url }}people/">People</a></li>
-
-        <li><a href="{{ area.url }}places/">Places</a></li>
-
-      </ul>
-    </nav>
-  </div>
-
-
 </div>
 
 <div class="profile-pic">
@@ -32,16 +14,7 @@ layout: default
 </div>
 
 <div class="profile-info">
-
-  <div class="constituency-party">
-    <h3>Key figure</h3>
-    <ul>
-      <li><a href="/person/kembo-mohadi/">Kembo Mohadi <span>[Member of the National Assembly]</span></a></li>
-    </ul>
-  </div>
-
   {% include social.html %}
-
 </div>
 
 <div class="large-container">
@@ -50,40 +23,9 @@ layout: default
 
   <ul class="listing">
     {% for membership in area.memberships %}
-    {% assign person = membership.person %}
-    {% assign organization = membership.organization %}
-    <li>
-      <a href="{{ person.url }}">
-
-        <img src="{{ person.image }}" alt="{{ person.name }}" width="90" height="75" />
-
-      </a>
-
-      <section>
-        <h4><a href="{{ person.url }}">{{ person.name }}</a></a></h4>
-        <ul>
-
-          Member of the National Assembly for <a href="{{ area.url }}">{{ area.name }}</a>
-
-          of <a href="{{ organization.url }}">{{ organization.name }}</a>
-
-        </ul>
-
-        <div class="read-more-wrap"><a href="{{ person.url }}" class="read-more">read more</a></div>
-
-      </section>
-    </li>
+      {% include membership_item.html %}
     {% endfor %}
   </ul>
-
-  <h2>People</h2>
-
-  <p>
-  To see all people associated with {{ area.name }} and
-  smaller regions, go to the
-  <a href="{{ area.url }}people/">people
-    page for {{ area.name }}</a>.
-  </p>
 
   {% include comments.html %}
 
