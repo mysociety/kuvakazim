@@ -13,7 +13,10 @@
     <form action="/search/" method="get" id="header-search">
       <select class="search-autocomplete-name js-search-autocomplete-name">
         <option>name, place, party</option>
-        {% for person in site.people %}
+        {% for person in site.assembly_people %}
+        <option value="{{ person.url }}">{{ person.name }}</option>
+        {% endfor %}
+        {% for person in site.senate_people %}
         <option value="{{ person.url }}">{{ person.name }}</option>
         {% endfor %}
         {% for area in site.areas %}
