@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/everypolitician/jekyll-everypolitician-education
+  revision: 6a6e24536ebf8094eebe6f2703047d2191d49e70
+  branch: kuvakazim
+  specs:
+    jekyll-everypolitician-education (0.1.0)
+      jekyll (>= 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -76,6 +84,7 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   jekyll-everypolitician
+  jekyll-everypolitician-education!
   pry
   uglifier
 
