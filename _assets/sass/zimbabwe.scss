@@ -2,41 +2,41 @@
 @import "compass/reset";
 
 // variables and macros
-@import "core/static/sass/colours_default";
+@import "core/colours_default";
 @import "colours_zimbabwe";
-@import "core/static/sass/core";
+@import "core/core";
 
 // very general styling
-@import "core/static/sass/common";
-@import "core/static/sass/html_elements";
-@import "core/static/sass/buttons";
+@import "core/common";
+@import "core/html_elements";
+@import "core/buttons";
 
 // specific chunks of all or several pages
-@import "core/static/sass/header";
-@import "core/static/sass/menu";
-@import "core/static/sass/breadcrumb";
-@import "core/static/sass/footer";
-@import "core/static/sass/page";
-@import "core/static/sass/object_menu";
-@import "core/static/sass/search";
-@import "core/static/sass/vcard";
-@import "core/static/sass/social-and-tools";
+@import "core/header";
+@import "core/menu";
+@import "core/breadcrumb";
+@import "core/footer";
+@import "core/page";
+@import "core/object_menu";
+@import "core/search";
+@import "core/vcard";
+@import "core/social-and-tools";
 
 // specific pages and parts of pages
-@import "core/static/sass/hansard";
-@import "core/static/sass/comments";
-@import "core/static/sass/listing";
-@import "core/static/sass/scorecard";
-@import "core/static/sass/pagination";
-@import "core/static/sass/ajax_dialog";
-@import "core/static/sass/home_page";
-@import "core/static/sass/info_pages";
-@import "core/static/sass/hide-reveal";
+@import "core/hansard";
+@import "core/comments";
+@import "core/listing";
+@import "core/scorecard";
+@import "core/pagination";
+@import "core/ajax_dialog";
+@import "core/home_page";
+@import "core/info_pages";
+@import "core/hide-reveal";
 
 // printer specific
-@import "core/static/sass/print";
+@import "core/print";
 
 // overides to external features
-@import "core/static/sass/social";
+@import "core/social";
 
 @import "zimbabwe_overrides";
