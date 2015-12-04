@@ -5,28 +5,17 @@
           target="_blank"
           class="big-btn-text-fb"
           >Share on Facebook</a>
-
-      <li>
-        <a  href="https://twitter.com/share?via={{ site.twitter_username }}&amp;text={{ page.name | cgi_escape }}&amp;url={{ page.url | prepend: site.url | cgi_escape }}"
-            target="_blank"
-            class="big-btn-text-tw"
-            >Share on Twitter</a>
-      </li>
-
-      <li>
-        <a  href="/feedback/?url={{ page.url | prepend: site.url | cgi_escape }}"
-            class="feedback_link big-btn-text-red"
-            >Correct this page</a>
-      </li>
-
-
-      <li>
-        <a  href="{{ page.url }}#comments"
-            class="big-btn-text-green"
-            >
-            Comments <span class="fb-comments-count"></span></a>
-      </li>
-
+    </li>
+    <li>
+      <a  href="https://twitter.com/share?via={{ site.twitter_username }}&amp;text={{ page.name | cgi_escape }}&amp;url={{ page.url | prepend: site.url | cgi_escape }}"
+          target="_blank"
+          class="big-btn-text-tw"
+          >Share on Twitter</a>
+    </li>
+    <li>
+      <a  href="{{ page.url }}#comments"
+          class="big-btn-text-green"
+          >Comments <span class="fb-comments-count"></span></a>
+    </li>
   </ul>
-
 </div>
