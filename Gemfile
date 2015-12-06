@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'pry'
+gem 'open-uri-cached'
 
 group :jekyll_plugins do
   gem 'jekyll-everypolitician'

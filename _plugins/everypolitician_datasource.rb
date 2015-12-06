@@ -1,3 +1,7 @@
+require 'open-uri/cached'
+
+OpenURI::Cache.cache_path = '.cache'
+
 # Configures the jekyll-everypolitician plugin to use the url in DATASOURCE
 Jekyll::Hooks.register :site, :post_read do |site|
   site.config['everypolitician'] ||= {
