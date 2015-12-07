@@ -14,6 +14,9 @@ markdown: kramdown
 permalink: /blog/:title/
 exclude: [Gemfile, Gemfile.lock, vendor, README.md]
 
+# Disable excerpt generation
+excerpt_separator: ''
+
 # TODO: Remove this and let _plugins/everypolitician_datasource.rb handle
 # setting the source one the Zimbabwe data is on master.
 everypolitician:
