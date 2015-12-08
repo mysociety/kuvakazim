@@ -57,3 +57,27 @@
         }
     }
 }
+
+#site-footer {
+    background-color: $colour_black;
+    border: 0;
+    color: $colour_white;
+    padding: 2em 0;
+    h4 {
+        color: $colour_white;
+    }
+    a {
+        color: lighten($colour_grey, 10%);
+        &:hover,
+        &:active,
+        &:focus {
+            color: $colour_white;
+        }
+    }
+    div.attribution {
+        text-align: left;
+    }
+    p {
+        font-style: normal;
+    }
+}
