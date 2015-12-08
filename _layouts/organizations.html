@@ -11,9 +11,9 @@ layout: default
 
 <div class="profile-pic">
   {% if organization.image.to_s == blank %}
-    <img src="{{ organization.image }}" alt="{{ organization.name }}" width="50" />
-  {% else %}
     <img src="/images/organisation-210x210.jpg">
+  {% else %}
+    <img src="{{ organization.image }}" alt="{{ organization.name }}" width="50" />
   {% endif %}
 </div>
 
