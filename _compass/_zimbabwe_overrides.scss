@@ -81,3 +81,76 @@
         font-style: normal;
     }
 }
+
+.title-space {
+    @media only all and (min-width: 640px) {
+        margin: 1em 0 2em;
+    }
+    h1 {
+        @media only all and (min-width: 640px) {
+            font-size: 1.875em;
+            line-height: 1.2em;
+        }
+    }
+}
+
+.profile-pic {
+    @media only all and (min-width: 640px) {
+        position: absolute;
+        top: 1em;
+        left: 0;
+    }
+}
+
+.sidebar {
+    @media only all and (min-width: 640px) {
+        margin-top: 160px;
+    }
+}
+
+.constituency-party li a {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: $colour_black;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: transparent;
+        color: $colour_links;
+    }
+}
+
+.experience__item {
+    color: $colour_black;
+    display: block;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+        .experience__role {
+            color: $colour_links;
+        }
+    }
+}
+
+.experience__role {
+    display: block;
+    font-weight: bold;
+}
+
+.experience__term {
+    color: $colour_blackish;
+    font-size: 0.75em;
+    padding-left: 1em;
+    display: inline-block;
+}
+
+.profile-bulk {
+    h2 {
+        font-size: 0.75em;
+        text-transform: uppercase;
+        color: $colour_primary;
+        border-bottom: 1px solid $colour_muted;
+    }
+}

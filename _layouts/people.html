@@ -27,13 +27,9 @@ layout: default
         <li><a href="{{ area.url }}">{{ area.name }}</a></li>
       </ul>
 
-      <h3>
-        Party
-      </h3>
+      <h3>Party</h3>
       <ul class="party-memberships">
-
         <li><a href="{{ party.url }}" class="party-membership party-membership--political-party">{{ party.name }}</a></li>
-
       </ul>
     </div>
   </div>
@@ -43,28 +39,34 @@ layout: default
 
 </div>
 
-<div class="large-container">
+<div class="large-container profile-bulk">
 
   {% if person.executive_positions.size > 0 %}
   <h2>Experience</h2>
-  <ul>
+  <ul class="unstyled-list">
     {% for position in person.executive_positions %}
     <li>
-      <a href="{{ position.url }}">
-      {% if position.organisation %}
-      Organisation: {{ position.organisation }}<br>
-      {% endif %}
+      <a href="{{ position.url }}" class="experience__item">
       {% if position.role %}
-      Role: {{ position.role }}<br>
+        <span class="experience__role">
+        {{ position.role }}
+        </span>
       {% endif %}
-      <small>
+      {% if position.organisation %}
+        {% if position.role %}
+          at
+        {% endif %}
+        {{ position.organisation }}
+      {% endif %}
+
+      <span class="experience__term">
         {% if position.start_date %}
         {{ position.start_date }} -
         {% endif %}
         {% if position.end_date %}
         {{ position.end_date }}
         {% endif %}
-      </small>
+      </span>
       </a>
     </li>
     {% endfor %}
@@ -73,7 +75,7 @@ layout: default
 
   {% if person.job_history.size > 0 %}
   <h2>Job history</h2>
-  <ul>
+  <ul class="unstyled-list">
     {% for job in person.job_history %}
     <li>
       {% if job.organisation %}
@@ -97,7 +99,7 @@ layout: default
 
   {% if person.education.size > 0 %}
   <h2>Education</h2>
-  <ul>
+  <ul class="unstyled-list">
   {% for education in person.education %}
     <li>{{ education.role }}</li>
   {% endfor %}
