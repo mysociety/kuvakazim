@@ -1,6 +1,3 @@
-$zw_red: #f2242c;
-$zw_green: #44c943;
-
 #logo {
   height: 100px;
   background: url('/images/zimbabwe-bird-with-text-147x42.png') 0 center no-repeat;
@@ -10,8 +7,51 @@ $zw_green: #44c943;
 }
 
 #site-header {
-  @include background(linear-gradient($zw_red, $zw_green));
+  background-color: $colour_primary;
+  background-image: none; //override gradient
   @media only all and (min-width: 640px), print {
     height: 120px;
   }
+}
+
+#main-menu {
+    background-image: none; //override gradient
+    background-color: $colour_black;
+}
+
+#main-menu nav {
+    text-align: left;
+    ul {
+        li {
+            a {
+            background-image: none; //override gradient
+            background: transparent;
+            color: lighten($colour_grey, 10%);
+                &:hover,
+                &:focus,
+                &:active {
+                    background-image: none; //override gradient
+                    color: $colour_white;
+                }
+            }
+            &:hover,
+            &:focus,
+            &:active {
+                ul {
+                    li {
+                        a {
+                            color: lighten($colour_grey, 10%);
+                            background-color: $colour_black;
+                            &:hover,
+                            &:active,
+                            &:focus {
+                                color: $colour_white;
+                                background-color: $colour_black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
