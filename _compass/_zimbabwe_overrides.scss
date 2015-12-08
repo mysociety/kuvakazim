@@ -1,8 +1,10 @@
 #logo {
   height: 100px;
-  background: url('/images/zimbabwe-bird-with-text-147x42.png') 0 center no-repeat;
+  background: url('/images/zimbabwe-bird-with-text-small@2.png') 0 center no-repeat;
+  background-size: 147px 42px;
   @media only all and (min-width: 640px), print {
-    background: url('/images/zimbabwe-bird-with-text-420x96.png') 0 center no-repeat;
+    background: url('/images/zimbabwe-bird-with-text-large@2.png') 0 center no-repeat;
+    background-size: 418px 100px;
   }
 }
 
