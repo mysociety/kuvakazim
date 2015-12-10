@@ -1,3 +1,67 @@
+$colour_links: #C25959;
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: $colour_links;
+    &:hover,
+    &:active,
+    &:focus {
+        color: darken($colour_links, 10%);
+    }
+}
+
+.unstyled-list {
+    padding: 0;
+    li {
+        list-style: none outside none;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 0.65em 1em;
+    border-radius: 3px;
+    color: $colour_white;
+    background-color: $colour_primary;
+    &:hover,
+    &:active,
+    &:focus {
+        color: $colour_white;
+        text-decoration: none;
+        background-color: darken($colour_primary, 10%);
+    }
+}
+
+.button--full-width {
+    width: 100%;
+    max-width: 100%;
+}
+
+.button--social {
+    font-size: 0.875em;
+}
+
+.button--social--twitter {
+    background-color: #4099ff;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken(#4099ff, 10%);
+    }
+}
+
+.button--social--facebook {
+    background-color: #3b5998;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken(#3b5998, 10%);
+    }
+}
+
 #logo {
   height: 100px;
   background: url('/images/zimbabwe-bird-with-text-small@2.png') 0 center no-repeat;
@@ -40,6 +104,7 @@
             &:focus,
             &:active {
                 ul {
+                    border: 0;
                     li {
                         a {
                             color: lighten($colour_grey, 10%);
@@ -92,6 +157,10 @@
             line-height: 1.2em;
         }
     }
+    p {
+        font-style: normal;
+        color: $colour_grey;
+    }
 }
 
 .profile-pic {
@@ -104,7 +173,7 @@
 
 .sidebar {
     @media only all and (min-width: 640px) {
-        margin-top: 160px;
+        margin-top: 110px;
     }
 }
 
@@ -152,5 +221,12 @@
         text-transform: uppercase;
         color: $colour_primary;
         border-bottom: 1px solid $colour_muted;
+    }
+}
+
+.social-sharing {
+    margin-top: 2em;
+    ul {
+        @extend .unstyled-list;
     }
 }
