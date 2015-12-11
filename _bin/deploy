@@ -19,7 +19,7 @@ build_and_deploy_jekyll_site() {
 
   git config user.name "everypoliticianbot"
   git config user.email "team@everypolitician.org"
-  git add .
+  git add --all .
   git commit -m "Deploy to GitHub Pages"
 
   # We redirect any output to /dev/null to hide any sensitive credential data
