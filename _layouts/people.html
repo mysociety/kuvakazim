@@ -50,7 +50,7 @@ layout: default
   <ul>
     {% for position in person.executive_positions %}
     <li>
-      <a href="{{ position.url }}">
+      <a href="{{ position.executive_positions_by_role.url }}">
       {% if position.organisation %}
       Organisation: {{ position.organisation }}<br>
       {% endif %}
