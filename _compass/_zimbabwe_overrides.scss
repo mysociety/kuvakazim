@@ -75,6 +75,7 @@ a {
 #site-header {
   background-color: $colour_primary;
   background-image: none; //override gradient
+  position: relative;
   @media only all and (min-width: 640px), print {
     height: 120px;
   }
@@ -121,6 +122,12 @@ a {
             }
         }
     }
+}
+
+#header-search {
+    position: absolute;
+    right: 1em;
+    top: 2em;
 }
 
 #site-footer {
