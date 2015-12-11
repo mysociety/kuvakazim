@@ -61,7 +61,7 @@ layout: default
 
       <span class="experience__term">
         {% if position.start_date %}
-        {{ position.start_date }} -
+        {{ position.start_date }} &ndash;
         {% endif %}
         {% if position.end_date %}
         {{ position.end_date }}
@@ -77,21 +77,27 @@ layout: default
   <h2>Job history</h2>
   <ul class="unstyled-list">
     {% for job in person.job_history %}
-    <li>
-      {% if job.organisation %}
-      Organisation: {{ job.organisation }}<br>
-      {% endif %}
+    <li class="experience__item">
       {% if job.role %}
-      Role: {{ job.role }}<br>
+      <span class="experience__role">
+        {{ job.role }}
+      </span>
       {% endif %}
-      <small>
+      {% if job.organisation %}
+        {% if job.role %}
+        at
+        {% endif %}
+          {{ job.organisation }}
+        {% endif %}
+
+      <span class="experience__term">
         {% if job.start_date %}
-        {{ job.start_date }} -
+        {{ job.start_date }} &ndash;
         {% endif %}
         {% if job.end_date %}
         {{ job.end_date }}
         {% endif %}
-      </small>
+      </span>
     </li>
     {% endfor %}
   </ul>

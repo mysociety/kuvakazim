@@ -202,6 +202,9 @@ a {
 .experience__item {
     color: $colour_black;
     display: block;
+}
+
+a.experience__item {
     &:hover,
     &:active,
     &:focus {
