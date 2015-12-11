@@ -4,16 +4,16 @@ permalink: /position/member-of-parliament/
 title: Member of the National Assembly
 ---
 
-<h1 class="page-title">Member of the National Assembly</h1>
+<h1 class="page-title">Members of the National Assembly</h1>
 
 <div class="content_box">
   <h3>Current Position Holders</h3>
 
   <div class="search-filters">
     <form method="get">
-      Where:
+      <label for="place_slug">Constituency</label>
 
-      <select name="place_slug">
+      <select name="place_slug" id="place_slug">
         <option value="">All</option>
         {% for area in site.assembly_areas %}
           <option value="{{ area.id }}">{{ area.name }}</option>
@@ -29,14 +29,14 @@ title: Member of the National Assembly
     {% include person_collections.html %}
     <li class="position">
       <a href="{{ person.url }}">
-        <img src="{{ person.image }}" alt="{{ person.name }}" width="50" height="50" />
-        <span class="name">{{ person.name }}</span>
-        <span class="more">more&hellip;</span>
+        <div class="image-wrapper">
+          <img src="{{ person.image }}" alt="{{ person.name }}" />
+        </div>
+        <span class="listing__name">{{ person.name }}</span> <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
       </a>
 
       <div>
-        Constituency: <a href="{{ area.url }}">{{ area.name }}</a> |
-        Party: <a href="{{ party.url }}">{{ party.name }}</a>
+        <a class="listing__area" href="{{ area.url }}">{{ area.name }}</a>
       </div>
 
     </li>

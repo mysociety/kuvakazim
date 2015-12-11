@@ -25,7 +25,7 @@ layout: default
 
   <h2>Current Politicians Representing {{ area.name }}</h2>
 
-  <ul class="listing">
+  <ul class="position-listing">
     {% for membership in area.memberships %}
       {% include membership_item.html %}
     {% endfor %}

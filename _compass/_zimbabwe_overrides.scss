@@ -242,3 +242,59 @@ a.experience__item {
         @extend .unstyled-list;
     }
 }
+
+div.search-filters {
+    background: none;
+    background-color: $colour_muted;
+    margin-bottom: 2em;
+    padding: 2em;
+    color: $colour_black;
+}
+
+.position {
+    img {
+        max-width: 50px;
+    }
+}
+
+ul.position-listing {
+    border: 0;
+    border-top: 1px solid $colour_muted;
+    li {
+        padding: 1.25em;
+        border: 0;
+        border-bottom: 1px solid $colour_muted;
+        img {
+            height: auto;
+            width: 50px;
+            float: none;
+            margin-right: 0;
+        }
+        .image-wrapper {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            display: inline-block;
+            float: left;
+            margin-right: 1.5em;
+            position: relative;
+            top: -5px;
+        }
+    }
+}
+
+.listing__name {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.listing__party {
+    display: inline-block;
+    margin-left: 0.5em;
+    color: $colour_black;
+    font-size: 0.875em;
+}
+
+.listing__area {
+    color: $colour_blackish;
+}
