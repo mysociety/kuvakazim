@@ -46,7 +46,7 @@ layout: default
   <ul class="unstyled-list">
     {% for position in person.executive_positions %}
     <li>
-      <a href="{{ position.url }}" class="experience__item">
+      <a href="{{ position.executive_positions_by_role.url }}" class="experience__item">
       {% if position.role %}
         <span class="experience__role">
         {{ position.role }}

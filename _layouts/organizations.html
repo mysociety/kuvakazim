@@ -7,9 +7,9 @@ layout: default
 <div class="title-space">
   <div class="profile-pic">
     {% if organization.image.to_s == blank %}
-      <img src="{{ organization.image }}" alt="{{ organization.name }}"/>
-    {% else %}
       <img src="/images/organisation-210x210.jpg" />
+    {% else %}
+      <img src="{{ organization.image }}" alt="{{ organization.name }}"/>
     {% endif %}
   </div>
   <div class="title-space__name">
@@ -17,7 +17,6 @@ layout: default
     <p>Political Party</p>
   </div>
 </div>
-
 
 
 <div class="profile-info">

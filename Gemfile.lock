@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/everypolitician/jekyll-remote_csv
-  revision: 3b7fb8699aad77a8d5043ba991d1b0ae9ae798a5
+  revision: 8e998a1432438f8d8ffbd387b60b3faf01d14a08
   branch: master
   specs:
     jekyll-remote_csv (0.1.0)
@@ -61,7 +61,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
-    sass (3.4.19)
+    sass (3.4.20)
     slop (3.6.0)
 
 PLATFORMS

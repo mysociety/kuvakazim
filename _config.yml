@@ -32,7 +32,9 @@ remote_csv:
       senate_people: kuvakazim_id
   executive_positions:
     source: https://docs.google.com/spreadsheets/u/1/d/1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM/export?format=csv&id=1rFnkM9rrhwmo5eTwhEPordgucf-iNACnzc6E78elkaM&gid=1230746570
+    group_by: role
     collection_slug_field: role
+    reverse_relation_name: person
     collections:
       assembly_people: kuvakazim_id
       senate_people: kuvakazim_id
@@ -43,7 +45,7 @@ remote_csv:
       senate_people: kuvakazim_id
 
 collections:
-  executive_positions:
+  executive_positions_by_role:
     output: true
 
   # Assembly
