@@ -148,8 +148,12 @@ a {
 }
 
 .title-space {
+    margin-left: 0;
     @media only all and (min-width: 640px) {
-        margin: 1em 0 2em;
+        margin: 1em 0;
+        width: 100%;
+        float: left;
+        position: relative;
     }
     h1 {
         @media only all and (min-width: 640px) {
@@ -163,18 +167,23 @@ a {
     }
 }
 
-.profile-pic {
+.title-space__name {
     @media only all and (min-width: 640px) {
         position: absolute;
-        top: 1em;
-        left: 0;
+        bottom: 0;
+        left: 240px;
+    }
+}
+
+.profile-pic {
+    position: static;
+    @media only all and (min-width: 640px) {
+        max-width: 210px;
+        margin-right: 30px;
     }
 }
 
 .sidebar {
-    @media only all and (min-width: 640px) {
-        margin-top: 110px;
-    }
 }
 
 .constituency-party li a {

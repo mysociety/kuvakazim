@@ -6,16 +6,16 @@ layout: default
 {% include person_collections.html %}
 
 <div class="title-space">
-
-  <h1>{{ person.name }}</h1>
-
-  <p>Politician profile</p>
-
+  <div class="profile-pic">
+    <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
+  </div>
+  <div class="title-space__name">
+    <h1>{{ person.name }}</h1>
+    <p>Politician profile</p>
+  </div>
 </div>
 
-<div class="profile-pic">
-  <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
-</div>
+
 
 <div class="profile-info">
 
