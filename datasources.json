@@ -1,0 +1,8 @@
+{
+  "assembly": {
+    "popolo": "https://cdn.rawgit.com/everypolitician/everypolitician-data/89993d3/data/Zimbabwe/Assembly/ep-popolo-v1.0.json\n"
+  },
+  "senate": {
+    "popolo": "https://cdn.rawgit.com/everypolitician/everypolitician-data/58fa2b4/data/Zimbabwe/Senate/ep-popolo-v1.0.json\n"
+  }
+}
