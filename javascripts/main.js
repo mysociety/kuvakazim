@@ -25,4 +25,24 @@ jQuery(function($) {
     // Add url to feedback form
     $('<input type="hidden" name="page_url">').val(document.referrer).appendTo('#add_feedback');
   }
+
+  window.index = lunr(function () {
+    this.field('name', {boost: 10});
+    this.ref('url');
+  });
+
+  window.lookup = {};
+
+  var req = $.ajax({
+    url: '/search.json'
+  });
+
+  req.done(function(collections) {
+    $.each(collections, function(i, collection) {
+      $.each(collection.docs, function(j, doc) {
+        window.lookup[doc.url] = doc.name;
+        index.add(doc);
+      });
+    });
+  });
 });
