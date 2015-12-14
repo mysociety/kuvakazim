@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/everypolitician/jekyll-facebook_comments
+  revision: 23375c9591de812839cdd2b98d1f2e1686173ec8
+  branch: master
+  specs:
+    jekyll-facebook_comments (0.1.0)
+      liquid (>= 3)
+
+GIT
   remote: https://github.com/everypolitician/jekyll-remote_csv
   revision: 8e998a1432438f8d8ffbd387b60b3faf01d14a08
   branch: master
@@ -71,9 +79,10 @@ DEPENDENCIES
   jekyll
   jekyll-compass
   jekyll-everypolitician
+  jekyll-facebook_comments!
   jekyll-remote_csv!
   open-uri-cached
   pry
 
 BUNDLED WITH
-   1.10.6
+   1.11.0

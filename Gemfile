@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem 'jekyll-everypolitician'
   gem 'jekyll-remote_csv', git: 'https://github.com/everypolitician/jekyll-remote_csv', branch: 'master'
   gem 'jekyll-compass'
+  gem 'jekyll-facebook_comments', git: 'https://github.com/everypolitician/jekyll-facebook_comments', branch: 'master'
 end
