@@ -6,16 +6,16 @@ layout: default
 {% include person_collections.html %}
 
 <div class="title-space">
-
-  <h1>{{ person.name }}</h1>
-
-  <p>Politician Profile Page</p>
-
+  <div class="profile-pic">
+    <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
+  </div>
+  <div class="title-space__name">
+    <h1>{{ person.name }}</h1>
+    <p>Politician profile</p>
+  </div>
 </div>
 
-<div class="profile-pic">
-  <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
-</div>
+
 
 <div class="profile-info">
 
@@ -27,13 +27,9 @@ layout: default
         <li><a href="{{ area.url }}">{{ area.name }}</a></li>
       </ul>
 
-      <h3>
-        Party
-      </h3>
+      <h3>Party</h3>
       <ul class="party-memberships">
-
         <li><a href="{{ party.url }}" class="party-membership party-membership--political-party">{{ party.name }}</a></li>
-
       </ul>
     </div>
   </div>
@@ -43,28 +39,34 @@ layout: default
 
 </div>
 
-<div class="large-container">
+<div class="large-container profile-bulk">
 
   {% if person.executive_positions.size > 0 %}
   <h2>Experience</h2>
-  <ul>
+  <ul class="unstyled-list">
     {% for position in person.executive_positions %}
     <li>
-      <a href="{{ position.executive_positions_by_role.url }}">
-      {% if position.organisation %}
-      Organisation: {{ position.organisation }}<br>
-      {% endif %}
+      <a href="{{ position.executive_positions_by_role.url }}" class="experience__item">
       {% if position.role %}
-      Role: {{ position.role }}<br>
+        <span class="experience__role">
+        {{ position.role }}
+        </span>
       {% endif %}
-      <small>
+      {% if position.organisation %}
+        {% if position.role %}
+          at
+        {% endif %}
+        {{ position.organisation }}
+      {% endif %}
+
+      <span class="experience__term">
         {% if position.start_date %}
-        {{ position.start_date }} -
+        {{ position.start_date }} &ndash;
         {% endif %}
         {% if position.end_date %}
         {{ position.end_date }}
         {% endif %}
-      </small>
+      </span>
       </a>
     </li>
     {% endfor %}
@@ -73,23 +75,29 @@ layout: default
 
   {% if person.job_history.size > 0 %}
   <h2>Job history</h2>
-  <ul>
+  <ul class="unstyled-list">
     {% for job in person.job_history %}
-    <li>
-      {% if job.organisation %}
-      Organisation: {{ job.organisation }}<br>
-      {% endif %}
+    <li class="experience__item">
       {% if job.role %}
-      Role: {{ job.role }}<br>
+      <span class="experience__role">
+        {{ job.role }}
+      </span>
       {% endif %}
-      <small>
+      {% if job.organisation %}
+        {% if job.role %}
+        at
+        {% endif %}
+          {{ job.organisation }}
+        {% endif %}
+
+      <span class="experience__term">
         {% if job.start_date %}
-        {{ job.start_date }} -
+        {{ job.start_date }} &ndash;
         {% endif %}
         {% if job.end_date %}
         {{ job.end_date }}
         {% endif %}
-      </small>
+      </span>
     </li>
     {% endfor %}
   </ul>
@@ -97,7 +105,7 @@ layout: default
 
   {% if person.education.size > 0 %}
   <h2>Education</h2>
-  <ul>
+  <ul class="unstyled-list">
   {% for education in person.education %}
     <li>{{ education.role }}</li>
   {% endfor %}

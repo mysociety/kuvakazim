@@ -5,23 +5,27 @@ layout: default
 {% assign area = page %}
 
 <div class="title-space">
-  <h1>{{ area.name }}</h1>
-  <p class="object-kind">Constituency</p>
+  <div class="profile-pic">
+    <img src="/images/place-200x200.jpg">
+  </div>
+  <div class="title-space__name">
+    <h1>{{ area.name }}</h1>
+    <p>Constituency</p>
+  </div>
 </div>
 
-<div class="profile-pic">
-  <img src="/images/place-200x200.jpg">
-</div>
 
 <div class="profile-info">
-  {% include social.html %}
+  <div class="sidebar">
+    {% include social.html %}
+  </div>
 </div>
 
 <div class="large-container">
 
   <h2>Current Politicians Representing {{ area.name }}</h2>
 
-  <ul class="listing">
+  <ul class="position-listing">
     {% for membership in area.memberships %}
       {% include membership_item.html %}
     {% endfor %}

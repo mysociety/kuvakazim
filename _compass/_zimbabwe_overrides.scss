@@ -1,0 +1,307 @@
+$colour_links: #C25959;
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: $colour_links;
+    &:hover,
+    &:active,
+    &:focus {
+        color: darken($colour_links, 10%);
+    }
+}
+
+.unstyled-list {
+    padding: 0;
+    li {
+        list-style: none outside none;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 0.65em 1em;
+    border-radius: 3px;
+    color: $colour_white;
+    background-color: $colour_primary;
+    &:hover,
+    &:active,
+    &:focus {
+        color: $colour_white;
+        text-decoration: none;
+        background-color: darken($colour_primary, 10%);
+    }
+}
+
+.button--full-width {
+    width: 100%;
+    max-width: 100%;
+}
+
+.button--social {
+    font-size: 0.875em;
+}
+
+.button--social--twitter {
+    background-color: #4099ff;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken(#4099ff, 10%);
+    }
+}
+
+.button--social--facebook {
+    background-color: #3b5998;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken(#3b5998, 10%);
+    }
+}
+
+#logo {
+  height: 100px;
+  background: url('/images/zimbabwe-bird-with-text-small@2.png') 0 center no-repeat;
+  background-size: 147px 42px;
+  @media only all and (min-width: 640px), print {
+    background: url('/images/zimbabwe-bird-with-text-large@2.png') 0 center no-repeat;
+    background-size: 418px 100px;
+  }
+}
+
+#site-header {
+  background-color: $colour_primary;
+  background-image: none; //override gradient
+  position: relative;
+  @media only all and (min-width: 640px), print {
+    height: 120px;
+  }
+}
+
+#main-menu {
+    background-image: none; //override gradient
+    background-color: $colour_black;
+}
+
+#main-menu nav {
+    text-align: left;
+    ul {
+        li {
+            a {
+            background-image: none; //override gradient
+            background: transparent;
+            color: lighten($colour_grey, 10%);
+                &:hover,
+                &:focus,
+                &:active {
+                    background-image: none; //override gradient
+                    color: $colour_white;
+                }
+            }
+            &:hover,
+            &:focus,
+            &:active {
+                ul {
+                    border: 0;
+                    li {
+                        a {
+                            color: lighten($colour_grey, 10%);
+                            background-color: $colour_black;
+                            &:hover,
+                            &:active,
+                            &:focus {
+                                color: $colour_white;
+                                background-color: $colour_black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#header-search {
+    position: absolute;
+    right: 1em;
+    top: 2em;
+}
+
+#site-footer {
+    background-color: $colour_black;
+    border: 0;
+    color: $colour_white;
+    padding: 2em 0;
+    h4 {
+        color: $colour_white;
+    }
+    a {
+        color: lighten($colour_grey, 10%);
+        &:hover,
+        &:active,
+        &:focus {
+            color: $colour_white;
+        }
+    }
+    div.attribution {
+        text-align: left;
+    }
+    p {
+        font-style: normal;
+    }
+}
+
+.title-space {
+    margin-left: 0;
+    @media only all and (min-width: 640px) {
+        margin: 1em 0;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    h1 {
+        @media only all and (min-width: 640px) {
+            font-size: 1.875em;
+            line-height: 1.2em;
+        }
+    }
+    p {
+        font-style: normal;
+        color: $colour_grey;
+    }
+}
+
+.title-space__name {
+    @media only all and (min-width: 640px) {
+        position: absolute;
+        bottom: 0;
+        left: 240px;
+    }
+}
+
+.profile-pic {
+    position: static;
+    @media only all and (min-width: 640px) {
+        max-width: 210px;
+        margin-right: 30px;
+    }
+}
+
+.sidebar {
+}
+
+.constituency-party li a {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: $colour_black;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: transparent;
+        color: $colour_links;
+    }
+}
+
+.experience__item {
+    color: $colour_black;
+    display: block;
+}
+
+a.experience__item {
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+        .experience__role {
+            color: $colour_links;
+        }
+    }
+}
+
+.experience__role {
+    display: block;
+    font-weight: bold;
+}
+
+.experience__term {
+    color: $colour_blackish;
+    font-size: 0.75em;
+    padding-left: 1em;
+    display: inline-block;
+}
+
+.profile-bulk {
+    h2 {
+        font-size: 0.75em;
+        text-transform: uppercase;
+        color: $colour_primary;
+        border-bottom: 1px solid $colour_muted;
+    }
+}
+
+.social-sharing {
+    margin-top: 2em;
+    ul {
+        @extend .unstyled-list;
+    }
+}
+
+div.search-filters {
+    background: none;
+    background-color: $colour_muted;
+    margin-bottom: 2em;
+    padding: 2em;
+    color: $colour_black;
+}
+
+.position {
+    img {
+        max-width: 50px;
+    }
+}
+
+ul.position-listing {
+    border: 0;
+    border-top: 1px solid $colour_muted;
+    li {
+        padding: 1.25em;
+        border: 0;
+        border-bottom: 1px solid $colour_muted;
+        img {
+            height: auto;
+            width: 50px;
+            float: none;
+            margin-right: 0;
+        }
+        .image-wrapper {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            display: inline-block;
+            float: left;
+            margin-right: 1.5em;
+            position: relative;
+            top: -5px;
+        }
+    }
+}
+
+.listing__name {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.listing__party {
+    display: inline-block;
+    margin-left: 0.5em;
+    color: $colour_black;
+    font-size: 0.875em;
+}
+
+.listing__area {
+    color: $colour_blackish;
+}
