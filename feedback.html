@@ -10,8 +10,6 @@ layout: default
 
   <div id="ajax_dialog_subcontent">
     <form method="post" action="//formspree.io/{{ site.email }}" id="add_feedback">
-      <input type="hidden" name="page_url" value="{{ page.url | prepend:site.url }}" />
-
       <input type="hidden" name="_next" value="{{ "/thanks/" | prepend:site.url }}" />
       <input type="text" name="_gotcha" style="display:none" />
       <p><label for="id_comment">Your feedback:</label> <textarea cols="40" id="id_comment" name="comment" rows="10"></textarea></p>
