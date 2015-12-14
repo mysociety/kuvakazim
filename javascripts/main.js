@@ -20,4 +20,9 @@ jQuery(function($) {
   $searchBox.change(function(e) {
     window.location.href = $(this).val();
   });
+
+  if ($('#add_feedback').length > 0 && document.referrer) {
+    // Add url to feedback form
+    $('<input type="hidden" name="page_url">').val(document.referrer).appendTo('#add_feedback');
+  }
 });
