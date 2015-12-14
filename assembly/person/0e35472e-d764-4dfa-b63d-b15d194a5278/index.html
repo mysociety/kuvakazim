@@ -20,9 +20,11 @@
     <link href="http://platform.twitter.com/" rel="prefetch" />
   <![endif]-->
 
-  <link href="http://www.kuvakazim.com/static/css/core.abd249c7af55.css" rel="stylesheet" type="text/css" />
+  <link href="/css/screen.css" rel="stylesheet" type="text/css" />
 
-  <link href="http://www.kuvakazim.com/static/css/zimbabwe.f753013b63d6.css" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+    <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
 
   <link rel="icon" type="image/png" href="/images/favicon.png">
 
@@ -783,16 +785,16 @@
 
 
 <div class="title-space">
-
-  <h1>Walter Chidhakwa</h1>
-
-  <p>Politician Profile Page</p>
-
+  <div class="profile-pic">
+    <img src="http://www.kuvakazim.com/media_root/images/Hon_Walter_K._Chidhakwa.jpg" srcset="http://www.kuvakazim.com/media_root/images/Hon_Walter_K._Chidhakwa.jpg" alt="Walter Chidhakwa">
+  </div>
+  <div class="title-space__name">
+    <h1>Walter Chidhakwa</h1>
+    <p>Politician profile</p>
+  </div>
 </div>
 
-<div class="profile-pic">
-  <img src="http://www.kuvakazim.com/media_root/images/Hon_Walter_K._Chidhakwa.jpg" srcset="http://www.kuvakazim.com/media_root/images/Hon_Walter_K._Chidhakwa.jpg" alt="Walter Chidhakwa">
-</div>
+
 
 <div class="profile-info">
 
@@ -804,36 +806,27 @@
         <li><a href="/assembly/place/area-zvimba-south/">Zvimba South</a></li>
       </ul>
 
-      <h3>
-        Party
-      </h3>
+      <h3>Party</h3>
       <ul class="party-memberships">
-
         <li><a href="/assembly/organisation/party-zanu-pf/" class="party-membership party-membership--political-party">ZANU PF</a></li>
-
       </ul>
     </div>
   </div>
 
 
-  <div class="social-and-tools">
+  <div class="social-sharing">
   <ul class="tools">
     <li>
       <a  href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstaging.kuvakazim.com%2Fassembly%2Fperson%2F0e35472e-d764-4dfa-b63d-b15d194a5278%2F&amp;t=Walter+Chidhakwa"
           target="_blank"
-          class="big-btn-text-fb"
+          class="button button--social button--social--facebook button--full-width"
           >Share on Facebook</a>
     </li>
     <li>
       <a  href="https://twitter.com/share?via=KuvakaZim&amp;text=Walter+Chidhakwa&amp;url=http%3A%2F%2Fstaging.kuvakazim.com%2Fassembly%2Fperson%2F0e35472e-d764-4dfa-b63d-b15d194a5278%2F"
           target="_blank"
-          class="big-btn-text-tw"
+          class="button button--social button--social--twitter button--full-width"
           >Share on Twitter</a>
-    </li>
-    <li>
-      <a  href="/assembly/person/0e35472e-d764-4dfa-b63d-b15d194a5278/#comments"
-          class="big-btn-text-green"
-          >Comments <span class="fb-comments-count"></span></a>
     </li>
   </ul>
 </div>
@@ -841,24 +834,27 @@
 
 </div>
 
-<div class="large-container">
+<div class="large-container profile-bulk">
 
   
   <h2>Experience</h2>
-  <ul>
+  <ul class="unstyled-list">
     
     <li>
-      <a href="/executive_positions_by_role/minister-of-mines-and-mining-development/">
+      <a href="/executive_positions_by_role/minister-of-mines-and-mining-development/" class="experience__item">
+      
+        <span class="experience__role">
+        Minister of Mines and Mining Development
+        </span>
       
       
-      Role: Minister of Mines and Mining Development<br>
-      
-      <small>
+
+      <span class="experience__term">
         
-        2013 -
+        2013 &ndash;
         
         
-      </small>
+      </span>
       </a>
     </li>
     
@@ -867,23 +863,29 @@
 
   
   <h2>Job history</h2>
-  <ul>
+  <ul class="unstyled-list">
     
-    <li>
+    <li class="experience__item">
       
-      Organisation: Export Processing Zone Authority (EPZ)<br>
+      <span class="experience__role">
+        C.E.O
+      </span>
       
       
-      Role: C.E.O<br>
-      
-      <small>
         
-        1996 -
+        at
+        
+          Export Processing Zone Authority (EPZ)
+        
+
+      <span class="experience__term">
+        
+        1996 &ndash;
         
         
         2007
         
-      </small>
+      </span>
     </li>
     
   </ul>
@@ -891,7 +893,7 @@
 
   
   <h2>Education</h2>
-  <ul>
+  <ul class="unstyled-list">
   
     <li>Secondary Education</li>
   
@@ -962,10 +964,7 @@
 
       </ul>
     </div>
-
-  </div>
-
-  <div class="attribution">
+    <div class="attribution">
 
     <p>This site runs on <a href="https://github.com/mysociety/kuvakazim">open source code</a> written by <a href="http://www.mysociety.org">mySociety</a>.</p>
 
@@ -973,6 +972,8 @@
 
 
   </div>
+  </div>
+
 </footer>
 
 

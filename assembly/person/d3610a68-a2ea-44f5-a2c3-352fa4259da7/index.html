@@ -20,9 +20,11 @@
     <link href="http://platform.twitter.com/" rel="prefetch" />
   <![endif]-->
 
-  <link href="http://www.kuvakazim.com/static/css/core.abd249c7af55.css" rel="stylesheet" type="text/css" />
+  <link href="/css/screen.css" rel="stylesheet" type="text/css" />
 
-  <link href="http://www.kuvakazim.com/static/css/zimbabwe.f753013b63d6.css" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+    <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
 
   <link rel="icon" type="image/png" href="/images/favicon.png">
 
@@ -783,16 +785,16 @@
 
 
 <div class="title-space">
-
-  <h1>Supa C. Mandiwanzira</h1>
-
-  <p>Politician Profile Page</p>
-
+  <div class="profile-pic">
+    <img src="http://www.kuvakazim.com/media_root/images/Supa.jpg" srcset="http://www.kuvakazim.com/media_root/images/Supa.jpg" alt="Supa C. Mandiwanzira">
+  </div>
+  <div class="title-space__name">
+    <h1>Supa C. Mandiwanzira</h1>
+    <p>Politician profile</p>
+  </div>
 </div>
 
-<div class="profile-pic">
-  <img src="http://www.kuvakazim.com/media_root/images/Supa.jpg" srcset="http://www.kuvakazim.com/media_root/images/Supa.jpg" alt="Supa C. Mandiwanzira">
-</div>
+
 
 <div class="profile-info">
 
@@ -804,36 +806,27 @@
         <li><a href="/assembly/place/area-nyanga-south/">Nyanga South</a></li>
       </ul>
 
-      <h3>
-        Party
-      </h3>
+      <h3>Party</h3>
       <ul class="party-memberships">
-
         <li><a href="/assembly/organisation/party-zanu-pf/" class="party-membership party-membership--political-party">ZANU PF</a></li>
-
       </ul>
     </div>
   </div>
 
 
-  <div class="social-and-tools">
+  <div class="social-sharing">
   <ul class="tools">
     <li>
       <a  href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstaging.kuvakazim.com%2Fassembly%2Fperson%2Fd3610a68-a2ea-44f5-a2c3-352fa4259da7%2F&amp;t=Supa+C.+Mandiwanzira"
           target="_blank"
-          class="big-btn-text-fb"
+          class="button button--social button--social--facebook button--full-width"
           >Share on Facebook</a>
     </li>
     <li>
       <a  href="https://twitter.com/share?via=KuvakaZim&amp;text=Supa+C.+Mandiwanzira&amp;url=http%3A%2F%2Fstaging.kuvakazim.com%2Fassembly%2Fperson%2Fd3610a68-a2ea-44f5-a2c3-352fa4259da7%2F"
           target="_blank"
-          class="big-btn-text-tw"
+          class="button button--social button--social--twitter button--full-width"
           >Share on Twitter</a>
-    </li>
-    <li>
-      <a  href="/assembly/person/d3610a68-a2ea-44f5-a2c3-352fa4259da7/#comments"
-          class="big-btn-text-green"
-          >Comments <span class="fb-comments-count"></span></a>
     </li>
   </ul>
 </div>
@@ -841,24 +834,27 @@
 
 </div>
 
-<div class="large-container">
+<div class="large-container profile-bulk">
 
   
   <h2>Experience</h2>
-  <ul>
+  <ul class="unstyled-list">
     
     <li>
-      <a href="/executive_positions_by_role/deputy-minister-of-media-information-and-broadcasting-services/">
+      <a href="/executive_positions_by_role/deputy-minister-of-media-information-and-broadcasting-services/" class="experience__item">
+      
+        <span class="experience__role">
+        Deputy Minister of Media, Information and Broadcasting Services
+        </span>
       
       
-      Role: Deputy Minister of Media, Information and Broadcasting Services<br>
-      
-      <small>
+
+      <span class="experience__term">
         
-        2013 -
+        2013 &ndash;
         
         
-      </small>
+      </span>
       </a>
     </li>
     
@@ -867,71 +863,101 @@
 
   
   <h2>Job history</h2>
-  <ul>
+  <ul class="unstyled-list">
     
-    <li>
+    <li class="experience__item">
       
-      Organisation: Zimbabwe Broadcasting Corporation (ZBC)<br>
+      <span class="experience__role">
+        Business and Financial Reporter
+      </span>
       
       
-      Role: Business and Financial Reporter<br>
-      
-      <small>
+        
+        at
+        
+          Zimbabwe Broadcasting Corporation (ZBC)
+        
+
+      <span class="experience__term">
         
         
-      </small>
+      </span>
     </li>
     
-    <li>
+    <li class="experience__item">
       
-      Organisation: Mighty Movies<br>
+      <span class="experience__role">
+        C.E.O
+      </span>
       
       
-      Role: C.E.O<br>
-      
-      <small>
+        
+        at
+        
+          Mighty Movies
+        
+
+      <span class="experience__term">
         
         
-      </small>
+      </span>
     </li>
     
-    <li>
+    <li class="experience__item">
       
-      Organisation: South African Broadcasting Corporation (SABC)<br>
+      <span class="experience__role">
+        Zimbabwe Correspondant
+      </span>
       
       
-      Role: Zimbabwe Correspondant<br>
-      
-      <small>
+        
+        at
+        
+          South African Broadcasting Corporation (SABC)
+        
+
+      <span class="experience__term">
         
         
-      </small>
+      </span>
     </li>
     
-    <li>
+    <li class="experience__item">
       
-      Organisation: Al Jazeera English<br>
+      <span class="experience__role">
+        Zimbabwe Correspondant
+      </span>
       
       
-      Role: Zimbabwe Correspondant<br>
-      
-      <small>
+        
+        at
+        
+          Al Jazeera English
+        
+
+      <span class="experience__term">
         
         
-      </small>
+      </span>
     </li>
     
-    <li>
+    <li class="experience__item">
       
-      Organisation: BBC and Reuters Financial Television<br>
+      <span class="experience__role">
+        Business and Financial Reporter
+      </span>
       
       
-      Role: Business and Financial Reporter<br>
-      
-      <small>
+        
+        at
+        
+          BBC and Reuters Financial Television
+        
+
+      <span class="experience__term">
         
         
-      </small>
+      </span>
     </li>
     
   </ul>
@@ -939,7 +965,7 @@
 
   
   <h2>Education</h2>
-  <ul>
+  <ul class="unstyled-list">
   
     <li>Masters</li>
   
@@ -1006,10 +1032,7 @@
 
       </ul>
     </div>
-
-  </div>
-
-  <div class="attribution">
+    <div class="attribution">
 
     <p>This site runs on <a href="https://github.com/mysociety/kuvakazim">open source code</a> written by <a href="http://www.mysociety.org">mySociety</a>.</p>
 
@@ -1017,6 +1040,8 @@
 
 
   </div>
+  </div>
+
 </footer>
 
 
