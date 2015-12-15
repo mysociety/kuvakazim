@@ -16,9 +16,12 @@ jQuery(function($) {
 
 jQuery(function($) {
   var $searchBox = $('.js-search-autocomplete-name')
-  $searchBox.select2();
+  $searchBox.selectToAutocomplete();
   $searchBox.change(function(e) {
-    window.location.href = $(this).val();
+    var value = $(this).val();
+    if (value) {
+      window.location.href = value;
+    }
   });
 
   if ($('#add_feedback').length > 0 && document.referrer) {
