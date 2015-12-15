@@ -5,11 +5,25 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <h2>People</h2>
-<ul>
+
+<ul class="position-listing">
   {% for position in page.executive_positions %}
-  <li>
-    {% if position.person.url %}
-      <a href="{{ position.person.url }}">{{ position.person.name }}</a>
+  <li class="position">
+    {% if position.person %}
+      {% assign person = position.person %}
+      {% include person_collections.html %}
+      <a href="{{ person.url }}">
+        <div class="image-wrapper">
+          <img src="{{ person.image }}" alt="{{ person.name }}" />
+        </div>
+        <span class="listing__name">{{ person.name }}</span> <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
+      </a>
+
+      {% if area %}
+      <div>
+        <a class="listing__area" href="{{ area.url }}">{{ area.name }}</a>
+      </div>
+      {% endif %}
     {% else %}
       {{ position.name }}
     {% endif %}
