@@ -5,14 +5,16 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <h2>People</h2>
-<ul>
+
+<ul class="position-listing">
   {% for position in page.executive_positions %}
-  <li>
-    {% if position.person.url %}
-      <a href="{{ position.person.url }}">{{ position.person.name }}</a>
+    {% if position.person %}
+      {% assign person = position.person %}
+      {% include person_item.html %}
     {% else %}
+    <li class="position">
       {{ position.name }}
+    </li>
     {% endif %}
-  </li>
   {% endfor %}
 </ul>
