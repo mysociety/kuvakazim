@@ -55,7 +55,8 @@ layout: default
   {% if person.executive_positions.size > 0 %}
   <h2>Experience</h2>
   <ul class="unstyled-list">
-    {% for position in person.executive_positions %}
+    {% assign executive_positions = person.executive_positions | sort: 'start_date' | reverse %}
+    {% for position in executive_positions %}
     <li>
       <a href="{{ position.executive_positions_by_role.url }}" class="experience__item">
       {% if position.role %}
@@ -87,7 +88,8 @@ layout: default
   {% if person.job_history.size > 0 %}
   <h2>Job history</h2>
   <ul class="unstyled-list">
-    {% for job in person.job_history %}
+    {% assign job_history = person.job_history | sort: 'start_date' | reverse %}
+    {% for job in job_history %}
     <li class="experience__item">
       {% if job.role %}
       <span class="experience__role">
@@ -117,8 +119,30 @@ layout: default
   {% if person.education.size > 0 %}
   <h2>Education</h2>
   <ul class="unstyled-list">
-  {% for education in person.education %}
-    <li>{{ education.role }}</li>
+  {% assign education_history = person.education | sort: 'start_date' | reverse %}
+  {% for education in education_history %}
+    <li>
+      {% if education.role %}
+      <span class="experience__role">
+        {{ education.role }}
+      </span>
+      {% endif %}
+      {% if education.organisation %}
+        {% if education.role %}
+        at
+        {% endif %}
+        {{ education.organisation }}
+      {% endif %}
+
+      <span class="experience__term">
+        {% if education.start_date %}
+        {{ education.start_date }}
+        {% endif %}
+        {% if education.end_date and education.end_date != education.start_date %}
+        &ndash; {{ education.end_date }}
+        {% endif %}
+      </span>
+    </li>
   {% endfor %}
   </ul>
   {% endif %}
