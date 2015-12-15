@@ -1,0 +1,21 @@
+{% if include.item.role %}
+  <span class="experience__role">
+  {{ include.item.role }}
+  </span>
+{% endif %}
+
+{% if include.item.organisation %}
+  {% if include.item.role %}
+    at
+  {% endif %}
+  {{ include.item.organisation }}
+{% endif %}
+
+<span class="experience__term">
+  {% if include.item.start_date %}
+  {{ include.item.start_date }}
+  {% endif %}
+  {% if include.item.end_date and include.item.end_date != include.item.start_date %}
+  &ndash; {{ include.item.end_date }}
+  {% endif %}
+</span>
