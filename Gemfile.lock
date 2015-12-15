@@ -14,6 +14,14 @@ GIT
     jekyll-remote_csv (0.1.0)
       jekyll (>= 3)
 
+GIT
+  remote: https://github.com/everypolitician/jekyll-search
+  revision: dc250b5522cc285ba9ce86106678dd874d1a8aae
+  branch: master
+  specs:
+    jekyll-search (0.1.0)
+      jekyll (>= 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -81,8 +89,9 @@ DEPENDENCIES
   jekyll-everypolitician
   jekyll-facebook_comments!
   jekyll-remote_csv!
+  jekyll-search!
   open-uri-cached
   pry
 
 BUNDLED WITH
-   1.11.0
+   1.10.6
