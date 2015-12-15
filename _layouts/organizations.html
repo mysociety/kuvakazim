@@ -6,10 +6,10 @@ layout: default
 
 <div class="title-space">
   <div class="profile-pic">
-    {% if organization.image.to_s == blank %}
-      <img src="/images/organisation-210x210.jpg" />
-    {% else %}
+    {% if organization.image %}
       <img src="{{ organization.image }}" alt="{{ organization.name }}"/>
+    {% else %}
+      <img src="/images/organisation-210x210.jpg" alt="Organization logo"/>
     {% endif %}
   </div>
   <div class="title-space__name">
