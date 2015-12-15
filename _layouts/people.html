@@ -3,7 +3,9 @@ layout: default
 ---
 
 {% assign person = page %}
-{% include person_collections.html %}
+{% assign membership = person.memberships | first %}
+{% assign party = membership.party %}
+{% assign area = membership.area %}
 
 <div class="title-space">
   <div class="profile-pic">

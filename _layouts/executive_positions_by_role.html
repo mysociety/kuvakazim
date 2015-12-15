@@ -10,8 +10,7 @@ layout: default
   {% for position in page.executive_positions %}
     {% if position.person %}
       {% assign person = position.person %}
-      {% include person_collections.html %}
-      {% include list_item.html %}
+      {% include person_item.html %}
     {% else %}
     <li class="position">
       {{ position.name }}
