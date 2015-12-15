@@ -1,48 +1,9 @@
 ---
 layout: default
 permalink: /position/senator/
-title: Senator
+title: Senators
 ---
 
 <h1 class="page-title">Senators</h1>
 
-<div class="content_box">
-  <h3>Current Position Holders</h3>
-
-  <div class="search-filters">
-    <form method="get">
-      Where:
-
-      <select name="place_slug">
-        <option value="">All</option>
-        {% for area in site.senate_areas %}
-          <option value="{{ area.id }}">{{ area.name }}</option>
-        {% endfor %}
-      </select>
-
-      <input type="submit" value="Search" />
-    </form>
-  </div>
-
-  <ul class="position-listing">
-    {% for person in site.senate_people %}
-    {% include person_collections.html %}
-    <li class="position">
-      <a href="{{ person.url }}">
-        <div class="image-wrapper">
-          <img src="{{ person.image }}" alt="{{ person.name }}" />
-        </div>
-        <span class="listing__name">{{ person.name }}</span> <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
-      </a>
-
-      {% if area %}
-      <div>
-        <a class="listing__area" href="{{ area.url }}">{{ area.name }}</a>
-      </div>
-      {% endif %}
-
-    </li>
-    {% endfor %}
-  </ul>
-
-</div>
+{% include current_position_holders.html areas=site.senate_areas people=site.senate_people %}
