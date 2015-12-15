@@ -22,10 +22,12 @@ layout: default
   <div class="sidebar">
     <div class="constituency-party">
 
+      {% if area %}
       <h3>Constituency</h3>
       <ul>
         <li><a href="{{ area.url }}">{{ area.name }}</a></li>
       </ul>
+      {% endif %}
 
       <h3>Party</h3>
       <ul class="party-memberships">

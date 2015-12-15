@@ -6,7 +6,7 @@ permalink: "/info/m-parliament/"
 
 These are the resources that provide citizens with more information on the operation of Parliament and Government in Zimbabwe.
 
-- [Members of the National Assembly](/organisation/parliament/people)
+- [Members of the National Assembly](/position/member-of-parliament/)
 
 - [Senators](/position/senator/) 
 
