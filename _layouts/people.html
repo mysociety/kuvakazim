@@ -17,8 +17,6 @@ layout: default
   </div>
 </div>
 
-
-
 <div class="profile-info">
 
   <div class="sidebar">
@@ -37,7 +35,6 @@ layout: default
       </ul>
     </div>
   </div>
-
 
   {% include social.html %}
 
@@ -59,26 +56,7 @@ layout: default
     {% for position in executive_positions %}
     <li>
       <a href="{{ position.executive_positions_by_role.url }}" class="experience__item">
-      {% if position.role %}
-        <span class="experience__role">
-        {{ position.role }}
-        </span>
-      {% endif %}
-      {% if position.organisation %}
-        {% if position.role %}
-          at
-        {% endif %}
-        {{ position.organisation }}
-      {% endif %}
-
-      <span class="experience__term">
-        {% if position.start_date %}
-        {{ position.start_date }}
-        {% endif %}
-        {% if position.end_date and position.end_date != position.start_date %}
-        &ndash; {{ position.end_date }}
-        {% endif %}
-      </span>
+        {% include person_experience_item.html item=position %}
       </a>
     </li>
     {% endfor %}
@@ -91,26 +69,7 @@ layout: default
     {% assign job_history = person.job_history | sort: 'start_date' | reverse %}
     {% for job in job_history %}
     <li class="experience__item">
-      {% if job.role %}
-      <span class="experience__role">
-        {{ job.role }}
-      </span>
-      {% endif %}
-      {% if job.organisation %}
-        {% if job.role %}
-        at
-        {% endif %}
-          {{ job.organisation }}
-        {% endif %}
-
-      <span class="experience__term">
-        {% if job.start_date %}
-        {{ job.start_date }}
-        {% endif %}
-        {% if job.end_date and job.end_date != job.start_date %}
-        &ndash; {{ job.end_date }}
-        {% endif %}
-      </span>
+      {% include person_experience_item.html item=job %}
     </li>
     {% endfor %}
   </ul>
@@ -119,31 +78,12 @@ layout: default
   {% if person.education.size > 0 %}
   <h2>Education</h2>
   <ul class="unstyled-list">
-  {% assign education_history = person.education | sort: 'start_date' | reverse %}
-  {% for education in education_history %}
+    {% assign education_history = person.education | sort: 'start_date' | reverse %}
+    {% for education in education_history %}
     <li>
-      {% if education.role %}
-      <span class="experience__role">
-        {{ education.role }}
-      </span>
-      {% endif %}
-      {% if education.organisation %}
-        {% if education.role %}
-        at
-        {% endif %}
-        {{ education.organisation }}
-      {% endif %}
-
-      <span class="experience__term">
-        {% if education.start_date %}
-        {{ education.start_date }}
-        {% endif %}
-        {% if education.end_date and education.end_date != education.start_date %}
-        &ndash; {{ education.end_date }}
-        {% endif %}
-      </span>
+      {% include person_experience_item.html item=education %}
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
   {% endif %}
 
