@@ -37,6 +37,14 @@ remote_csv:
       assembly_people: kuvakazim_id
       senate_people: kuvakazim_id
 
+collections_to_search:
+  - assembly_people
+  - senate_people
+  - assembly_organizations
+  - senate_organizations
+  - assembly_areas
+  - senate_areas
+
 collections:
   executive_positions_by_role:
     output: true
