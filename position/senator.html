@@ -35,9 +35,11 @@ title: Senator
         <span class="listing__name">{{ person.name }}</span> <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
       </a>
 
+      {% if area %}
       <div>
         <a class="listing__area" href="{{ area.url }}">{{ area.name }}</a>
       </div>
+      {% endif %}
 
     </li>
     {% endfor %}
