@@ -18,22 +18,8 @@
 
   <ul class="position-listing">
     {% for person in include.people %}
-    {% include person_collections.html %}
-    <li class="position">
-      <a href="{{ person.url }}">
-        <div class="image-wrapper">
-          <img src="{{ person.image }}" alt="{{ person.name }}" />
-        </div>
-        <span class="listing__name">{{ person.name }}</span> <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
-      </a>
-
-      {% if area %}
-      <div>
-        <a class="listing__area" href="{{ area.url }}">{{ area.name }}</a>
-      </div>
-      {% endif %}
-
-    </li>
+      {% include person_collections.html %}
+      {% include list_item.html %}
     {% endfor %}
   </ul>
 

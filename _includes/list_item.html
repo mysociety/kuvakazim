@@ -1,0 +1,25 @@
+{% comment %}
+
+Requires the following variables to be in the current scope:
+
+- person
+- party
+- area
+
+{% endcomment %}
+
+<li class="position">
+  <a href="{{ person.url }}">
+    <div class="image-wrapper">
+      <img src="{{ person.image }}" alt="{{ person.name }}" />
+    </div>
+    <span class="listing__name">{{ person.name }}</span> <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
+  </a>
+
+  {% if area %}
+  <div>
+    <a class="listing__area" href="{{ area.url }}">{{ area.name }}</a>
+  </div>
+  {% endif %}
+
+</li>
