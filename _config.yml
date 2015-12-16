@@ -8,6 +8,8 @@ title: KuvakaZim
 email: chrism@mysociety.org
 url: "http://staging.kuvakazim.com"
 twitter_username: KuvakaZim
+google_analytics:
+  tracking_code: UA-45828301-1
 
 # Build settings
 markdown: kramdown
