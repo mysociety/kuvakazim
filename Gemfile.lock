@@ -55,6 +55,8 @@ GEM
       jekyll (~> 3.0)
     jekyll-everypolitician (0.7.0)
       jekyll (>= 3)
+    jekyll-google_analytics (0.1.0)
+      jekyll (>= 3)
     jekyll-redirect-from (0.9.1)
       jekyll (>= 2.0)
     jekyll-sass-converter (1.3.0)
@@ -90,6 +92,7 @@ DEPENDENCIES
   jekyll-compass
   jekyll-everypolitician
   jekyll-facebook_comments!
+  jekyll-google_analytics
   jekyll-redirect-from
   jekyll-remote_csv!
   jekyll-search!
