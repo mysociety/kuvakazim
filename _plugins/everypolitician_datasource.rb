@@ -4,7 +4,7 @@ require 'json'
 OpenURI::Cache.cache_path = '.cache'
 
 # Configures the jekyll-everypolitician plugin to use the url in DATASOURCE
-Jekyll::Hooks.register :site, :post_read do |site|
+Jekyll::Hooks.register :site, :after_reset do |site|
   datasources = JSON.parse(File.read(File.join(site.source, 'datasources.json')))
   site.config['everypolitician'] ||= {
     'sources' => {
