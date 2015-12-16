@@ -15,15 +15,6 @@ jQuery(function($) {
 });
 
 jQuery(function($) {
-  var $searchBox = $('.js-search-autocomplete-name')
-  $searchBox.selectToAutocomplete();
-  $searchBox.change(function(e) {
-    var value = $(this).val();
-    if (value) {
-      window.location.href = value;
-    }
-  });
-
   if ($('#add_feedback').length > 0 && document.referrer) {
     // Add url to feedback form
     $('<input type="hidden" name="page_url">').val(document.referrer).appendTo('#add_feedback');

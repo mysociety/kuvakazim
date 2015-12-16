@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/everypolitician/jekyll-search
-  revision: dc250b5522cc285ba9ce86106678dd874d1a8aae
+  revision: 490fc406e62549dae3c31f72c13fc03285cb8d8a
   branch: master
   specs:
     jekyll-search (0.1.0)
