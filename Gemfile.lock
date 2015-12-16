@@ -53,8 +53,10 @@ GEM
     jekyll-compass (2.0.1)
       compass (~> 1.0)
       jekyll (~> 3.0)
-    jekyll-everypolitician (0.6.0)
+    jekyll-everypolitician (0.7.0)
       jekyll (>= 3)
+    jekyll-redirect-from (0.9.1)
+      jekyll (>= 2.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-watch (1.3.0)
@@ -88,6 +90,7 @@ DEPENDENCIES
   jekyll-compass
   jekyll-everypolitician
   jekyll-facebook_comments!
+  jekyll-redirect-from
   jekyll-remote_csv!
   jekyll-search!
   open-uri-cached

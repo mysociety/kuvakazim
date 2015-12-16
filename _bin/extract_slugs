@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require 'sequel'
+require 'yaml'
+
+abort "Usage: DATABASE_URL=postgres://localhost/mzalendo-zw #$0" unless ENV['DATABASE_URL']
+
+DB = Sequel.connect(ENV['DATABASE_URL'])
+
+puts YAML.dump(Hash[DB[:core_person].map([:id, :slug]).map { |id, slug| [id.to_s, slug] }])
