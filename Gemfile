@@ -12,4 +12,5 @@ group :jekyll_plugins do
   gem 'jekyll-search', git: 'https://github.com/everypolitician/jekyll-search', branch: 'master'
   gem 'jekyll-redirect-from'
   gem 'jekyll-google_analytics'
+  gem 'jekyll-writeinpublic'
 end
