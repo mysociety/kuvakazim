@@ -47,6 +47,9 @@ collections_to_search:
   - assembly_areas
   - senate_areas
 
+writeinpublic:
+  subdomain: kuvakazim
+
 collections:
   executive_positions_by_role:
     output: true
