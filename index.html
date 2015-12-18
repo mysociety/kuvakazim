@@ -1,79 +1,42 @@
 ---
-layout: default
+layout: home
 title: Home
 disable_breadcrumbs: true
 ---
-
-<div class="home-left">
-  <h2 id="home-intro">
-    KuvakaZim
-    (Kuvaka means "Building" in Shona and "Asakheni" in Ndebele and "Zim" refers to Zimbabwe)
-    is a platform to keep track of Zimbabwean parliamentarians.
-    <span class="details">
-      The platform promotes civic participation and openness for building a greater Zimbabwe.
-    </span>
-  </h2>
-
-  <div id="home-search">
-    <label for="core-search">Search:</label>
-    {% jekyll_search_box %}
+<div class="home-intro">
+  <div class="wrapper">
+    <h2 class="home-intro__title">Keep track of Zimbabwean parliamentarians</h2>
+    <p class="home-intro__subtitle"><strong>Kuvaka</strong> means "Building" in Shona and "Asakheni" in Ndebele and <strong>Zim</strong> refers to Zimbabwe</p>
+    <div class="home-search">
+      <label for="core-search">Search for a location, party or representative</label>
+      {% jekyll_search_box %}
+    </div>
   </div>
 </div>
 
-<div class="home-right">
-  <h2>Focus On</h2>
+</div>
 
-  <div id="home-featured-person">
-    <div class="featured-person">
-      {% assign featured_person = site.assembly_people | first %}
-      <a href="{{ featured_person.url }}">
+<div class="home-content">
+  <div class="wrapper">
+    <h2>Focus On</h2>
 
-        <img src="{{ featured_person.image }}" alt="{{ featured_person.name }}" width="145" height="200" />
+    <div id="home-featured-person">
+      <div class="featured-person">
+        {% assign featured_person = site.assembly_people | first %}
+        <a href="{{ featured_person.url }}">
+          <img src="{{ featured_person.image }}" alt="{{ featured_person.name }}" width="145" height="200" />
+            <div class="featured-person-info">
+              <h2><a href="{{ featured_person.url }}">{{ featured_person.name }}</a></h2>
+              <p>{{ featured_person.party }}</p>
+            </div>
+        </a>
 
-      </a>
-      <div class="featured-person-info">
-        <div class="feature-nav">
-          <a class="feature-prev" href="#">previous</a>
-          <a class="feature-next" href="#">next</a>
-        </div>
-
-        <h2><a href="{{ featured_person.url }}">{{ featured_person.name }}</a></h2>
+          <div class="feature-nav">
+            <a class="feature-prev" href="#">previous</a>
+            <a class="feature-next" href="#">next</a>
+          </div>
 
       </div>
     </div>
   </div>
-
-  <div id="twitter">
-    <h2>Twitter</h2>
-    <div class="twitter-feed">
-      <a class="twitter-timeline"
-         data-chrome="noborders"
-         data-tweet-limit="5"
-         data-dnt="true"
-         href="https://twitter.com/{{ site.twitter_username }}"
-         data-widget-id="363302699581710339"
-         >Tweets by @{{ site.twitter_username }}</a>
-    </div>
-  </div>
-
-  <div class="social-and-tools">
-    <ul class="tools">
-      <li>
-        <a  href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}&amp;t={{ site.title | cgi_escape }}"
-            target="_blank"
-            class="big-btn-text-fb"
-            >Facebook</a>
-
-        <li>
-          <a  href="https://twitter.com/share?via={{ site.twitter_username }}&amp;text={{ site.title | cgi_escape }}&amp;url={{ page.url | prepend: site.url | cgi_escape }}"
-              target="_blank"
-              class="big-btn-text-tw"
-              >Twitter</a>
-        </li>
-    </ul>
-
-    <span class="tw-nub"></span>
-    <a href="http://twitter.com/{{ site.twitter_username }}" class="btn-text-green tw-follow" target="_blank">Follow</a>
-  </div>
-
 </div>
