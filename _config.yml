@@ -14,7 +14,7 @@ google_analytics:
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
-exclude: [Gemfile, Gemfile.lock, vendor, README.md]
+exclude: [Gemfile, Gemfile.lock, vendor, README.md, config.rb]
 
 # Disable excerpt generation
 excerpt_separator: ''
