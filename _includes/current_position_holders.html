@@ -1,21 +1,6 @@
 <div class="content_box">
   <h3>Current Position Holders</h3>
 
-  <div class="search-filters">
-    <form method="get">
-      <label for="place_slug">Constituency</label>
-
-      <select name="place_slug" id="place_slug">
-        <option value="">All</option>
-        {% for area in include.areas %}
-          <option value="{{ area.id }}">{{ area.name }}</option>
-        {% endfor %}
-      </select>
-
-      <input type="submit" value="Search" />
-    </form>
-  </div>
-
   <ul class="position-listing">
     {% for person in include.people %}
       {% include person_item.html %}
