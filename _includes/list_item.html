@@ -11,7 +11,11 @@ Requires the following variables to be in the current scope:
 <li class="position">
   <a href="{{ person.url }}">
     <div class="image-wrapper">
-      <img src="{{ person.image }}" alt="{{ person.name }}" />
+      {% if person.image %}
+        <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
+      {% else %}
+        <img src="/images/person-210x210.jpg" alt="Person logo">
+      {% endif %}
     </div>
     <span class="listing__name">{{ person.name }}</span> <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
   </a>
