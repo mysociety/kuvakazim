@@ -1,0 +1,4084 @@
+@charset "UTF-8";
+/* line 5, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../home/travis/build/mysociety/kuvakazim/vendor/bundle/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 154, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.clearfix, .page-wrapper {
+  zoom: 1;
+}
+
+/* line 155, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.clearfix:before, .page-wrapper:before, .clearfix:after, .page-wrapper:after {
+  content: "";
+  display: table;
+}
+
+/* line 159, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.clearfix:after, .page-wrapper:after {
+  clear: both;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_common.scss */
+#staging_header {
+  background-color: #f8dbdb;
+  color: #903233;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 9, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_common.scss */
+.notice {
+  text-align: center;
+  padding: 0.5em;
+  background-color: #f7f7f7;
+}
+@media print {
+  /* line 9, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_common.scss */
+  .notice {
+    display: none;
+  }
+}
+
+/* line 15, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_common.scss */
+div.error {
+  border: 2px solid #f00;
+  background-color: #fcc;
+  text-align: center;
+  font-size: 125%;
+  padding: 5px;
+  margin: 1em 0;
+}
+
+/* line 24, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_common.scss */
+ul.ui-autocomplete li {
+  list-style: none;
+}
+
+/* line 28, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_common.scss */
+.view-selector {
+  float: right;
+}
+
+/* line 32, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_common.scss */
+.grid-listing-item {
+  float: left;
+  width: 210px;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 12px;
+}
+/* line 39, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_common.scss */
+.grid-listing-item span.name {
+  font-size: 120%;
+  display: block;
+  height: 2.5em;
+  overflow: hidden;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: none;
+  font-family: 'Arial', sans-serif;
+  color: #444;
+  font-size: 100%;
+  background: #e6e6e6;
+}
+
+/* line 13, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+p, h1, h2, h3 {
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+
+/* line 17, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+h1, h2, h3, h4 {
+  color: #333333;
+}
+
+/* line 20, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 24, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+a {
+  color: #4D9965;
+  text-decoration: none;
+}
+/* line 27, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+a:hover {
+  color: #004422;
+  text-decoration: underline;
+}
+
+/* line 31, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+/* line 37, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* line 43, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* line 49, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 54, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+ul, ol {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+/* line 111, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul li, ol li {
+  font-size: 14px;
+  line-height: 20px;
+  list-style: disc;
+  margin-bottom: 10px;
+  background: none;
+  padding: 0;
+}
+
+/* line 57, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+ol li {
+  list-style: decimal;
+}
+
+/* line 61, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+dl dd {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+/* line 71, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+b, strong {
+  font-weight: bolder;
+}
+
+/* line 74, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+i, em {
+  font-style: italic;
+}
+
+/* line 77, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+blockquote {
+  padding-left: 10px;
+}
+/* line 79, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+blockquote p:before {
+  content: '“';
+}
+/* line 81, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+blockquote p:after {
+  content: '”';
+}
+
+/* line 84, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_html_elements.scss */
+pre {
+  font-family: monospace;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.btn-text-green {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #AAF2C1;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.btn-text-green:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 80, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.btn-text-green:hover {
+  background: #bdffd6;
+}
+
+/* line 4, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.btn-text-red {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #f2242c;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.btn-text-red:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 74, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.btn-text-red:hover {
+  background: #ff333f;
+}
+
+/* line 7, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.big-btn-text-green {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-transform: none;
+  font-size: 14px;
+  padding: 5px 8px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #AAF2C1;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JkZmZkNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FhZjJjMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bdffd6), color-stop(100%, #aaf2c1));
+  background: -moz-linear-gradient(#bdffd6, #aaf2c1);
+  background: -webkit-linear-gradient(#bdffd6, #aaf2c1);
+  background: linear-gradient(#bdffd6, #aaf2c1);
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.big-btn-text-green:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 95, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.big-btn-text-green:hover {
+  background: #bdffd6;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FhZjJjMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2JkZmZkNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaf2c1), color-stop(100%, #bdffd6));
+  background: -moz-linear-gradient(#aaf2c1, #bdffd6);
+  background: -webkit-linear-gradient(#aaf2c1, #bdffd6);
+  background: linear-gradient(#aaf2c1, #bdffd6);
+}
+
+/* line 10, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.big-btn-text-red {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-transform: none;
+  font-size: 14px;
+  padding: 5px 8px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #f2242c;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmMzMzZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YyMjQyYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff333f), color-stop(100%, #f2242c));
+  background: -moz-linear-gradient(#ff333f, #f2242c);
+  background: -webkit-linear-gradient(#ff333f, #f2242c);
+  background: linear-gradient(#ff333f, #f2242c);
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.big-btn-text-red:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 103, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.big-btn-text-red:hover {
+  background: #ff333f;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyMjQyYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmMzMzZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2242c), color-stop(100%, #ff333f));
+  background: -moz-linear-gradient(#f2242c, #ff333f);
+  background: -webkit-linear-gradient(#f2242c, #ff333f);
+  background: linear-gradient(#f2242c, #ff333f);
+}
+
+/* line 13, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.big-btn-text-fb {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-transform: none;
+  font-size: 14px;
+  padding: 5px 8px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNDlkOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwNDJjMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0049d8), color-stop(100%, #0042c2));
+  background: -moz-linear-gradient(#0049d8, #0042c2);
+  background: -webkit-linear-gradient(#0049d8, #0042c2);
+  background: linear-gradient(#0049d8, #0042c2);
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.big-btn-text-fb:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 16, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.big-btn-text-fb:hover {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNDJjMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwNDlkOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0042c2), color-stop(100%, #0049d8));
+  background: -moz-linear-gradient(#0042c2, #0049d8);
+  background: -webkit-linear-gradient(#0042c2, #0049d8);
+  background: linear-gradient(#0042c2, #0049d8);
+}
+
+/* line 19, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.big-btn-text-tw {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-transform: none;
+  font-size: 14px;
+  padding: 5px 8px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdhZGFlOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzc0Y2ZkYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7adae8), color-stop(100%, #74cfdc));
+  background: -moz-linear-gradient(#7adae8, #74cfdc);
+  background: -webkit-linear-gradient(#7adae8, #74cfdc);
+  background: linear-gradient(#7adae8, #74cfdc);
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.big-btn-text-tw:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 22, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.big-btn-text-tw:hover {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc0Y2ZkYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdhZGFlOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #74cfdc), color-stop(100%, #7adae8));
+  background: -moz-linear-gradient(#74cfdc, #7adae8);
+  background: -webkit-linear-gradient(#74cfdc, #7adae8);
+  background: linear-gradient(#74cfdc, #7adae8);
+}
+
+/* line 25, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.btn-question {
+  display: block;
+  width: 15px;
+  height: 15px;
+  text-indent: -999999px;
+  background: url(../images/question.png) 0 0 no-repeat;
+}
+/* line 31, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_buttons.scss */
+.btn-question:hover {
+  background-position: 0 -21px;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+#site-header {
+  clear: both;
+  background: #4D9965;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY3Y2M4NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRkOTk2NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #67cc87), color-stop(100%, #4d9965));
+  background: -moz-linear-gradient(#67cc87, #4d9965);
+  background: -webkit-linear-gradient(#67cc87, #4d9965);
+  background: linear-gradient(#67cc87, #4d9965);
+}
+/* line 5, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+#site-header .wrapper {
+  overflow: hidden;
+}
+
+@media only all and (min-width: 640px), print {
+  /* line 9, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+  #site-header {
+    height: 60px;
+  }
+  /* line 11, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+  #site-header.down {
+    height: 80px;
+  }
+  /* line 13, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+  #site-header .wrapper {
+    position: relative;
+    overflow: visible;
+  }
+}
+/* line 19, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+#logo {
+  display: block;
+  margin-left: 10px;
+  float: left;
+  height: 42px;
+  text-indent: -999999em;
+  width: 147px;
+  background: url(../images/m-logo.png) 0 center no-repeat;
+}
+@media only all and (min-width: 640px), print {
+  /* line 19, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+  #logo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 34px;
+    width: 418px;
+    background: url(../images/d-logo.png) 0 center no-repeat;
+  }
+  /* line 34, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+  #logo.down {
+    width: 600px;
+    height: 50px;
+    background: url(../images/down-logo.png) 0 center no-repeat;
+  }
+}
+
+/* line 41, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+menu#mobile-top-tools {
+  float: right;
+}
+@media only all and (min-width: 640px), print {
+  /* line 41, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+  menu#mobile-top-tools {
+    display: none;
+  }
+}
+/* line 45, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+menu#mobile-top-tools ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 133, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+menu#mobile-top-tools ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  float: left;
+  display: inline;
+}
+/* line 140, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+menu#mobile-top-tools ul li a {
+  float: left;
+  display: block;
+}
+/* line 47, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+menu#mobile-top-tools ul li {
+  padding: 0.5em 1em 0 0;
+}
+/* line 49, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+menu#mobile-top-tools ul li a {
+  color: white;
+}
+/* line 51, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+menu#mobile-top-tools ul li a img {
+  vertical-align: middle;
+}
+
+/* line 56, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+#header-search {
+  display: none;
+  float: right;
+  background: transparent;
+  margin: 5px 5px 5px 15px;
+  height: auto;
+  border: none;
+}
+@media only all and (min-width: 640px), print {
+  /* line 56, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+  #header-search {
+    display: block;
+  }
+}
+@media print {
+  /* line 56, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+  #header-search {
+    display: none;
+  }
+}
+/* line 69, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+#header-search input {
+  padding: 1px 4px 1px 8px;
+  border: 1px solid #999;
+  height: 22px;
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px 0 0 5px;
+  float: left;
+  width: 10em;
+  border: 1px solid #333333;
+  font-size: 14px;
+}
+/* line 78, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+#header-search button {
+  float: left;
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  text-indent: -999999px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #333333 url(../images/search-icon.png) center no-repeat;
+  width: 26px;
+  height: 26px;
+  margin: 0 0 0 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 5px 5px 0;
+}
+/* line 86, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_header.scss */
+#header-search button:hover {
+  background-color: #777777;
+}
+
+/* line 3, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu {
+  display: none;
+  background: #333333;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzU1NTU1NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333333), color-stop(100%, #555555));
+  background: -moz-linear-gradient(#333333, #555555);
+  background: -webkit-linear-gradient(#333333, #555555);
+  background: linear-gradient(#333333, #555555);
+}
+@media only all and (min-width: 640px), print {
+  /* line 3, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+  #main-menu {
+    display: block;
+  }
+}
+@media print {
+  /* line 3, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+  #main-menu {
+    display: none;
+  }
+}
+/* line 11, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav {
+  width: 100%;
+  text-align: center;
+}
+/* line 14, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: auto;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+#main-menu nav ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 18, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li {
+  position: relative;
+  display: inline;
+  float: left;
+  height: 36px;
+  border-right: 2px solid #333333;
+}
+/* line 24, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li a {
+  display: block;
+  float: left;
+  font-size: 12px;
+  height: 20px;
+  padding: 8px 7px;
+  text-decoration: none;
+  color: white;
+  background: #333333;
+  border-bottom: 0;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzU1NTU1NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333333), color-stop(100%, #555555));
+  background: -moz-linear-gradient(#333333, #555555);
+  background: -webkit-linear-gradient(#333333, #555555);
+  background: linear-gradient(#333333, #555555);
+}
+/* line 35, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li a:hover {
+  background: #777777;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU1NTU1NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #555555), color-stop(100%, #333333));
+  background: -moz-linear-gradient(#555555, #333333);
+  background: -webkit-linear-gradient(#555555, #333333);
+  background: linear-gradient(#555555, #333333);
+}
+/* line 38, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li:last-child {
+  border-right: 0;
+}
+/* line 40, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li ul {
+  position: absolute;
+  z-index: 20;
+  left: -999999px;
+}
+/* line 44, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li.active > a {
+  background: #f6f6f6;
+  color: #444;
+  border-left: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
+  padding: 9px 6px 10px 6px;
+}
+/* line 52, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li:hover ul {
+  left: 0;
+  top: 36px;
+  text-align: left;
+  width: 193px;
+  border-left: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+}
+/* line 60, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li:hover ul li {
+  display: block;
+  float: none;
+  height: auto;
+  border: none;
+}
+/* line 65, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li:hover ul li a {
+  font-size: 13px;
+  color: #444;
+  background: #f6f6f6;
+  height: auto;
+  float: none;
+}
+/* line 71, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#main-menu nav ul li:hover ul li a:hover {
+  background: #d4d4d4;
+}
+@media only all and (min-width: 720px), print {
+  /* line 75, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+  #main-menu nav ul li a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  /* line 78, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+  #main-menu nav ul li.active > a {
+    padding: 7px 9px 8px 9px;
+  }
+}
+
+/* line 81, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+.m-sub-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #e6e6e6;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.m-sub-menu li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 84, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+.m-sub-menu li {
+  margin: 0 10px;
+  border-top: 1px solid #333333;
+}
+/* line 87, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+.m-sub-menu li a {
+  display: block;
+  padding: 10px 0;
+}
+/* line 90, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+.m-sub-menu li a:hover {
+  text-decoration: none;
+}
+
+/* line 96, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#footer-menu li > ul {
+  margin-left: 1em;
+}
+@media only all and (min-width: 640px), print {
+  /* line 96, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+  #footer-menu li > ul {
+    display: none;
+  }
+}
+/* line 103, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_menu.scss */
+#footer-menu li > ul li {
+  display: inline;
+  font-size: 90%;
+  padding-right: 1em;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+#breadcrumb,
+#breadcrumb-replacement {
+  display: none;
+}
+
+@media only all and (min-width: 640px), print {
+  /* line 6, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+  #breadcrumb {
+    display: block;
+    height: 40px;
+  }
+}
+@media print {
+  /* line 6, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+  #breadcrumb {
+    display: none;
+  }
+}
+@media only all and (min-width: 640px), print {
+  /* line 13, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+  #breadcrumb nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    float: left;
+  }
+  /* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+  #breadcrumb nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  /* line 20, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+  #breadcrumb nav ul li,
+  #breadcrumb nav ul li.page-title,
+  #breadcrumb nav ul li a {
+    display: inline;
+    padding: 0;
+    color: #999;
+    background: none;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  /* line 31, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+  #breadcrumb nav ul li .sep {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  /* line 34, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+  #breadcrumb nav ul li a:hover {
+    text-decoration: underline;
+    color: #777777;
+  }
+
+  /* line 37, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+  #breadcrumb-replacement {
+    display: block;
+    height: 20px;
+    background-color: #fff;
+  }
+}
+@media only all and (min-width: 640px) and (max-width: 960px), print {
+  /* line 43, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_breadcrumb.scss */
+  #breadcrumb {
+    padding: 0 10px;
+  }
+}
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer {
+  clear: both;
+  border-top: 4px solid #4D9965;
+  background: #e6e6e6;
+  overflow: hidden;
+}
+/* line 7, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer > .wrapper {
+  display: table;
+  caption-side: top;
+  position: relative;
+  padding-top: 5px;
+}
+/* line 14, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .footer-section {
+  border-top: 2px solid #4D9965;
+  padding: 10px;
+}
+@media print {
+  /* line 14, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer .footer-section {
+    display: none;
+  }
+}
+/* line 20, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .footer-section:first-child {
+  border: none;
+}
+/* line 25, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer h4 {
+  font-size: 120%;
+  color: #4D9965;
+}
+/* line 30, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .footer-section > h4 {
+  margin-top: 1em;
+}
+/* line 34, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer p {
+  font-style: italic;
+  color: #777777;
+}
+/* line 39, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+#site-footer ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 43, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer ul li {
+  padding: 5px 0;
+}
+/* line 45, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer ul li a:hover {
+  text-decoration: none;
+}
+/* line 51, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .subscribe-box {
+  display: table-caption;
+  padding: 20px;
+  background: #4D9965;
+}
+@media print {
+  /* line 51, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer .subscribe-box {
+    display: none;
+  }
+}
+/* line 58, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .subscribe-box h2 {
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .subscribe-box form label {
+  display: block;
+  color: white;
+  font-size: 15px;
+  margin: 15px 0 10px 0;
+}
+/* line 73, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .subscribe-box form .subscribe-fields {
+  overflow: hidden;
+}
+/* line 76, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .subscribe-box form .subscribe-fields input.email {
+  height: 20px;
+  border: none;
+  font-size: 15px;
+  padding: 6px 8px;
+  width: 200px;
+}
+/* line 84, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .subscribe-box form .subscribe-fields input.button {
+  vertical-align: top;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border: none;
+  margin-left: -4px;
+  text-indent: -999999px;
+  background: #777777 url(../images/chevron-right.png) 9px center no-repeat;
+  background: url(../images/chevron-right.png) 9px center no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc3Nzc3NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(../images/chevron-right.png) 9px center no-repeat, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #333333));
+  background: url(../images/chevron-right.png) 9px center no-repeat, -moz-linear-gradient(#777777, #333333);
+  background: url(../images/chevron-right.png) 9px center no-repeat, -webkit-linear-gradient(#777777, #333333);
+  background: url(../images/chevron-right.png) 9px center no-repeat, linear-gradient(#777777, #333333);
+}
+/* line 95, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .subscribe-box form .subscribe-fields input.button:hover {
+  background: #848484 url(../images/chevron-right.png) 9px center no-repeat;
+  background: url(../images/chevron-right.png) 9px center no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg0ODQ4NCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(../images/chevron-right.png) 9px center no-repeat, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #848484), color-stop(100%, #333333));
+  background: url(../images/chevron-right.png) 9px center no-repeat, -moz-linear-gradient(#848484, #333333);
+  background: url(../images/chevron-right.png) 9px center no-repeat, -webkit-linear-gradient(#848484, #333333);
+  background: url(../images/chevron-right.png) 9px center no-repeat, linear-gradient(#848484, #333333);
+}
+/* line 100, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer .subscribe-box form .subscribe-fields input.button:active {
+  background: #333333 url(../images/chevron-right.png) 9px center no-repeat;
+  background: url(../images/chevron-right.png) 9px center no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzc3Nzc3NyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(../images/chevron-right.png) 9px center no-repeat, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333333), color-stop(100%, #777777));
+  background: url(../images/chevron-right.png) 9px center no-repeat, -moz-linear-gradient(#333333, #777777);
+  background: url(../images/chevron-right.png) 9px center no-repeat, -webkit-linear-gradient(#333333, #777777);
+  background: url(../images/chevron-right.png) 9px center no-repeat, linear-gradient(#333333, #777777);
+}
+
+/* line 111, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+#site-footer div.attribution {
+  font-size: 80%;
+  color: #999;
+  text-align: center;
+  margin: 0.5em;
+  clear: both;
+}
+
+@media only all and (min-width: 640px), print {
+  /* line 121, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer {
+    padding: 0 10px;
+  }
+  /* line 124, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer > .wrapper {
+    display: block;
+    padding: 0;
+  }
+  /* line 129, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer .footer-section {
+    border: none;
+    float: left;
+    max-width: 250px;
+    width: 30%;
+  }
+  /* line 136, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    clear: none;
+    margin: 10px 30px 0 0;
+  }
+  /* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+  #site-footer ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  /* line 142, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer .subscribe-box {
+    display: block;
+    float: right;
+  }
+  /* line 146, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer .subscribe-box h2 {
+    background: none;
+  }
+}
+@media only all and (min-width: 960px), print {
+  /* line 154, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_footer.scss */
+  #site-footer {
+    padding: 0;
+  }
+}
+/* line 11, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.wrapper {
+  width: 100%;
+}
+
+/* line 15, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+#page {
+  background: white;
+  padding-bottom: 30px;
+}
+/* line 19, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+#page.down {
+  padding: 10px;
+}
+/* line 22, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+#page.down h2 {
+  border: none;
+  background: none;
+  padding: 0;
+}
+/* line 29, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+#page h2, #page h3 {
+  border-top: 4px solid #4D9965;
+  background: #e6e6e6;
+  padding: 10px;
+}
+
+/* line 36, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.page-wrapper {
+  display: table;
+  position: relative;
+  caption-side: bottom;
+}
+
+/* line 43, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.page-title {
+  display: block;
+  background: #e6e6e6;
+  padding: 10px;
+}
+
+/* line 49, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.title-space {
+  min-height: 130px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+/* line 54, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.title-space h1 {
+  margin: 0;
+}
+/* line 58, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.title-space p {
+  font-style: italic;
+}
+
+/* line 63, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.profile-pic, .profile-map {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+}
+
+/* line 70, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+#map_canvas,
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 76, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.constituency-party {
+  margin: 10px 0;
+}
+/* line 79, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.constituency-party h3 {
+  margin: 0;
+}
+/* line 83, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.constituency-party ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin: 0 0 20px 0;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.constituency-party ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 88, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.constituency-party li {
+  border-top: 2px solid white;
+}
+/* line 91, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.constituency-party li p, .constituency-party li a {
+  padding: 10px;
+  margin: 0;
+}
+/* line 96, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.constituency-party li a {
+  font-size: 13px;
+  display: block;
+  background: #f6f6f6 url(../images/chevron-right.png) right center no-repeat;
+  color: #333333;
+  text-decoration: none;
+}
+/* line 103, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.constituency-party li a:hover {
+  background-color: white;
+}
+/* line 106, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.constituency-party li a span {
+  font-style: italic;
+}
+
+/* line 114, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.profile-names p {
+  margin: 0 10px 10px 10px;
+}
+
+/* line 120, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* line 125, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container h3 {
+  border-top: none;
+  border-bottom: 2px solid #333333;
+  background: none;
+  padding: 0 0 5px 0;
+  margin: 20px 10px;
+}
+/* line 133, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container h4 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+/* line 138, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container .tab {
+  overflow: hidden;
+}
+/* line 143, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin: 20px 0;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.large-container section ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 147, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container section ul li {
+  border-bottom: 1px solid #333333;
+  margin: 0 10px 5px 10px;
+}
+/* line 150, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container section ul li:last-child, .large-container section ul li.last {
+  border-bottom: none;
+}
+/* line 155, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container section ul li p {
+  margin: 0 0 5px 0;
+  font-style: italic;
+  font-size: 13px;
+}
+/* line 162, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container section ul.tools {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 133, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.large-container section ul.tools li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  float: left;
+  display: inline;
+}
+/* line 140, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.large-container section ul.tools li a {
+  float: left;
+  display: block;
+}
+/* line 169, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+.large-container #comments .big-btn-text-green {
+  display: none;
+}
+
+@media only all and (min-width: 640px), print {
+  /* line 176, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /* line 183, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  #page.down h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 20px 0 40px 0;
+  }
+  /* line 189, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  #page.down h2 {
+    font-size: 30px;
+  }
+  /* line 194, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  #page h2, #page h3 {
+    border-top: none;
+    background: none;
+    padding: 0;
+  }
+
+  /* line 201, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .page-wrapper {
+    clear: both;
+    display: block;
+  }
+
+  /* line 206, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .search-wrap {
+    margin: 0;
+  }
+
+  /* line 210, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .pagination .disabled {
+    display: none;
+  }
+
+  /* line 214, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .page-title {
+    display: block;
+    background: none;
+    padding: 0;
+  }
+
+  /* line 220, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .title-space {
+    min-height: 0;
+    margin: 0;
+    position: relative;
+    float: right;
+    width: 60%;
+    width: calc(100% - 240px);
+  }
+  /* line 229, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .title-space .object-kind {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  /* line 238, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .profile-pic,
+  .profile-map {
+    position: static;
+    float: left;
+    width: 210px;
+  }
+
+  /* line 245, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .profile-pic img {
+    width: 210px;
+    height: auto;
+  }
+
+  /* line 250, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  #map_canvas {
+    width: 210px;
+    height: 210px;
+  }
+
+  /* line 255, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .small-container {
+    max-width: 510px;
+    clear: left;
+    margin-left: 240px;
+    min-height: 120px;
+  }
+
+  /* line 262, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .profile-info {
+    width: 210px;
+    float: left;
+    clear: both;
+  }
+  /* line 267, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .profile-info h3 {
+    text-transform: uppercase;
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  /* line 276, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .constituency-party ul {
+    margin-bottom: 10px;
+  }
+  /* line 280, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .constituency-party li {
+    border: 0;
+    margin-bottom: 5px;
+  }
+  /* line 284, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .constituency-party li p {
+    padding: 0;
+  }
+  /* line 288, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .constituency-party li a {
+    background: #2e2e2e;
+    color: white;
+    padding: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  /* line 294, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .constituency-party li a:hover {
+    background: #f2242c;
+  }
+
+  /* line 301, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  h3.scorecard-overall {
+    margin: 0;
+    padding: 15px 10px 10px 10px;
+    background: #f6f6f6;
+    border-bottom: 2px solid white;
+  }
+  /* line 307, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  h3.scorecard-overall span {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    height: 32px;
+    padding: 5px 0 0 130px;
+    margin: -5px 0 0 24px;
+    background: url(../images/d-smiley-sprite.png) 0 0 no-repeat;
+  }
+  /* line 314, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  h3.scorecard-overall span.score-overall-good {
+    background-position: left -2px;
+  }
+  /* line 318, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  h3.scorecard-overall span.score-overall-average {
+    background-position: left -44px;
+  }
+  /* line 322, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  h3.scorecard-overall span.score-overall-bad {
+    background-position: left -82px;
+  }
+
+  /* line 328, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  /* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+  ul.scorecard li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  /* line 333, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard li header {
+    overflow: hidden;
+  }
+  /* line 337, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard li h4 {
+    float: left;
+    width: 120px;
+    line-height: 14px;
+  }
+  /* line 342, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard li h4 .btn-question {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  /* line 349, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard li p {
+    float: left;
+    max-width: 250px;
+    font-style: italic;
+    margin: 0 0 0 20px;
+    padding: 0 0 4px 60px;
+  }
+  /* line 356, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard li p.score-good {
+    background: url(../images/score-good.png) left 0 no-repeat;
+  }
+  /* line 360, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard li p.score-average {
+    background: url(../images/score-average.png) left 0 no-repeat;
+  }
+  /* line 364, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard li p.score-bad {
+    background: url(../images/score-bad.png) left 0 no-repeat;
+  }
+  /* line 368, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard li p.score-disabled {
+    background: url(../images/score-disabled.png) left 0 no-repeat;
+  }
+  /* line 374, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard .details {
+    margin: 0px 0px 8px 200px;
+    display: block;
+    margin-top: 10px;
+  }
+  /* line 380, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  ul.scorecard .details p {
+    font-size: 13px;
+  }
+
+  /* line 386, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .vcard .label {
+    margin: 0;
+  }
+
+  /* line 390, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container {
+    margin-left: 0;
+    float: right;
+    width: 60%;
+    width: calc(100% - 240px);
+  }
+  /* line 396, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container .left-col,
+  .large-container .right-col {
+    width: 335px;
+    float: left;
+  }
+  /* line 402, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container .left-col {
+    margin-right: 30px;
+  }
+  /* line 406, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container p, .large-container h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 412, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container section h3 {
+    margin: 20px 0 0 0;
+  }
+  /* line 416, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container section ul {
+    margin-bottom: 30px;
+  }
+  /* line 420, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container section li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 425, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container section .tools li {
+    margin-left: 5px;
+  }
+  /* line 431, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container article h3 {
+    margin: 20px 0 5px 0;
+    border: none;
+  }
+  /* line 437, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container #comments {
+    display: block;
+  }
+  /* line 440, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container #comments .big-btn-text-green {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+  }
+  /* line 445, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_page.scss */
+  .large-container #comments h3 {
+    clear: both;
+  }
+}
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_object_menu.scss */
+div.object_menu {
+  width: 100%;
+}
+/* line 4, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_object_menu.scss */
+div.object_menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+div.object_menu ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 7, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_object_menu.scss */
+div.object_menu ul li {
+  display: inline-block;
+  margin: 0 0.5em 0.2em 0;
+}
+/* line 11, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_object_menu.scss */
+div.object_menu ul li a {
+  text-decoration: underline;
+}
+
+/* $inactive-place-color: #cccccc;
+
+.search-wrap {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 30px;
+  margin: 0 10px;
+  .inactive {
+    background-color: #fcfcfc;
+    color: $inactive-place-color;
+    h4 a {
+      color: $inactive-place-color;
+    }
+  } }
+
+.search-box {
+  display: inline-block;
+  color: $colour_white;
+  width: auto;
+  margin-bottom: 10px;
+  input#id_q, input#loc {
+    float: left;
+    height: 20px;
+    border: none;
+    font-size: 15px;
+    padding: 4px 6px;
+    border-top: 3px solid $colour_blackish;
+    border-left: 3px solid $colour_blackish;
+    border-bottom: 3px solid $colour_blackish;
+    @include border-radius(4px 0 0 4px);
+    &:focus {
+      outline: none;
+      @include box-shadow(inset rgba(0, 0, 0, 0.5) 0 0 4px); } }
+  input.button {
+    cursor: pointer;
+    float: left;
+    width: 34px;
+    height: 34px;
+    border: none;
+    margin-left: -2px;
+    text-indent: -999999px;
+    @include border-radius(0 4px 4px 0);
+    background: $colour_blackish url(../images/search-icon.png) 9px center no-repeat;
+    @include background(url(../images/search-icon.png) 9px center no-repeat, linear-gradient($colour_blackish, $colour_black));
+    &:hover {
+      background: $colour_blackish / 0.9 url(../images/chevron-right.png) 9px center no-repeat;
+      @include background(url(../images/search-icon.png) 9px center no-repeat, linear-gradient($colour_blackish / 0.9, $colour_black)); }
+    &:active {
+      background: $colour_black url(../images/chevron-right.png) 9px center no-repeat;
+      @include background(url(../images/search-icon.png) 9px center no-repeat, linear-gradient($colour_black, $colour_blackish)); } } }
+
+#search-hansard-instead {
+  padding-left: 0.5em; }
+
+
+.geocoded_results {
+
+  background: $colour_lighter_grey;
+  padding: 1em;
+  margin-bottom: 1em;
+
+  #map_canvas {
+    float: right;
+  }
+
+}
+*/
+/* line 68, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.global-search-form {
+  margin-bottom: 2em;
+}
+
+/* line 72, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.open-advanced-search {
+  font-size: 0.875em;
+}
+
+/* line 76, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.inline-search-box {
+  width: auto;
+  max-width: 640px;
+  margin-bottom: 1em;
+}
+/* line 162, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.inline-search-box:before, .inline-search-box:after {
+  content: "";
+  display: table;
+}
+/* line 168, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.inline-search-box:after {
+  clear: both;
+}
+/* line 172, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.inline-search-box {
+  *zoom: 1;
+}
+/* line 82, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.inline-search-box label {
+  display: none;
+}
+/* line 86, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.inline-search-box input {
+  box-sizing: border-box;
+  float: left;
+  width: 66%;
+  font-size: 1em;
+  height: 2.75em;
+  line-height: 2.75em;
+  padding: 0 0.666em;
+  border: 1px solid #e6e6e6;
+}
+@media only all and (min-width: 640px) {
+  /* line 86, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+  .inline-search-box input {
+    width: 75%;
+  }
+}
+/* line 101, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.inline-search-box .button {
+  float: left;
+  width: 33%;
+  font-size: 0.875em;
+  height: auto;
+  line-height: normal;
+  padding: 1em;
+  border: none;
+  text-align: center;
+  color: #fff;
+  background-color: #4D9965;
+  cursor: pointer;
+  -webkit-appearance: none;
+  text-decoration: none;
+}
+@media only all and (min-width: 640px) {
+  /* line 101, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+  .inline-search-box .button {
+    width: 25%;
+  }
+}
+
+/* line 124, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.advanced-search-options {
+  padding: 1em;
+  background-color: #f7f7f7;
+  margin-top: 1em;
+}
+/* line 129, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.advanced-search-options .radio-button-columns {
+  display: block;
+  margin-bottom: 0.75em;
+  font-size: 0.875em;
+}
+@media (min-width: 480px) {
+  /* line 129, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+  .advanced-search-options .radio-button-columns {
+    display: inline-block;
+    width: 48%;
+    margin-right: 1%;
+  }
+}
+@media (min-width: 640px) {
+  /* line 129, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+  .advanced-search-options .radio-button-columns {
+    width: 30%;
+    margin-right: 2%;
+  }
+}
+@media (min-width: 960px) {
+  /* line 129, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+  .advanced-search-options .radio-button-columns {
+    width: 22%;
+    margin-right: 2%;
+  }
+}
+/* line 151, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.advanced-search-options .search-order-by-controls {
+  font-size: 0.875em;
+  margin: 0.5em 0 1.5em 0;
+}
+/* line 156, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.advanced-search-options .search-range-controls {
+  font-size: 0.875em;
+  margin: 0.5em 0 1.5em 0;
+}
+/* line 160, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.advanced-search-options .search-range-controls h4 {
+  margin: 0.6em 0 0.5em;
+}
+/* line 164, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.advanced-search-options .search-range-controls input {
+  width: 8em;
+  margin-right: 1.5em;
+}
+
+/* line 172, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.global-search-results em {
+  font-style: normal;
+  background-color: #fff9a3;
+  padding: 0 3px;
+}
+/* line 181, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.global-search-results a:hover em, .global-search-results a:active em, .global-search-results a:focus em {
+  text-decoration: none;
+  color: #333333;
+}
+/* line 187, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.global-search-results .read-more {
+  font-size: 0.75em;
+  color: #777777;
+}
+
+/* line 193, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-results-item {
+  width: 100%;
+  margin: 1em 0 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e6e6e6;
+  clear: both;
+}
+/* line 199, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-results-item p:last-child {
+  margin-bottom: 0;
+}
+/* line 202, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-results-item h3 {
+  font-size: 21px;
+}
+/* line 204, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-results-item h3 a {
+  text-decoration: none;
+}
+/* line 206, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-results-item h3 a:hover, .search-results-item h3 a:active, .search-results-item h3 a:focus {
+  text-decoration: underline;
+}
+
+/* line 215, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-image-thumbnail {
+  float: left;
+}
+/* line 217, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-image-thumbnail img {
+  max-width: 45px;
+  height: auto;
+}
+@media only all and (min-width: 640px) {
+  /* line 217, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+  .search-image-thumbnail img {
+    max-width: 90px;
+  }
+}
+
+/* line 226, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-result-body {
+  margin-left: 65px;
+  min-height: 45px;
+  /* Same as the height of the image thumbnail */
+}
+@media only all and (min-width: 640px) {
+  /* line 226, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+  .search-result-body {
+    margin-left: 110px;
+    min-height: 90px;
+    /* Same as the height of the image thumbnail */
+  }
+}
+
+/* line 236, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.main-search-result {
+  position: relative;
+  margin-top: 3em;
+}
+
+/* line 241, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-type-label {
+  color: #777;
+}
+
+/* line 245, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_search.scss */
+.search-type-label--metadata {
+  color: #777777;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_vcard.scss */
+.vcard {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.vcard li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 8, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_vcard.scss */
+.vcard li .address p {
+  line-height: 15px;
+  padding-top: 4px;
+}
+/* line 13, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_vcard.scss */
+.vcard li .label {
+  text-transform: uppercase;
+  color: #999;
+  font-size: 11px;
+  float: left;
+  clear: left;
+  min-width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* line 24, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_vcard.scss */
+.vcard li p {
+  padding-left: 45px;
+}
+/* line 29, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_vcard.scss */
+.vcard a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+.social-and-tools {
+  display: none;
+}
+/* line 5, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+.social-and-tools ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin: 20px 0;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+.social-and-tools ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 8, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+.social-and-tools ul li {
+  display: block;
+}
+/* line 10, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+.social-and-tools ul li a {
+  padding: 10px;
+  margin: 5px 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+@media only all and (min-width: 640px), print {
+  /* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools {
+    display: block;
+    padding: 10px;
+    background: #f7f7f7;
+  }
+  /* line 27, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul {
+    margin: 5px 10px;
+  }
+  /* line 29, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li {
+    margin-right: 10px;
+  }
+  /* line 31, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a {
+    display: block;
+    padding: 8px 0 12px 40px;
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #777777;
+    background: transparent url(../images/social-links.png) 0 -192px no-repeat;
+  }
+  /* line 42, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a:hover {
+    color: #333333;
+  }
+  /* line 46, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a.big-btn-text-fb {
+    background-position: 0 -192px;
+  }
+  /* line 48, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a.big-btn-text-fb:hover {
+    background-position: 0 0;
+  }
+  /* line 53, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a.big-btn-text-tw {
+    background-position: 0 -239px;
+  }
+  /* line 55, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a.big-btn-text-tw:hover {
+    background-position: 0 -47px;
+  }
+  /* line 60, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a.big-btn-text-red {
+    background-position: 0 -286px;
+  }
+  /* line 62, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a.big-btn-text-red:hover {
+    background-position: 0 -94px;
+  }
+  /* line 67, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a.big-btn-text-green {
+    background-position: 0 -333px;
+  }
+  /* line 69, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools ul li a.big-btn-text-green:hover {
+    background-position: 0 -141px;
+  }
+}
+@media print {
+  /* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social-and-tools.scss */
+  .social-and-tools {
+    display: none;
+  }
+}
+
+/* line 2, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hansard.scss */
+ul.hansard_entries em {
+  font-style: italic;
+}
+/* line 4, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hansard.scss */
+ul.hansard_entries strong {
+  font-weight: bold;
+}
+/* line 6, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hansard.scss */
+ul.hansard_entries li {
+  margin-bottom: 0.5em;
+  list-style: none;
+}
+/* line 9, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hansard.scss */
+ul.hansard_entries li.scene {
+  margin-left: 2em;
+}
+/* line 11, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hansard.scss */
+ul.hansard_entries li.speech p {
+  margin-left: 1em;
+}
+/* line 13, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hansard.scss */
+ul.hansard_entries li.search_hansard {
+  text-align: right;
+  padding: 0.2em;
+}
+/* line 16, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hansard.scss */
+ul.hansard_entries li.page_number {
+  text-align: right;
+  background: #eee;
+  padding: 0.2em;
+}
+
+@media print {
+  /* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_comments.scss */
+  #disqus_thread {
+    display: none;
+  }
+}
+
+/* line 5, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_comments.scss */
+.disqus_help {
+  font-size: 80%;
+  margin-bottom: 1em;
+}
+@media print {
+  /* line 5, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_comments.scss */
+  .disqus_help {
+    display: none;
+  }
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 3, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background: #f7f7f7;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+/* line 10, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li h4 a {
+  text-decoration: none;
+  color: #333333;
+}
+/* line 13, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li img {
+  border: 5px solid #e6e6e6;
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 0 20px 0 0;
+}
+/* line 19, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section {
+  max-width: 840px;
+  float: none;
+  clear: none;
+  padding: 0 40px 0 90px;
+}
+/* line 24, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section h4 {
+  font-weight: bold;
+}
+/* line 26, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section ul {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+/* line 111, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section ul li {
+  font-size: 14px;
+  line-height: 20px;
+  list-style: disc;
+  margin-bottom: 10px;
+  background: none;
+  padding: 0;
+}
+/* line 28, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section ul.tools {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+/* line 133, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section ul.tools li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  float: left;
+  display: inline;
+}
+/* line 140, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section ul.tools li a {
+  float: left;
+  display: block;
+}
+/* line 33, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section ul.tools li {
+  margin-left: 5px;
+}
+/* line 35, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section ul.tools li a {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section ul.tools li a:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 37, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section ul.tools li a.like {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #AAF2C1;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section ul.tools li a.like:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 80, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section ul.tools li a.like:hover {
+  background: #bdffd6;
+}
+/* line 39, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section ul.tools li a.report {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #f2242c;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section ul.tools li a.report:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 74, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section ul.tools li a.report:hover {
+  background: #ff333f;
+}
+/* line 41, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section p {
+  font-size: 12px;
+  margin: 0 !important;
+}
+/* line 43, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section p.meta {
+  font-style: italic;
+}
+/* line 46, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section .read-more-wrap {
+  position: absolute;
+  right: 15px;
+  top: 35px;
+  bottom: auto;
+}
+/* line 51, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section .meta {
+  color: #999;
+}
+/* line 53, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section a.read-more {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: block;
+  text-indent: -999999px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background: #333333 url(../images/chevron-right.png) 6px 2px no-repeat;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+  border-radius: 24px;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.listing li section a.read-more:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 62, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.listing li section a.read-more:hover {
+  background: #777777 url(../images/chevron-right.png) 6px center no-repeat;
+}
+
+@media only all and (min-width: 640px), print {
+  /* line 68, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+  ul.listing li img {
+    width: auto;
+    height: auto;
+    max-width: 90px;
+    max-height: 90px;
+  }
+  /* line 73, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+  ul.listing li .thumbnail-image-link {
+    width: 90px;
+    /* force fixed width for links that may contain narrow images */
+    text-align: right;
+  }
+  /* line 77, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+  ul.listing li section {
+    clear: none;
+  }
+  /* line 79, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+  ul.listing li section .read-more-wrap {
+    top: auto;
+    bottom: 15px;
+  }
+  /* line 82, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+  ul.listing li section a.read-more {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    cursor: pointer;
+    background: #999;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 5px 8px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    text-indent: 0;
+    width: auto;
+    height: auto;
+  }
+  /* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+  ul.listing li section a.read-more:hover {
+    background: #bfbfbf;
+    color: white;
+    text-decoration: none;
+  }
+}
+/* line 89, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.position-listing {
+  padding: 0;
+  border-color: #bbb;
+  border-style: solid;
+  border-width: 0 1px;
+}
+/* line 96, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.position-listing li {
+  margin: 0;
+  padding: 4px;
+  min-height: 50px;
+  list-style: none;
+  border-bottom: 1px solid #bbb;
+}
+/* line 105, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.position-listing li:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+/* line 109, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.position-listing li span.name {
+  font-size: 125%;
+}
+/* line 113, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.position-listing li span.more {
+  float: right;
+}
+/* line 117, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+ul.position-listing li img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+  margin-bottom: 0;
+}
+
+/* line 129, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+div.search-filters, div.search-pagination {
+  color: #eee;
+  padding: 8px;
+  min-height: 1.5em;
+  font-size: 90%;
+}
+
+/* line 136, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+div.search-filters {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI3YTk0MiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzIyOTEzYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #27a942), color-stop(100%, #22913b));
+  background: -moz-linear-gradient(#27a942, #22913b);
+  background: -webkit-linear-gradient(#27a942, #22913b);
+  background: linear-gradient(#27a942, #22913b);
+}
+
+/* line 139, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_listing.scss */
+div.search-pagination {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzEzMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRjNGM0ZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333132), color-stop(100%, #4c4c4e));
+  background: -moz-linear-gradient(#333132, #4c4c4e);
+  background: -webkit-linear-gradient(#333132, #4c4c4e);
+  background: linear-gradient(#333132, #4c4c4e);
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+h3.scorecard-overall {
+  display: block;
+  font-weight: bold;
+  color: #333333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: none;
+}
+/* line 9, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+h3.scorecard-overall span {
+  padding-top: 20px;
+  margin-top: -20px;
+  height: 22px;
+  font-weight: normal;
+  display: block;
+  background: url(../images/m-smiley-sprite.png) right -3px no-repeat;
+}
+/* line 16, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+h3.scorecard-overall span.score-overall-good {
+  background-position: right -3px;
+}
+/* line 18, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+h3.scorecard-overall span.score-overall-average {
+  background-position: right -53px;
+}
+/* line 20, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+h3.scorecard-overall span.score-overall-bad {
+  background-position: right -103px;
+}
+
+/* line 25, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+span.scorecard-single-smiley {
+  display: block;
+  float: right;
+  margin-top: 2px;
+  height: 50px;
+  width: 50px;
+  background: url(../images/m-smiley-sprite.png) right -3px no-repeat;
+}
+/* line 36, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+span.scorecard-single-smiley.score-overall-good {
+  background-position: -3px -3px;
+}
+/* line 39, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+span.scorecard-single-smiley.score-overall-average {
+  background-position: -53px -53px;
+}
+/* line 42, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+span.scorecard-single-smiley.score-overall-bad {
+  background-position: -103px -103px;
+}
+
+/* line 49, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 100%;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.scorecard li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 54, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article {
+  padding: 10px;
+  background: #f6f6f6;
+  color: #333333;
+  border-bottom: 2px solid white;
+  overflow: hidden;
+}
+/* line 61, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header h4 {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  padding-right: 20px;
+  position: relative;
+}
+/* line 65, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header h4 .btn-question {
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+/* line 69, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header p {
+  margin: -20px 0 0 0;
+  padding-top: 20px;
+}
+/* line 72, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header p.score-good {
+  background: url(../images/score-good.png) right 0 no-repeat;
+}
+/* line 74, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header p.score-average {
+  background: url(../images/score-average.png) right 0 no-repeat;
+}
+/* line 76, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header p.score-bad {
+  background: url(../images/score-bad.png) right 0 no-repeat;
+}
+/* line 78, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header p.score-disabled {
+  background: url(../images/score-disabled.png) right 0 no-repeat;
+}
+/* line 81, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header .details span.shout {
+  display: block;
+  background: #999;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  font-weight: bold;
+  clear: both;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 90, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header .details span.shout p {
+  font-size: 100%;
+  float: none;
+  padding: 4px;
+  margin: 0 auto;
+}
+/* line 95, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header .details span.shout.shout-good {
+  background-color: #4D9965;
+}
+/* line 97, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header .details span.shout.shout-average {
+  background-color: #f9a326;
+}
+/* line 99, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header .details span.shout.shout-bad {
+  background-color: #f2242c;
+}
+/* line 101, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header .details .source {
+  display: block;
+  padding-right: 1em;
+  text-align: right;
+  font-style: italic;
+}
+/* line 106, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_scorecard.scss */
+ul.scorecard li article header .details .source a {
+  font-style: normal;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_pagination.scss */
+.pagination {
+  overflow: hidden;
+  margin: 10px 0;
+}
+/* line 4, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_pagination.scss */
+.pagination a,
+.pagination span {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  padding: 6px 10px;
+  background: #F6F6F6;
+  text-decoration: none;
+  border: 2px solid #F6F6F6;
+}
+/* line 11, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_pagination.scss */
+.pagination a:hover,
+.pagination span:hover {
+  background-color: #333333;
+  color: #ffffff;
+  border: 2px solid #333333;
+}
+/* line 15, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_pagination.scss */
+.pagination a.prev,
+.pagination span.prev {
+  padding-left: 34px;
+  background-position: 5px -67px;
+  background-repeat: no-repeat;
+  background-image: url(../images/pagination.png);
+}
+/* line 20, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_pagination.scss */
+.pagination a.next,
+.pagination span.next {
+  padding-right: 34px;
+  background-position: right 3px;
+  background-repeat: no-repeat;
+  background-image: url(../images/pagination.png);
+}
+/* line 25, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_pagination.scss */
+.pagination .disabled {
+  display: none;
+}
+/* line 27, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_pagination.scss */
+.pagination .current {
+  background: none;
+}
+/* line 29, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_pagination.scss */
+.pagination .current:hover {
+  color: #444444;
+  background: none;
+  border: 2px solid #F6F6F6;
+}
+
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+#ajax_dialog_subcontent {
+  width: 320px;
+}
+/* line 3, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+#ajax_dialog_subcontent label {
+  display: block;
+  font-size: 18px;
+  margin: 6px 0 10px 0;
+}
+/* line 7, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+#ajax_dialog_subcontent textarea {
+  width: 300px;
+  height: 160px;
+  border: 2px solid #777777;
+  padding: 6px;
+  font-size: 16px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 14, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+#ajax_dialog_subcontent textarea:focus {
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 8px;
+}
+/* line 17, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+#ajax_dialog_subcontent input.submit {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  background: #999;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-transform: none;
+  font-size: 14px;
+  padding: 5px 8px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #AAF2C1;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JkZmZkNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FhZjJjMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bdffd6), color-stop(100%, #aaf2c1));
+  background: -moz-linear-gradient(#bdffd6, #aaf2c1);
+  background: -webkit-linear-gradient(#bdffd6, #aaf2c1);
+  background: linear-gradient(#bdffd6, #aaf2c1);
+  border: none;
+  float: right;
+}
+/* line 66, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+#ajax_dialog_subcontent input.submit:hover {
+  background: #bfbfbf;
+  color: white;
+  text-decoration: none;
+}
+/* line 95, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+#ajax_dialog_subcontent input.submit:hover {
+  background: #bdffd6;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FhZjJjMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2JkZmZkNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaf2c1), color-stop(100%, #bdffd6));
+  background: -moz-linear-gradient(#aaf2c1, #bdffd6);
+  background: -webkit-linear-gradient(#aaf2c1, #bdffd6);
+  background: linear-gradient(#aaf2c1, #bdffd6);
+}
+/* line 21, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+#ajax_dialog_subcontent .errorlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+#ajax_dialog_subcontent .errorlist li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 23, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+#ajax_dialog_subcontent .errorlist li {
+  background: #f2242c;
+  color: white;
+  padding: 4px 6px;
+  font-size: 13px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+@media only all and (min-width: 640px), print {
+  /* line 31, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+  #ajax_dialog_subcontent {
+    width: 466px;
+  }
+  /* line 33, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_ajax_dialog.scss */
+  #ajax_dialog_subcontent textarea {
+    width: 448px;
+  }
+}
+/* 5. PAGE SPECIFIC
+-------------------------------------------------------------- */
+/* HOME */
+/* line 7, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#page .home-left h2,
+#page .home-right h2 {
+  margin: 0 0 10px 0;
+  background: none;
+  border-top: none;
+  color: #999;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+/* line 14, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#page .home-left h2#home-intro,
+#page .home-right h2#home-intro {
+  display: none;
+}
+/* line 16, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#page .home-left h3,
+#page .home-right h3 {
+  background: none;
+  border-top: none;
+}
+/* line 20, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#page .home-right .social-and-tools {
+  float: right;
+  display: block;
+}
+
+@media only all and (max-width: 640px), print {
+  /* line 25, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #home-search #header-search-hansard-instead {
+    padding-left: 0.5em;
+  }
+}
+/* line 28, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-search {
+  background: #f6f6f6;
+  padding: 10px;
+  overflow: hidden;
+}
+/* line 32, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-search label {
+  display: block;
+  margin-bottom: 10px;
+  color: #999;
+  font-weight: bold;
+  font-size: 17px;
+}
+/* line 39, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-search input {
+  border: none;
+  font-size: 15px;
+  padding: 6px 8px;
+  float: left;
+  margin: 0;
+  width: 200px;
+}
+/* line 46, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-search button {
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  text-indent: -999999px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  float: left;
+  width: 50px;
+  height: 30px;
+  background: #AAF2C1 url(../images/search-icon.png) center no-repeat;
+  background: url(../images/search-icon.png) center no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FhZjJjMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRkOTk2NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(../images/search-icon.png) center no-repeat, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaf2c1), color-stop(100%, #4d9965));
+  background: url(../images/search-icon.png) center no-repeat, -moz-linear-gradient(#aaf2c1, #4d9965);
+  background: url(../images/search-icon.png) center no-repeat, -webkit-linear-gradient(#aaf2c1, #4d9965);
+  background: url(../images/search-icon.png) center no-repeat, linear-gradient(#aaf2c1, #4d9965);
+}
+/* line 53, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-search button:hover {
+  background: #4D9965 url(../images/search-icon.png) center no-repeat;
+  background: url(../images/search-icon.png) center no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkOTk2NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FhZjJjMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(../images/search-icon.png) center no-repeat, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d9965), color-stop(100%, #aaf2c1));
+  background: url(../images/search-icon.png) center no-repeat, -moz-linear-gradient(#4d9965, #aaf2c1);
+  background: url(../images/search-icon.png) center no-repeat, -webkit-linear-gradient(#4d9965, #aaf2c1);
+  background: url(../images/search-icon.png) center no-repeat, linear-gradient(#4d9965, #aaf2c1);
+}
+/* line 56, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-search > a {
+  float: left;
+  margin: 10px 0 0 0;
+  color: #999;
+  font-size: 14px;
+  text-decoration: none;
+}
+/* line 62, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-search > a:hover {
+  text-decoration: underline;
+}
+
+/* line 65, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-featured-person {
+  margin-bottom: 30px;
+}
+
+/* line 68, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person {
+  color: #2e2e2e;
+  margin: 0 0 30px 0;
+  border-top: 3px solid #b3b3b3;
+  border-bottom: 3px solid #b3b3b3;
+  background: #f6f6f6;
+  overflow: hidden;
+}
+/* line 75, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person img {
+  float: left;
+  max-width: 90px;
+  height: auto;
+}
+/* line 79, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info {
+  position: relative;
+  margin-left: 110px;
+  min-height: 130px;
+}
+/* line 83, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .feature-nav {
+  display: none;
+}
+/* line 85, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info h2 {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+/* line 88, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info h2 a {
+  font-size: 18px;
+  text-transform: none;
+}
+/* line 91, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info h2 a:hover {
+  text-decoration: none;
+}
+/* line 93, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .feature-person-role {
+  color: #999;
+  font-style: italic;
+}
+/* line 96, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .feature-person-summary {
+  display: none;
+}
+/* line 98, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .rating-container {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  margin: 0;
+}
+/* line 103, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .rating-container .rating {
+  max-width: 300px;
+  margin: 0 40px 7px 0;
+  font-size: 17px;
+}
+/* line 107, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .rating-container .rating a {
+  color: #2e2e2e;
+}
+/* line 109, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .rating-container .rating a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+/* line 112, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .rating-container .rating-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 32px;
+  width: 32px;
+}
+/* line 118, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .rating-container .rating-img.bad {
+  background: url(/static/images/d-smiley-sprite.png) -78px -82px no-repeat;
+}
+/* line 120, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .rating-container .rating-img.average {
+  background: url(/static/images/d-smiley-sprite.png) -40px -42px no-repeat;
+}
+/* line 122, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person .featured-person-info .rating-container .rating-img.good {
+  background: url(/static/images/d-smiley-sprite.png) -1px 0 no-repeat;
+}
+/* line 124, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person.featured-person-placeholder {
+  text-align: center;
+  height: 250px;
+  background: #4D9965 url(/static/images/logo-450-x-150.png) center center no-repeat;
+}
+/* line 128, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person.featured-person-loading {
+  height: 250px;
+  text-align: center;
+}
+/* line 131, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+.featured-person.featured-person-loading p {
+  margin: 30px 0;
+  color: #999;
+}
+
+/* line 135, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+ul#home-news-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-top: 5px solid #f6f6f6;
+  padding-top: 15px;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul#home-news-list li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 139, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+ul#home-news-list li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #f6f6f6;
+}
+/* line 143, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+ul#home-news-list li:last-child {
+  border-bottom: 0;
+}
+/* line 145, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+ul#home-news-list li h3, ul#home-news-list li p {
+  padding: 0 10px;
+  margin: 0;
+}
+/* line 148, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+ul#home-news-list li h3 a, ul#home-news-list li p a {
+  text-decoration: none;
+}
+/* line 151, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+ul#home-news-list li p.meta {
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+/* line 156, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+ul#home-news-list li img {
+  float: right;
+  margin: 0 10px;
+}
+
+/* line 160, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-mpratings {
+  border-top: 5px solid #f6f6f6;
+  padding: 15px 10px 10px 10px;
+}
+/* line 163, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-mpratings img {
+  float: left;
+  width: 60px;
+  margin-right: 10px;
+}
+/* line 167, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-mpratings h3.scorecard-overall {
+  padding: 0 0 0 70px;
+  margin: 0;
+}
+
+/* line 171, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#twitter,
+.tw-nub,
+.tw-follow {
+  display: none;
+}
+
+/* line 176, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-links {
+  margin-bottom: 30px;
+}
+/* line 179, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-links a.aspirants {
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px 5px 0 0;
+  color: white;
+  display: block;
+  margin: 10px 10px 3px 10px;
+  padding: 10px;
+  background: #4D9965;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2YWE3MCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRkOTk2NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #56aa70), color-stop(100%, #4d9965));
+  background: -moz-linear-gradient(#56aa70, #4d9965);
+  background: -webkit-linear-gradient(#56aa70, #4d9965);
+  background: linear-gradient(#56aa70, #4d9965);
+}
+/* line 187, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-links a.aspirants:hover {
+  text-decoration: none;
+  background: #56aa70;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkOTk2NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzU2YWE3MCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d9965), color-stop(100%, #56aa70));
+  background: -moz-linear-gradient(#4d9965, #56aa70);
+  background: -webkit-linear-gradient(#4d9965, #56aa70);
+  background: linear-gradient(#4d9965, #56aa70);
+}
+/* line 191, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-links a.citizens {
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 5px 5px;
+  color: white;
+  display: block;
+  margin: 0 10px 10px 10px;
+  padding: 10px;
+  background: #AAF2C1;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JkZmZkNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FhZjJjMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bdffd6), color-stop(100%, #aaf2c1));
+  background: -moz-linear-gradient(#bdffd6, #aaf2c1);
+  background: -webkit-linear-gradient(#bdffd6, #aaf2c1);
+  background: linear-gradient(#bdffd6, #aaf2c1);
+}
+/* line 199, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+#home-links a.citizens:hover {
+  text-decoration: none;
+  background: #bdffd6;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FhZjJjMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2JkZmZkNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaf2c1), color-stop(100%, #bdffd6));
+  background: -moz-linear-gradient(#aaf2c1, #bdffd6);
+  background: -webkit-linear-gradient(#aaf2c1, #bdffd6);
+  background: linear-gradient(#aaf2c1, #bdffd6);
+}
+
+@media only all and (min-width: 640px), print {
+  /* line 206, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-left {
+    float: left;
+    clear: left;
+    width: 420px;
+    margin-right: 30px;
+  }
+  /* line 211, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-left h2#home-intro {
+    display: block;
+    text-transform: none;
+    color: #4D9965;
+    margin-top: 15px;
+    line-height: 25px;
+    padding: 6px;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  /* line 221, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-left h2#home-intro .details {
+    display: none;
+  }
+  /* line 223, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right {
+    float: left;
+    width: 510px;
+  }
+}
+@media only all and (min-width: 640px), print {
+  /* line 228, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #home-search {
+    background: #2e2e2e;
+    margin: 30px 0;
+    padding: 20px;
+  }
+  /* line 232, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #home-search label {
+    color: white;
+  }
+  /* line 234, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #home-search input {
+    max-width: 260px;
+    margin-right: 10px;
+  }
+  /* line 237, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #home-search > a {
+    color: #999;
+  }
+
+  /* line 239, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  ul#home-news-list {
+    margin-top: 15px;
+  }
+  /* line 242, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  ul#home-news-list li h3, ul#home-news-list li p {
+    padding: 0;
+  }
+  /* line 244, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  ul#home-news-list li img {
+    margin-right: 0;
+  }
+
+  /* line 246, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #twitter {
+    display: block;
+    float: left;
+    width: 375px;
+  }
+  /* line 250, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #twitter h2 {
+    color: #999;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 254, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #twitter .twitter-feed {
+    border: 4px solid #dddddd;
+  }
+  /* line 256, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #twitter .tw-wrap {
+    padding: 20px;
+    min-height: 58px;
+    background: url(../images/quotes.png) 10px 10px no-repeat;
+  }
+  /* line 260, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #twitter p {
+    margin: 0;
+  }
+  /* line 262, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #twitter p.meta {
+    color: #999;
+    margin-top: 10px;
+    font-size: 13px;
+    font-style: italic;
+  }
+  /* line 268, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #twitter .btn-text-green {
+    margin-top: 10px;
+    float: right;
+  }
+
+  /* line 271, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools {
+    margin-top: 30px;
+    width: 110px;
+    position: relative;
+    padding: 0 0 20px 25px;
+    background: #dddddd;
+  }
+  /* line 277, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools ul {
+    margin: 20px 0;
+  }
+  /* line 279, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools .tw-nub {
+    display: block;
+    width: 23px;
+    height: 26px;
+    position: absolute;
+    bottom: 17px;
+    left: -4px;
+    background: url(../images/nub.png) 0 0 no-repeat;
+  }
+  /* line 287, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools .tw-follow {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+  }
+
+  /* line 289, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person {
+    border: 1px solid #b3b3b3;
+  }
+  /* line 291, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person img {
+    max-width: 180px;
+  }
+  /* line 293, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info {
+    margin-left: 200px;
+    max-width: 300px;
+    min-height: 180px;
+  }
+  /* line 297, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .feature-nav {
+    display: block;
+    float: right;
+  }
+  /* line 300, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .feature-nav a {
+    cursor: pointer;
+    display: block;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    text-indent: -999999px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
+    width: 20px;
+    height: 22px;
+    float: left;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+  }
+  /* line 307, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .feature-nav .feature-prev {
+    background: transparent url(../images/chevron-left-alt.png) center no-repeat;
+    margin-right: 10px;
+  }
+  /* line 310, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .feature-nav .feature-prev:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+  }
+  /* line 312, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .feature-nav .feature-next {
+    background: transparent url(../images/chevron-right-alt.png) center no-repeat;
+  }
+  /* line 314, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .feature-nav .feature-next:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+  }
+  /* line 316, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info h2 {
+    margin: 15px 0 0 0 !important;
+    line-height: 30px;
+  }
+  /* line 319, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info h2 a {
+    font-size: 24px;
+  }
+  /* line 321, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .feature-person-summary {
+    display: block;
+    padding: 0 0 40px 0;
+  }
+  /* line 324, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .feature-person-summary p {
+    font-size: 12px;
+  }
+  /* line 326, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .rating-container {
+    bottom: 10px;
+  }
+  /* line 328, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .rating-container .rating {
+    margin: 0 40px 15px 0;
+  }
+  /* line 330, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  .featured-person .featured-person-info .rating-container .rating-img {
+    bottom: 10px;
+  }
+}
+@media only all and (min-width: 640px) and (max-width: 960px), print {
+  /* line 334, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page {
+    padding: 0 10px;
+  }
+  /* line 336, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-left {
+    width: 320px;
+  }
+  /* line 338, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right {
+    width: 45%;
+    float: right;
+  }
+  /* line 341, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools {
+    position: relative;
+    right: auto;
+    top: auto;
+    float: left;
+  }
+  /* line 346, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools ul {
+    float: none;
+  }
+  /* line 348, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools ul li {
+    display: block;
+  }
+}
+@media only all and (min-width: 640px) and (max-width: 880px) {
+  /* line 352, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right {
+    width: 380px;
+  }
+  /* line 354, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools {
+    width: 355px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+  }
+  /* line 358, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools .tw-nub {
+    display: none;
+  }
+  /* line 360, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools ul {
+    float: right;
+    margin: 0;
+  }
+  /* line 363, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools ul li {
+    float: left;
+  }
+  /* line 365, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right .social-and-tools .tw-follow {
+    float: left;
+    margin: 8px 0 0 10px;
+  }
+
+  /* line 368, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #home-links a {
+    width: 168px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 372, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #home-links a.aspirants, #home-links a.citizens, #home-links a:hover.aspirants, #home-links a:hover.citizens {
+    padding: 10px 10px 15px 10px;
+    background-position: 120px center;
+  }
+}
+@media only all and (min-width: 640px) and (max-width: 760px) {
+  /* line 380, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-left {
+    width: 100%;
+  }
+
+  /* line 382, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_home_page.scss */
+  #page .home-right {
+    float: left;
+    width: 510px;
+    margin-bottom: 20px;
+  }
+}
+/* line 3, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage {
+  margin: 20px 0;
+}
+/* line 5, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage h1 {
+  margin: 0 10px 20px 10px;
+}
+/* line 8, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage h4 {
+  margin: 30px 0 10px 0;
+  padding: 0 10px 5px 10px;
+  border-bottom: 2px solid #e6e6e6;
+  line-height: 20px;
+}
+/* line 13, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage p {
+  padding: 0 10px;
+}
+/* line 15, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage ul, .infopage ol, .infopage dl {
+  margin: 0 10px;
+}
+/* line 17, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage hr {
+  border: none;
+  background: #4D9965;
+  height: 2px;
+}
+/* line 21, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage table {
+  border: 2px solid #e6e6e6;
+}
+/* line 24, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage th, .infopage td {
+  padding: 0.5em 1em;
+  border-width: 0;
+  border-right-width: 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+}
+/* line 30, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage th:last-child, .infopage td:last-child {
+  border-right: none;
+}
+/* line 32, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage th {
+  font-weight: bold;
+  background-color: #f7f7f7;
+  border-bottom-width: 2px;
+}
+/* line 36, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage td {
+  border-bottom-width: 1px;
+}
+/* line 38, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage tr:last-child td {
+  border-bottom: none;
+}
+
+/* line 42, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage-tag-list li {
+  float: left;
+  display: inline;
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  background-color: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+
+/* line 55, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+.infopage-category-summary {
+  position: relative;
+  left: -1em;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  background-color: #f7f7f7;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+}
+
+@media only all and (min-width: 640px), print {
+  /* line 65, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+  .infopage {
+    margin: 0;
+  }
+  /* line 67, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+  .infopage h1 {
+    margin: 0 0 20px 0;
+  }
+  /* line 69, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+  .infopage h4 {
+    padding: 0 0 5px 0;
+  }
+  /* line 71, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+  .infopage p {
+    padding: 0;
+  }
+  /* line 73, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_info_pages.scss */
+  .infopage ul, .infopage ol, .infopage dl {
+    margin: 0;
+  }
+}
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hide-reveal.scss */
+.hide-reveal-link {
+  display: block;
+  padding: 0.5em 0;
+}
+
+/* line 6, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_hide-reveal.scss */
+.has-dropdown-dark {
+  background-image: url("/static/images/has-dropdown-dark.png");
+  background-position: 100% 1em;
+  background-repeat: no-repeat;
+}
+
+@media print {
+  /* line 6, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_print.scss */
+  body {
+    width: 1000px;
+  }
+}
+/* line 1, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social.scss */
+ul.social-buttons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 123, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_core.scss */
+ul.social-buttons li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 3, ../../../../home/travis/build/mysociety/kuvakazim/_compass/core/_social.scss */
+ul.social-buttons li {
+  float: left;
+  padding: 4px;
+}
+
+/* line 3, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+a {
+  color: #C25959;
+}
+/* line 9, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+a:hover, a:active, a:focus {
+  color: #aa3e3e;
+}
+
+/* line 16, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.unstyled-list, .social-sharing ul {
+  padding: 0;
+}
+/* line 18, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.unstyled-list li, .social-sharing ul li {
+  list-style: none outside none;
+}
+
+/* line 23, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.button {
+  display: inline-block;
+  padding: 0.65em 1em;
+  border-radius: 3px;
+  color: white;
+  background-color: #4D9965;
+}
+/* line 29, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.button:hover, .button:active, .button:focus {
+  color: white;
+  text-decoration: none;
+  background-color: #3c774f;
+}
+
+/* line 38, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.button--full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 43, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.button--social {
+  font-size: 0.875em;
+}
+
+/* line 47, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.button--social--twitter {
+  background-color: #4099ff;
+}
+/* line 49, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.button--social--twitter:hover, .button--social--twitter:active, .button--social--twitter:focus {
+  background-color: #0d7eff;
+}
+
+/* line 56, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.button--social--facebook {
+  background-color: #3b5998;
+}
+/* line 58, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.button--social--facebook:hover, .button--social--facebook:active, .button--social--facebook:focus {
+  background-color: #2d4373;
+}
+
+/* line 65, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#logo {
+  height: 100px;
+  background: url("/images/zimbabwe-bird-with-text-small@2.png") 0 center no-repeat;
+  background-size: 147px 42px;
+}
+@media only all and (min-width: 640px), print {
+  /* line 65, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  #logo {
+    background: url("/images/zimbabwe-bird-with-text-large@2.png") 0 center no-repeat;
+    background-size: 418px 100px;
+  }
+}
+
+/* line 75, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#site-header {
+  background-color: #4D9965;
+  background-image: none;
+  position: relative;
+}
+@media only all and (min-width: 640px), print {
+  /* line 75, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  #site-header {
+    height: 120px;
+  }
+}
+
+/* line 84, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#main-menu {
+  background-image: none;
+  background-color: #333333;
+}
+
+/* line 89, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#main-menu nav {
+  text-align: left;
+}
+/* line 93, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#main-menu nav ul li a {
+  background-image: none;
+  background: transparent;
+  color: #b3b3b3;
+}
+/* line 97, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#main-menu nav ul li a:hover, #main-menu nav ul li a:focus, #main-menu nav ul li a:active {
+  background-image: none;
+  color: white;
+}
+/* line 107, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#main-menu nav ul li:hover ul, #main-menu nav ul li:focus ul, #main-menu nav ul li:active ul {
+  border: 0;
+}
+/* line 110, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#main-menu nav ul li:hover ul li a, #main-menu nav ul li:focus ul li a, #main-menu nav ul li:active ul li a {
+  color: #b3b3b3;
+  background-color: #333333;
+}
+/* line 113, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#main-menu nav ul li:hover ul li a:hover, #main-menu nav ul li:hover ul li a:active, #main-menu nav ul li:hover ul li a:focus, #main-menu nav ul li:focus ul li a:hover, #main-menu nav ul li:focus ul li a:active, #main-menu nav ul li:focus ul li a:focus, #main-menu nav ul li:active ul li a:hover, #main-menu nav ul li:active ul li a:active, #main-menu nav ul li:active ul li a:focus {
+  color: white;
+  background-color: #333333;
+}
+
+/* line 127, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#header-search {
+  position: absolute;
+  right: 1em;
+  top: 2em;
+}
+
+/* line 133, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#site-footer {
+  background-color: #333333;
+  border: 0;
+  color: white;
+  padding: 2em 0;
+}
+/* line 138, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#site-footer h4 {
+  color: white;
+}
+/* line 141, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#site-footer a {
+  color: #b3b3b3;
+}
+/* line 143, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#site-footer a:hover, #site-footer a:active, #site-footer a:focus {
+  color: white;
+}
+/* line 149, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#site-footer div.attribution {
+  text-align: left;
+}
+/* line 152, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+#site-footer p {
+  font-style: normal;
+}
+
+/* line 157, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.title-space {
+  margin-left: 0;
+}
+@media only all and (min-width: 640px) {
+  /* line 157, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  .title-space {
+    margin: 1em 0;
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+}
+@media only all and (min-width: 640px) {
+  /* line 165, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  .title-space h1 {
+    font-size: 1.875em;
+    line-height: 1.2em;
+  }
+}
+/* line 171, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.title-space p {
+  font-style: normal;
+  color: #999;
+}
+
+@media only all and (min-width: 640px) {
+  /* line 177, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  .title-space__name {
+    position: absolute;
+    bottom: 0;
+    left: 240px;
+  }
+}
+
+/* line 185, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.profile-pic {
+  position: static;
+}
+@media only all and (min-width: 640px) {
+  /* line 185, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  .profile-pic {
+    max-width: 210px;
+    margin-right: 30px;
+  }
+}
+
+/* line 196, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.constituency-party li a {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  color: #333333;
+}
+/* line 201, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.constituency-party li a:hover, .constituency-party li a:active, .constituency-party li a:focus {
+  background-color: transparent;
+  color: #C25959;
+}
+
+/* line 209, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.experience__item {
+  color: #333333;
+  display: block;
+}
+
+/* line 215, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+a.experience__item:hover, a.experience__item:active, a.experience__item:focus {
+  text-decoration: none;
+}
+/* line 219, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+a.experience__item:hover .experience__role, a.experience__item:active .experience__role, a.experience__item:focus .experience__role {
+  color: #C25959;
+}
+
+/* line 225, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.experience__role {
+  display: block;
+  font-weight: bold;
+}
+
+/* line 230, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.experience__term {
+  color: #777777;
+  font-size: 0.75em;
+  padding-left: 1em;
+  display: inline-block;
+}
+
+/* line 238, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.profile-bulk h2 {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  color: #4D9965;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* line 246, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.social-sharing {
+  margin-top: 2em;
+}
+
+/* line 253, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+div.search-filters {
+  background: none;
+  background-color: #e6e6e6;
+  margin-bottom: 2em;
+  padding: 2em;
+  color: #333333;
+}
+
+/* line 262, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.position img {
+  max-width: 50px;
+}
+
+/* line 267, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+ul.position-listing {
+  border: 0;
+  border-top: 1px solid #e6e6e6;
+}
+/* line 270, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+ul.position-listing li {
+  padding: 1.25em;
+  border: 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+/* line 274, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+ul.position-listing li img {
+  height: auto;
+  width: 50px;
+  float: none;
+  margin-right: 0;
+}
+/* line 280, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+ul.position-listing li .image-wrapper {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  margin-right: 1.5em;
+  position: relative;
+  top: -5px;
+}
+
+/* line 293, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.listing__name {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+/* line 298, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.listing__party {
+  display: inline-block;
+  margin-left: 0.5em;
+  color: #333333;
+  font-size: 0.875em;
+}
+
+/* line 305, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.listing__area {
+  color: #777777;
+}
+
+/* line 309, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-intro {
+  background-color: #4D9965;
+  padding: 3em 1em;
+}
+/* line 312, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-intro .wrapper {
+  position: relative;
+}
+@media only all and (min-width: 900px), print {
+  /* line 309, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  .home-intro {
+    padding: 3em 0;
+  }
+}
+
+/* line 320, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-intro__title {
+  color: white;
+  font-size: 3em;
+  line-height: 1.15em;
+}
+@media only all and (min-width: 900px), print {
+  /* line 320, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  .home-intro__title {
+    max-width: 500px;
+  }
+}
+
+/* line 329, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-intro__subtitle {
+  color: white;
+  font-size: 1.25em;
+  opacity: 0.7;
+  line-height: 1.5em;
+}
+@media only all and (min-width: 900px), print {
+  /* line 329, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  .home-intro__subtitle {
+    max-width: 450px;
+  }
+}
+
+/* line 339, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-search {
+  padding: 2em 2em 3em;
+  background-color: #333333;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+@media only all and (min-width: 900px), print {
+  /* line 339, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+  .home-search {
+    max-width: 400px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+}
+/* line 351, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-search:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -70px;
+  width: 100%;
+  height: 40px;
+  background-image: url("/images/shadow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 363, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-search label {
+  display: block;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+/* line 372, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-search .jekyll-search__select {
+  width: 100%;
+}
+/* line 376, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-search .ui-autocomplete-input {
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+/* line 382, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-content {
+  margin-top: 2em;
+}
+/* line 384, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.home-content h2 {
+  text-align: center;
+}
+
+/* line 389, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.featured-person {
+  max-width: 600px;
+  padding: 1em;
+  margin: 1em auto;
+}
