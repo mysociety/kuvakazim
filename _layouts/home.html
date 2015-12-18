@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% if jekyll.environment == 'production' %}
+      {% google_analytics %}
+    {% endif %}
+
+    {% facebook_javascript_sdk %}
+
+    {% include main_menu.html %}
+
+    {% include header.html %}
+
+
+    {{ content }}
+
+
+    {% include footer.html %}
+
+    <div id="fb-root"></div>
+  </body>
+</html>
