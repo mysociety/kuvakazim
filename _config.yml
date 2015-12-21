@@ -49,6 +49,7 @@ collections_to_search:
 
 writeinpublic:
   subdomain: kuvakazim
+  disabled: true
 
 collections:
   executive_positions_by_role:
