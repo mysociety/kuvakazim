@@ -18,6 +18,13 @@ layout: default
   <div class="title-space__name">
     <h1>{{ person.name }}</h1>
     <p>Politician profile</p>
+    {% if page.email %}
+    <div class="title-space__actions">
+      {% writeinpublic_link page.id class: 'button button--social button--social--writeinpublic button--full-width' %}
+        Write to {{ page.name }} on WriteInPublic
+      {% endwriteinpublic_link %}
+    </div>
+    {% endif %}
   </div>
 </div>
 

@@ -66,6 +66,15 @@ a {
     }
 }
 
+.button--social--writeinpublic {
+    background-color: $colour_links;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($colour_links, 10%);
+    }
+}
+
 #logo {
   height: 100px;
   background: url('/images/zimbabwe-bird-with-text-small@2.png') 0 center no-repeat;
@@ -185,6 +194,8 @@ a {
         left: 240px;
     }
 }
+
+.title-space__actions {}
 
 .profile-pic {
     position: static;
