@@ -391,3 +391,15 @@ ul.position-listing {
     padding: 1em;
     margin: 1em auto;
 }
+
+#header-search {
+    input {
+        height: auto;
+        border-radius: 5px;
+        font-size: inherit;
+        padding: 0.3em 0.5em;
+        border: 0;
+        width: auto;
+        max-width: 14em;
+    }
+}
