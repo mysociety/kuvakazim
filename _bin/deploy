@@ -3,8 +3,6 @@
 set -e # exit with nonzero exit code if anything fails
 
 build_and_deploy_jekyll_site() {
-  rm -rf _site
-
   tmpdir=$(mktemp -d 2>/dev/null || mktemp -d -t 'mytmpdir')
   github_url="https://${GITHUB_ACCESS_TOKEN}@github.com/${GITHUB_REPO_SLUG}"
 
