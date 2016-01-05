@@ -88,10 +88,6 @@ callback([
     "href": "/info/privacy-policy/"
   },
   {
-    "text": "Scorecard FAQs",
-    "href": "/info/scorecard/"
-  },
-  {
     "text": "Senators",
     "href": "/position/senator/"
   },
@@ -102,10 +98,6 @@ callback([
   {
     "text": "The Main Political Parties in Zimbabwe",
     "href": "/info/political-parties/"
-  },
-  {
-    "text": "Todo List",
-    "href": "/info/todo-list/"
   },
   {
     "text": "Women Caucus",
