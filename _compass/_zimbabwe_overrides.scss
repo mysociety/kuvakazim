@@ -76,10 +76,11 @@ a {
 }
 
 #logo {
-  height: 100px;
+  height: 60px;
   background: url('/images/zimbabwe-bird-with-text-small@2.png') 0 center no-repeat;
   background-size: 147px 42px;
   @media only all and (min-width: 640px), print {
+    height: 100px;
     background: url('/images/zimbabwe-bird-with-text-large@2.png') 0 center no-repeat;
     background-size: 418px 100px;
   }
@@ -101,7 +102,7 @@ a {
     float: none;
     position: absolute;
     right: 0;
-    top: 2em;
+    top: 0.75em;
 }
 
 #main-menu {
