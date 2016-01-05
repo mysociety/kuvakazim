@@ -92,6 +92,16 @@ a {
   @media only all and (min-width: 640px), print {
     height: 120px;
   }
+  .wrapper {
+    position: relative;
+  }
+}
+
+#mobile-top-tools {
+    float: none;
+    position: absolute;
+    right: 0;
+    top: 2em;
 }
 
 #main-menu {
