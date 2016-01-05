@@ -25,7 +25,7 @@ jQuery(function($) {
 (function($) {
   var nextSlide = function nextSlide(e){
     e.preventDefault();
-    var $slides = $('.js-slides').children();
+    var $slides = $('.js-slide');
     var $visible = $slides.filter(':visible');
     $visible.hide();
     if($visible.is(':last-child')){
@@ -37,7 +37,7 @@ jQuery(function($) {
 
   var previousSlide = function previousSlide(e){
     e.preventDefault();
-    var $slides = $('.js-slides').children();
+    var $slides = $('.js-slide');
     var $visible = $slides.filter(':visible');
     $visible.hide();
     if($visible.is(':first-child')){
@@ -47,8 +47,16 @@ jQuery(function($) {
     }
   }
 
-  $(function() {
-    $('.js-feature-prev').on('click', previousSlide);
-    $('.js-feature-next').on('click', nextSlide);
+  $(function(){
+    $('<a href="#">')
+      .addClass('feature-prev')
+      .text('Previous ')
+      .on('click', previousSlide)
+      .appendTo('.js-feature-nav');
+    $('<a href="#">')
+      .addClass('feature-next')
+      .text('Next')
+      .on('click', nextSlide)
+      .appendTo('.js-feature-nav');
   });
 })(window.jQuery);
