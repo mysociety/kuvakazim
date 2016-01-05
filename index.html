@@ -25,7 +25,7 @@ disable_breadcrumbs: true
         {% for featured_person in site.featured_people %}
         <div class="js-slide">
           <a href="{{ featured_person.url }}">
-            <img src="{{ featured_person.image }}" alt="{{ featured_person.name }}" class="slide__image" width="145" height="200" />
+            <img src="{{ featured_person.image }}" alt="{{ featured_person.name }}" width="145" height="200" />
             <div class="featured-person-info">
               <h2><a href="{{ featured_person.url }}">{{ featured_person.name }}</a></h2>
               <p>{{ featured_person.summary }}</p>
@@ -33,13 +33,11 @@ disable_breadcrumbs: true
           </a>
         </div>
         {% endfor %}
-      </div>
 
-      <div class="feature-nav">
-        <a class="feature-prev js-feature-prev" href="#">previous</a>
-        <a class="feature-next js-feature-next" href="#">next</a>
-      </div>
+        <div class="feature-nav js-feature-nav">
+        </div>
 
+      </div>
     </div>
   </div>
 </div>
