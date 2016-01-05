@@ -1,0 +1,122 @@
+callback([
+  {
+    "text": "About",
+    "href": "/info/m-about/"
+  },
+  {
+    "text": "About Us",
+    "href": "/info/about/"
+  },
+  {
+    "text": "Bills Overview",
+    "href": "/info/bills-overview/"
+  },
+  {
+    "text": "Blog",
+    "href": "/blog/"
+  },
+  {
+    "text": "Citizens Rights and Freedoms",
+    "href": "/info/citizens-rights-freedoms/"
+  },
+  {
+    "text": "Committee Overview",
+    "href": "/info/committee-overview/"
+  },
+  {
+    "text": "Contact Page",
+    "href": "/info/contact/"
+  },
+  {
+    "text": "Democracy Resources",
+    "href": "/info/m-democracy-resources/"
+  },
+  {
+    "text": "Electoral Law and Legislation",
+    "href": "/info/electoral-law-and-legislation/"
+  },
+  {
+    "text": "Get Involved",
+    "href": "/info/get-involved/"
+  },
+  {
+    "text": "Hansard",
+    "href": "/info/hansard/"
+  },
+  {
+    "text": "Home",
+    "href": "/"
+  },
+  {
+    "text": "How Our Democracy Works",
+    "href": "/info/how-our-democracy-works/"
+  },
+  {
+    "text": "KuvakaZim Overview",
+    "href": "/info/kuvakazim-overview/"
+  },
+  {
+    "text": "Member of the National Assembly",
+    "href": "/position/member-of-parliament/"
+  },
+  {
+    "text": "News",
+    "href": "/info/m-news/"
+  },
+  {
+    "text": "Newsletter",
+    "href": "/info/newsletter/"
+  },
+  {
+    "text": "Newspapers",
+    "href": "/info/newspapers/"
+  },
+  {
+    "text": "Our History",
+    "href": "/info/our-history/"
+  },
+  {
+    "text": "Parliament Overview",
+    "href": "/info/m-parliament/"
+  },
+  {
+    "text": "Partners",
+    "href": "/info/partners/"
+  },
+  {
+    "text": "Privacy Policy",
+    "href": "/info/privacy-policy/"
+  },
+  {
+    "text": "Scorecard FAQs",
+    "href": "/info/scorecard/"
+  },
+  {
+    "text": "Senators",
+    "href": "/position/senator/"
+  },
+  {
+    "text": "The Constitution of Zimbabwe 2013",
+    "href": "/info/constitution--zimbabwe-2013/"
+  },
+  {
+    "text": "The Main Political Parties in Zimbabwe",
+    "href": "/info/political-parties/"
+  },
+  {
+    "text": "Todo List",
+    "href": "/info/todo-list/"
+  },
+  {
+    "text": "Women Caucus",
+    "href": "/info/women-caucus/"
+  },
+  {
+    "text": "Zimbabwean Ministries & their Functions",
+    "href": "/info/ministry-overview/"
+  },
+  {
+    "text": "Why KuvakaZim?",
+    "href": "/blog/why-kuvakazim/"
+  }
+])
