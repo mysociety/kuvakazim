@@ -77,13 +77,20 @@ a {
 
 #logo {
   height: 60px;
-  background: url('/images/zimbabwe-bird-with-text-small@2.png') 0 center no-repeat;
+  background: url('/images/zimbabwe-bird-with-text-small.png') 0 center no-repeat;
   background-size: 147px 42px;
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    background: url('/images/zimbabwe-bird-with-text-small@2.png') 0 center no-repeat;
+  }
   @media only all and (min-width: 640px), print {
     height: 100px;
-    background: url('/images/zimbabwe-bird-with-text-large@2.png') 0 center no-repeat;
+    background: url('/images/zimbabwe-bird-with-text-large.png') 0 center no-repeat;
     background-size: 418px 100px;
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+        background: url('/images/zimbabwe-bird-with-text-large@2.png') 0 center no-repeat;
+    }
   }
+
 }
 
 #site-header {
