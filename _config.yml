@@ -77,6 +77,15 @@ collections:
     output: true
     permalink: '/senate/place/:path/'
 
+prose:
+  siteurl: http://staging.kuvakazim.com
+  relativeLinks: http://staging.kuvakazim.com/links.jsonp
+  media: media_root
+  ignore:
+    - '*'
+    - '!_posts'
+    - '!info'
+
 defaults:
   - scope:
       path: "info"
