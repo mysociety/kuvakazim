@@ -28,10 +28,10 @@ jQuery(function($) {
     var $slides = $('.js-slide');
     var $visible = $slides.filter(':visible');
     $visible.hide();
-    if($visible.is(':last-child')){
-      $slides.filter(':first-child').show();
+    if($visible.is('.js-slide:last')){
+      $slides.filter('.js-slide:first').show();
     } else {
-      $visible.next().show();
+      $visible.next('.js-slide').show();
     }
   }
 
@@ -40,10 +40,10 @@ jQuery(function($) {
     var $slides = $('.js-slide');
     var $visible = $slides.filter(':visible');
     $visible.hide();
-    if($visible.is(':first-child')){
-      $slides.filter(':last-child').show();
+    if($visible.is('.js-slide:first')){
+      $slides.filter('.js-slide:last').show();
     } else {
-      $visible.prev().show();
+      $visible.prev('.js-slide').show();
     }
   }
 
