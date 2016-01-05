@@ -20,3 +20,35 @@ jQuery(function($) {
     $('<input type="hidden" name="page_url">').val(document.referrer).appendTo('#add_feedback');
   }
 });
+
+// Featured people
+(function($) {
+  var nextSlide = function nextSlide(e){
+    e.preventDefault();
+    var $slides = $('.js-slides').children();
+    var $visible = $slides.filter(':visible');
+    $visible.hide();
+    if($visible.is(':last-child')){
+      $slides.filter(':first-child').show();
+    } else {
+      $visible.next().show();
+    }
+  }
+
+  var previousSlide = function previousSlide(e){
+    e.preventDefault();
+    var $slides = $('.js-slides').children();
+    var $visible = $slides.filter(':visible');
+    $visible.hide();
+    if($visible.is(':first-child')){
+      $slides.filter(':last-child').show();
+    } else {
+      $visible.prev().show();
+    }
+  }
+
+  $(function() {
+    $('.js-feature-prev').on('click', previousSlide);
+    $('.js-feature-next').on('click', nextSlide);
+  });
+})(window.jQuery);
