@@ -96,6 +96,11 @@ prose:
           element: text
           label: Title
           value: ""
+      - name: published
+        field:
+          element: checkbox
+          label: Published
+          value: true
     info:
       - name: layout
         field:
