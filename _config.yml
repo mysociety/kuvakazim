@@ -102,10 +102,6 @@ prose:
           label: Published
           value: true
     info:
-      - name: layout
-        field:
-          element: hidden
-          value: page
       - name: title
         field:
           element: text
