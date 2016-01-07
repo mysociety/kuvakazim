@@ -1,6 +1,5 @@
 ---
 title: Zimbabwean Ministries & their Functions
-slug: ministry-overview
 permalink: "/info/ministry-overview/"
 ---
 

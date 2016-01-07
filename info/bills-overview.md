@@ -1,6 +1,5 @@
 ---
 title: Bills Overview
-slug: bills-overview
 permalink: "/info/bills-overview/"
 ---
 

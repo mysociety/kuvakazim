@@ -1,6 +1,5 @@
 ---
 title: Hansard
-slug: hansard
 permalink: "/info/hansard/"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Democracy Resources
-slug: m-democracy-resources
 permalink: "/info/m-democracy-resources/"
 ---
 

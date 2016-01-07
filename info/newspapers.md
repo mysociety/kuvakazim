@@ -1,6 +1,5 @@
 ---
 title: Newspapers
-slug: newspapers
 permalink: "/info/newspapers/"
 ---
 

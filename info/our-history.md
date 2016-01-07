@@ -1,6 +1,5 @@
 ---
 title: Our History
-slug: our-history
 permalink: "/info/our-history/"
 ---
 

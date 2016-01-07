@@ -1,6 +1,5 @@
 ---
 title: About Us
-slug: about
 permalink: "/info/about/"
 ---
 

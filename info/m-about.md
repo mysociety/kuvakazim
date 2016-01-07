@@ -1,6 +1,5 @@
 ---
 title: About
-slug: m-about
 permalink: "/info/m-about/"
 ---
 

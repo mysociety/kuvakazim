@@ -1,6 +1,5 @@
 ---
 title: Parliament Overview
-slug: m-parliament
 permalink: "/info/m-parliament/"
 ---
 

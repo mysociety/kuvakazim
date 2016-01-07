@@ -1,6 +1,5 @@
 ---
 title: Partners
-slug: partners
 permalink: "/info/partners/"
 ---
 

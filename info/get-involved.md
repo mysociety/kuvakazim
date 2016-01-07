@@ -1,6 +1,5 @@
 ---
 title: Get Involved
-slug: get-involved
 permalink: "/info/get-involved/"
 ---
 

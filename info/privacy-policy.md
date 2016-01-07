@@ -1,6 +1,5 @@
 ---
 title: Privacy Policy
-slug: privacy-policy
 permalink: "/info/privacy-policy/"
 ---
 
