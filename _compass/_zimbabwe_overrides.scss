@@ -477,3 +477,11 @@ ul.position-listing {
         max-width: 14em;
     }
 }
+
+// Featured people carousel
+.js-slide {
+    display: none;
+    &:first-child {
+        display: block;
+    }
+}
