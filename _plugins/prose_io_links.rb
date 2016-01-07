@@ -19,6 +19,15 @@ module Jekyll
         }
       end
 
+      site.collections.each do |_name, collection|
+        links += collection.docs.map do |doc|
+          {
+            text: doc.data['title'],
+            href: doc.url
+          }
+        end
+      end
+
       self.data = {}
       self.content = "callback(#{JSON.pretty_generate(links)})"
 
