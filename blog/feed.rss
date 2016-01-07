@@ -5,20 +5,9 @@
     <description></description>
     <link>http://staging.kuvakazim.com/</link>
     <atom:link href="http://staging.kuvakazim.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jan 2016 10:20:03 +0000</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 10:20:03 +0000</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 11:21:05 +0000</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 11:21:05 +0000</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
-    
-      <item>
-        <title>Testing creating a post</title>
-        <description>&lt;p&gt;Here’s an example post.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://staging.kuvakazim.com/blog/testing-creating-a-post/</link>
-        <guid isPermaLink="true">http://staging.kuvakazim.com/blog/testing-creating-a-post/</guid>
-        
-        
-      </item>
     
       <item>
         <title>Why KuvakaZim?</title>
