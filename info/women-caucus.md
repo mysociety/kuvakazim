@@ -1,6 +1,5 @@
 ---
 title: Women Caucus
-slug: women-caucus
 permalink: "/info/women-caucus/"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Citizens Rights and Freedoms
-slug: citizens-rights-freedoms
 permalink: "/info/citizens-rights-freedoms/"
 ---
 

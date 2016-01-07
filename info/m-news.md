@@ -1,6 +1,5 @@
 ---
 title: News
-slug: m-news
 permalink: "/info/m-news/"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: KuvakaZim Overview
-slug: kuvakazim-overview
 permalink: "/info/kuvakazim-overview/"
 ---
 

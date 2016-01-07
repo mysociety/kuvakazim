@@ -1,6 +1,5 @@
 ---
 title: Committee Overview
-slug: committee-overview
 permalink: "/info/committee-overview/"
 ---
 

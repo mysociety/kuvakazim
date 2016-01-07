@@ -1,6 +1,5 @@
 ---
 title: The Constitution of Zimbabwe 2013
-slug: constitution--zimbabwe-2013
 permalink: "/info/constitution--zimbabwe-2013/"
 ---
 

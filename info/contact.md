@@ -1,6 +1,5 @@
 ---
 title: Contact Page
-slug: contact
 permalink: "/info/contact/"
 ---
 

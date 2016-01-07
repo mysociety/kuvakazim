@@ -1,6 +1,5 @@
 ---
 title: Electoral Law and Legislation
-slug: electoral-law-and-legislation
 permalink: "/info/electoral-law-and-legislation/"
 ---
 

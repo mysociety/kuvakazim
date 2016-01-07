@@ -1,6 +1,5 @@
 ---
 title: Newsletter
-slug: newsletter
 permalink: "/info/newsletter/"
 ---
 

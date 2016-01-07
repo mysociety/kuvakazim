@@ -1,6 +1,5 @@
 ---
 title: The Main Political Parties in Zimbabwe
-slug: political-parties
 permalink: "/info/political-parties/"
 ---
 
