@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: Testing creating a post
 ---
+
 
 Here's an example post.
