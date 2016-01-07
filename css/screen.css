@@ -4185,3 +4185,12 @@ ul.position-listing li .image-wrapper {
   width: auto;
   max-width: 14em;
 }
+
+/* line 482, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.js-slide {
+  display: none;
+}
+/* line 484, ../../../../home/travis/build/mysociety/kuvakazim/_compass/_zimbabwe_overrides.scss */
+.js-slide:first-child {
+  display: block;
+}

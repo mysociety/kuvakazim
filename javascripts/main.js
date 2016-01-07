@@ -21,6 +21,46 @@ jQuery(function($) {
   }
 });
 
+// Featured people
+(function($) {
+  var nextSlide = function nextSlide(e){
+    e.preventDefault();
+    var $slides = $('.js-slide');
+    var $visible = $slides.filter(':visible');
+    $visible.hide();
+    if($visible.is('.js-slide:last')){
+      $slides.filter('.js-slide:first').show();
+    } else {
+      $visible.next('.js-slide').show();
+    }
+  }
+
+  var previousSlide = function previousSlide(e){
+    e.preventDefault();
+    var $slides = $('.js-slide');
+    var $visible = $slides.filter(':visible');
+    $visible.hide();
+    if($visible.is('.js-slide:first')){
+      $slides.filter('.js-slide:last').show();
+    } else {
+      $visible.prev('.js-slide').show();
+    }
+  }
+
+  $(function(){
+    $('<a href="#">')
+      .addClass('feature-prev')
+      .text('Previous ')
+      .on('click', previousSlide)
+      .appendTo('.js-feature-nav');
+    $('<a href="#">')
+      .addClass('feature-next')
+      .text('Next')
+      .on('click', nextSlide)
+      .appendTo('.js-feature-nav');
+  });
+})(window.jQuery);
+
 /**
 * @preserve HTML5 Shiv 3.7.3 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 */
