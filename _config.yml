@@ -5,8 +5,8 @@
 
 # Site settings
 title: KuvakaZim
-email: chrism@mysociety.org
-url: "http://staging.kuvakazim.com"
+email: info@kuvakazim.com
+url: "http://www.kuvakazim.com"
 twitter_username: KuvakaZim
 google_analytics:
   tracking_code: UA-45828301-1
@@ -78,8 +78,8 @@ collections:
     permalink: '/senate/place/:path/'
 
 prose:
-  siteurl: http://staging.kuvakazim.com
-  relativeLinks: http://staging.kuvakazim.com/links.jsonp
+  siteurl: http://www.kuvakazim.com
+  relativeLinks: http://www.kuvakazim.com/links.jsonp
   media: media_root
   ignore:
     - '*'
