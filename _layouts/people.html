@@ -19,40 +19,39 @@ layout: default
     <h1>{{ person.name }}</h1>
     <p>Politician profile</p>
     {% if page.email %}
-    <div class="title-space__actions">
-      {% writeinpublic_link page.id class: 'button button--social button--social--writeinpublic button--full-width' %}
-        Write to {{ page.name }} on WriteInPublic
-      {% endwriteinpublic_link %}
-    </div>
-    {% endif %}
+  <div class="title-space__actions">
+    {% writeinpublic_link page.id class: 'button button--social button--social--writeinpublic' %}
+      Write to {{ page.name }} on WriteInPublic
+    {% endwriteinpublic_link %}
   </div>
+  {% endif %}
+  </div>
+
 </div>
 
 <div class="profile-info">
-
-  <div class="sidebar">
-    <div class="constituency-party">
-
-      {% if area %}
-      <h3>Constituency</h3>
-      <ul>
-        <li><a href="{{ area.url }}">{{ area.name }}</a></li>
-      </ul>
-      {% endif %}
-
-      <h3>Party</h3>
-      <ul class="party-memberships">
-        <li><a href="{{ party.url }}" class="party-membership party-membership--political-party">{{ party.name }}</a></li>
-      </ul>
-    </div>
-  </div>
 
   {% include social.html %}
 
 </div>
 
 <div class="large-container profile-bulk">
-
+  <div class="constituency-party">
+    {% if area %}
+    <div class="constituency-party__constituency">
+      <h2>Constituency</h2>
+      <ul>
+        <li><a href="{{ area.url }}">{{ area.name }}</a></li>
+      </ul>
+    </div>
+    {% endif %}
+    <div class="constituency-party__party">
+      <h2>Party</h2>
+      <ul class="party-memberships">
+        <li><a href="{{ party.url }}" class="party-membership party-membership--political-party">{{ party.name }}</a></li>
+      </ul>
+    </div>
+  </div>
   {% if person.summary %}
   <h2>Summary</h2>
   <div class="person-summary">

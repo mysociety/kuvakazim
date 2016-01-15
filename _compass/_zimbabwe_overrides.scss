@@ -214,7 +214,19 @@ a {
     }
 }
 
-.title-space__actions {}
+.title-space__actions {
+    margin-bottom: 10px;
+    @media only all and (min-width: 640px) {
+        margin-bottom: 0;
+    }
+}
+
+.button--social--writeinpublic {
+    width: 100%;
+    @media only all and (min-width: 640px) {
+        width: auto;
+    }
+}
 
 .profile-pic {
     position: static;
@@ -241,6 +253,22 @@ a {
         background-color: transparent;
         color: $colour_links;
     }
+}
+
+.constituency-party__constituency {
+    @media only all and (min-width: 640px) {
+        width: 48%;
+        float: left;
+    }
+}
+
+.constituency-party__party {
+    @media only all and (min-width: 640px) {
+        width: 48%;
+        float: left;
+        margin-left: 4%;
+    }
+
 }
 
 .experience__item {
@@ -281,7 +309,6 @@ a.experience__item {
 }
 
 .social-sharing {
-    margin-top: 2em;
     ul {
         @extend .unstyled-list;
     }
@@ -446,6 +473,8 @@ ul.position-listing {
     padding: 0;
     margin: 0;
     max-width: 600px;
+    min-height: 13em;
+    position: relative;
     .featured-person-info {
         min-height: 0;
         @media only all and (min-width: 640px), print {
@@ -457,15 +486,28 @@ ul.position-listing {
             }
         }
     }
+    .js-slide {
+        position: relative;
+    }
     img {
         border: 1px solid #e9e9e9;
+        float: none;
+        position: absolute;
+        top: -1.5em;
+        left: 0;
     }
 }
 
+.featured-person-info {
+    margin-top: 1.5em;
+}
+
 .feature-nav {
-    margin-left: 110px;
+    position: absolute;
+    top: 0;
+    left: 110px;
     @media only all and (min-width: 640px), print {
-        margin-left: 175px;
+        left: 175px;
     }
 }
 
@@ -475,6 +517,7 @@ ul.position-listing {
     text-transform: uppercase;
     font-weight: bold;
     color: $colour_grey;
+    margin-right: 1em;
 }
 
 #header-search {
