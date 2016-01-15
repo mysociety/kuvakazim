@@ -75,6 +75,25 @@ a {
     }
 }
 
+#page {
+    //fix loads of weird mobile stuff
+    h2, h3 {
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid $colour_muted;
+        padding: 0;
+    }
+}
+
+.page-title {
+    background-color: transparent;
+    margin-top: 1em;
+}
+
+.infopage {
+    max-width: 43em;
+}
+
 #logo {
   height: 60px;
   background-size: 147px 42px;
@@ -214,7 +233,19 @@ a {
     }
 }
 
-.title-space__actions {}
+.title-space__actions {
+    margin-bottom: 10px;
+    @media only all and (min-width: 640px) {
+        margin-bottom: 0;
+    }
+}
+
+.button--social--writeinpublic {
+    width: 100%;
+    @media only all and (min-width: 640px) {
+        width: auto;
+    }
+}
 
 .profile-pic {
     position: static;
@@ -225,9 +256,6 @@ a {
         max-width: 210px;
         margin-right: 30px;
     }
-}
-
-.sidebar {
 }
 
 .constituency-party li a {
@@ -241,6 +269,22 @@ a {
         background-color: transparent;
         color: $colour_links;
     }
+}
+
+.constituency-party__constituency {
+    @media only all and (min-width: 640px) {
+        width: 48%;
+        float: left;
+    }
+}
+
+.constituency-party__party {
+    @media only all and (min-width: 640px) {
+        width: 48%;
+        float: left;
+        margin-left: 4%;
+    }
+
 }
 
 .experience__item {
@@ -281,7 +325,6 @@ a.experience__item {
 }
 
 .social-sharing {
-    margin-top: 2em;
     ul {
         @extend .unstyled-list;
     }
