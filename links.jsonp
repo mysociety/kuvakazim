@@ -380,6 +380,10 @@ callback([
     "href": "/assembly/person/982c56ca-2136-4ccd-844c-c0014df0e609/"
   },
   {
+    "text": "Godfrey N Malaba",
+    "href": "/assembly/person/3895d4c2-e0b0-4144-abab-2db52295877c/"
+  },
+  {
     "text": "Godfrey Sithole",
     "href": "/assembly/person/56efeaed-b8ba-48e9-b3e9-e600a3e91686/"
   },
@@ -390,6 +394,10 @@ callback([
   {
     "text": "Harris Ncube",
     "href": "/assembly/person/27f6c9b1-1c9e-4601-be11-b2c062eec662/"
+  },
+  {
+    "text": "Hazvineyi Z Makari",
+    "href": "/assembly/person/e1f890e5-89c6-474e-988f-b1e29c537571/"
   },
   {
     "text": "Hubert Nyanhongo",
@@ -466,6 +474,10 @@ callback([
   {
     "text": "Joseph Mapiki",
     "href": "/assembly/person/d70684a4-97c7-4aa9-a593-cfd10530ff27/"
+  },
+  {
+    "text": "Joseph Tshuma",
+    "href": "/assembly/person/3e6e420c-b3e2-4c8f-b9c9-e8c18fa48b51/"
   },
   {
     "text": "Josephat Madubeko",
@@ -562,6 +574,10 @@ callback([
   {
     "text": "Mafios Vutete",
     "href": "/assembly/person/088ef39d-5afa-40f6-b469-38deb07a32e3/"
+  },
+  {
+    "text": "Maideyi Mpala",
+    "href": "/assembly/person/5a6b2890-f43e-4514-b27e-91ff88e2ec2d/"
   },
   {
     "text": "Makhosini Hlongwane",
@@ -692,6 +708,10 @@ callback([
     "href": "/assembly/person/a4eed76a-2b7a-4d9c-80e5-c19878a66960/"
   },
   {
+    "text": "Omega S Hungwe",
+    "href": "/assembly/person/186cd49d-494e-46a3-977f-292a0822d109/"
+  },
+  {
     "text": "Oppah Muchinguri",
     "href": "/assembly/person/97684b55-0540-4768-b9ae-879a846c5260/"
   },
@@ -744,12 +764,20 @@ callback([
     "href": "/assembly/person/227ddcbe-8d4b-498a-8d4e-fdc96def99e1/"
   },
   {
+    "text": "Pius Madzinga",
+    "href": "/assembly/person/66a6eb37-bbe9-45ab-9195-1525af659ebe/"
+  },
+  {
     "text": "Priscilla Misihairabwi-Mushonga",
     "href": "/assembly/person/14d98a4e-9fb3-4f9a-bc19-c3e569251f2f/"
   },
   {
     "text": "Prosper Mutseyami",
     "href": "/assembly/person/4e330a25-b6ca-4b20-8801-cbc0317b4cb4/"
+  },
+  {
+    "text": "Psychology Mazivisa",
+    "href": "/assembly/person/9c51ef68-aa19-48a2-ad58-d74d0abd87fd/"
   },
   {
     "text": "Ray Kaukonde",
@@ -892,6 +920,10 @@ callback([
     "href": "/assembly/person/2d53b781-4ed6-4c2c-9f09-98da97132afd/"
   },
   {
+    "text": "Terence Mukupe",
+    "href": "/assembly/person/62cc8244-2bca-4758-846e-b3c54b11ed9b/"
+  },
+  {
     "text": "Teti Banda",
     "href": "/assembly/person/aa8604c0-1f52-4b15-b44d-23f32b6ec4e7/"
   },
@@ -906,6 +938,10 @@ callback([
   {
     "text": "Thomas Maseko",
     "href": "/assembly/person/3ac53a40-f8ce-41d6-9c97-fe0da3278c89/"
+  },
+  {
+    "text": "Tinashe Maduza",
+    "href": "/assembly/person/f5ae4cc3-0d64-48e4-af30-423a9f27f0a6/"
   },
   {
     "text": "Tionei Melody Dziva",
@@ -930,6 +966,10 @@ callback([
   {
     "text": "Trevor Saruwaka",
     "href": "/assembly/person/9b2417d4-0cbe-492b-87ed-e9b83f50432c/"
+  },
+  {
+    "text": "Tshinga J Dube",
+    "href": "/assembly/person/83b7cd1f-3313-4fa0-a694-81224cfd8eb6/"
   },
   {
     "text": "Tsitsi Gezi",
@@ -1006,6 +1046,10 @@ callback([
   {
     "text": "ZANU PF",
     "href": "/assembly/organisation/party-zanu-pf/"
+  },
+  {
+    "text": "unknown",
+    "href": "/assembly/organisation/party-unknown/"
   },
   {
     "text": "Beitbridge West",
@@ -1176,6 +1220,10 @@ callback([
     "href": "/assembly/place/area-dzivarasekwa/"
   },
   {
+    "text": "Dzivaresekwa",
+    "href": "/assembly/place/area-dzivaresekwa/"
+  },
+  {
     "text": "EmaKhandeni-Entumbane",
     "href": "/assembly/place/area-emakhandeni-entumbane/"
   },
@@ -1286,6 +1334,10 @@ callback([
   {
     "text": "Harare Cental",
     "href": "/assembly/place/area-harare-cental/"
+  },
+  {
+    "text": "Harare East",
+    "href": "/assembly/place/area-harare-east/"
   },
   {
     "text": "Harare North",
@@ -2188,12 +2240,12 @@ callback([
     "href": "/assembly_events/q1154365/"
   },
   {
-    "text": "8th Parliament",
-    "href": "/assembly_events/term-8/"
-  },
-  {
     "text": "Zimbabwean presidential election, 2013",
     "href": "/assembly_events/q3586644/"
+  },
+  {
+    "text": "8th Parliament",
+    "href": "/assembly_events/term-8/"
   },
   {
     "text": "8th Parliament",
