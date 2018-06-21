@@ -1,8 +1,8 @@
 {
   "assembly": {
-    "popolo": "https://cdn.rawgit.com/everypolitician/everypolitician-data/cbd2e3f5b85b6f1f1b5749e4baa65037f69b7df9/data/Zimbabwe/Assembly/ep-popolo-v1.0.json"
+    "popolo": "https://cdn.rawgit.com/everypolitician/everypolitician-data/9a75c94fb3f01a45e5616242dec9743ba96f137f/data/Zimbabwe/Assembly/ep-popolo-v1.0.json"
   },
   "senate": {
-    "popolo": "https://cdn.rawgit.com/everypolitician/everypolitician-data/49e9a2e93ddef2efaa7e3beac8b9b41e66b70205/data/Zimbabwe/Senate/ep-popolo-v1.0.json"
+    "popolo": "https://cdn.rawgit.com/everypolitician/everypolitician-data/9a75c94fb3f01a45e5616242dec9743ba96f137f/data/Zimbabwe/Senate/ep-popolo-v1.0.json"
   }
 }
