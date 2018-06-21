@@ -1033,19 +1033,19 @@ callback([
   },
   {
     "text": "INDEPENDENT",
-    "href": "/assembly/organisation/party-independent/"
+    "href": "/assembly/organisation/independent/"
   },
   {
     "text": "MDC",
-    "href": "/assembly/organisation/party-mdc/"
+    "href": "/assembly/organisation/mdc/"
   },
   {
     "text": "MDC-T",
-    "href": "/assembly/organisation/party-mdc-t/"
+    "href": "/assembly/organisation/mdc-t/"
   },
   {
     "text": "ZANU PF",
-    "href": "/assembly/organisation/party-zanu-pf/"
+    "href": "/assembly/organisation/zanu-pf/"
   },
   {
     "text": "unknown",
@@ -1053,831 +1053,827 @@ callback([
   },
   {
     "text": "Beitbridge West",
-    "href": "/assembly/place/area-beitbridge-west/"
+    "href": "/assembly/place/beitbridge-west/"
   },
   {
     "text": "Bikita East",
-    "href": "/assembly/place/area-bikita-east/"
+    "href": "/assembly/place/bikita-east/"
   },
   {
     "text": "Bikita South",
-    "href": "/assembly/place/area-bikita-south/"
+    "href": "/assembly/place/bikita-south/"
   },
   {
     "text": "Bikita West",
-    "href": "/assembly/place/area-bikita-west/"
+    "href": "/assembly/place/bikita-west/"
   },
   {
     "text": "Bindura North",
-    "href": "/assembly/place/area-bindura-north/"
+    "href": "/assembly/place/bindura-north/"
   },
   {
     "text": "Bindura South",
-    "href": "/assembly/place/area-bindura-south/"
+    "href": "/assembly/place/bindura-south/"
   },
   {
     "text": "Binga North",
-    "href": "/assembly/place/area-binga-north/"
+    "href": "/assembly/place/binga-north/"
   },
   {
     "text": "Bubi",
-    "href": "/assembly/place/area-bubi/"
+    "href": "/assembly/place/bubi/"
   },
   {
     "text": "Budiriro",
-    "href": "/assembly/place/area-budiriro/"
+    "href": "/assembly/place/budiriro/"
   },
   {
     "text": "Buhera Central",
-    "href": "/assembly/place/area-buhera-central/"
+    "href": "/assembly/place/buhera-central/"
   },
   {
     "text": "Buhera North",
-    "href": "/assembly/place/area-buhera-north/"
+    "href": "/assembly/place/buhera-north/"
   },
   {
     "text": "Buhera South",
-    "href": "/assembly/place/area-buhera-south/"
+    "href": "/assembly/place/buhera-south/"
   },
   {
     "text": "Buhera West",
-    "href": "/assembly/place/area-buhera-west/"
+    "href": "/assembly/place/buhera-west/"
   },
   {
     "text": "Bulawayo Central",
-    "href": "/assembly/place/area-bulawayo-central/"
+    "href": "/assembly/place/bulawayo-central/"
   },
   {
     "text": "Bulawayo East",
-    "href": "/assembly/place/area-bulawayo-east/"
+    "href": "/assembly/place/bulawayo-east/"
   },
   {
     "text": "Bulilima East",
-    "href": "/assembly/place/area-bulilima-east/"
+    "href": "/assembly/place/bulilima-east/"
   },
   {
     "text": "Bulilima West",
-    "href": "/assembly/place/area-bulilima-west/"
+    "href": "/assembly/place/bulilima-west/"
   },
   {
     "text": "Chakari",
-    "href": "/assembly/place/area-chakari/"
+    "href": "/assembly/place/chakari/"
   },
   {
     "text": "Chegutu East",
-    "href": "/assembly/place/area-chegutu-east/"
+    "href": "/assembly/place/chegutu-east/"
   },
   {
     "text": "Chegutu West",
-    "href": "/assembly/place/area-chegutu-west/"
+    "href": "/assembly/place/chegutu-west/"
   },
   {
     "text": "Chikomba Central",
-    "href": "/assembly/place/area-chikomba-central/"
+    "href": "/assembly/place/chikomba-central/"
   },
   {
     "text": "Chikomba East",
-    "href": "/assembly/place/area-chikomba-east/"
+    "href": "/assembly/place/chikomba-east/"
   },
   {
     "text": "Chikomba West",
-    "href": "/assembly/place/area-chikomba-west/"
+    "href": "/assembly/place/chikomba-west/"
   },
   {
     "text": "Chimanimani East",
-    "href": "/assembly/place/area-chimanimani-east/"
+    "href": "/assembly/place/chimanimani-east/"
   },
   {
     "text": "Chimanimani West",
-    "href": "/assembly/place/area-chimanimani-west/"
+    "href": "/assembly/place/chimanimani-west/"
   },
   {
     "text": "Chinhoyi",
-    "href": "/assembly/place/area-chinhoyi/"
+    "href": "/assembly/place/chinhoyi/"
   },
   {
     "text": "Chipinge Central",
-    "href": "/assembly/place/area-chipinge-central/"
+    "href": "/assembly/place/chipinge-central/"
   },
   {
     "text": "Chipinge East",
-    "href": "/assembly/place/area-chipinge-east/"
+    "href": "/assembly/place/chipinge-east/"
   },
   {
     "text": "Chipinge South",
-    "href": "/assembly/place/area-chipinge-south/"
+    "href": "/assembly/place/chipinge-south/"
   },
   {
     "text": "Chipinge West",
-    "href": "/assembly/place/area-chipinge-west/"
+    "href": "/assembly/place/chipinge-west/"
   },
   {
     "text": "Chiredzi East",
-    "href": "/assembly/place/area-chiredzi-east/"
+    "href": "/assembly/place/chiredzi-east/"
   },
   {
     "text": "Chiredzi North",
-    "href": "/assembly/place/area-chiredzi-north/"
+    "href": "/assembly/place/chiredzi-north/"
   },
   {
     "text": "Chiredzi South",
-    "href": "/assembly/place/area-chiredzi-south/"
+    "href": "/assembly/place/chiredzi-south/"
   },
   {
     "text": "Chirumanzu",
-    "href": "/assembly/place/area-chirumanzu/"
+    "href": "/assembly/place/chirumanzu/"
   },
   {
     "text": "Chitungwiza North",
-    "href": "/assembly/place/area-chitungwiza-north/"
+    "href": "/assembly/place/chitungwiza-north/"
   },
   {
     "text": "Chivi Central",
-    "href": "/assembly/place/area-chivi-central/"
+    "href": "/assembly/place/chivi-central/"
   },
   {
     "text": "Chivi North",
-    "href": "/assembly/place/area-chivi-north/"
+    "href": "/assembly/place/chivi-north/"
   },
   {
     "text": "Chivi South",
-    "href": "/assembly/place/area-chivi-south/"
+    "href": "/assembly/place/chivi-south/"
   },
   {
     "text": "Chiwundura",
-    "href": "/assembly/place/area-chiwundura/"
+    "href": "/assembly/place/chiwundura/"
   },
   {
     "text": "Chutungwiza South",
-    "href": "/assembly/place/area-chutungwiza-south/"
+    "href": "/assembly/place/chutungwiza-south/"
   },
   {
     "text": "Dangamvura-Chikanga",
-    "href": "/assembly/place/area-dangamvura-chikanga/"
+    "href": "/assembly/place/dangamvura-chikanga/"
   },
   {
     "text": "Dzivarasekwa",
-    "href": "/assembly/place/area-dzivarasekwa/"
+    "href": "/assembly/place/dzivarasekwa/"
   },
   {
     "text": "Dzivaresekwa",
-    "href": "/assembly/place/area-dzivaresekwa/"
+    "href": "/assembly/place/dzivaresekwa/"
   },
   {
     "text": "EmaKhandeni-Entumbane",
-    "href": "/assembly/place/area-emakhandeni-entumbane/"
+    "href": "/assembly/place/emakhandeni-entumbane/"
   },
   {
     "text": "Epworth",
-    "href": "/assembly/place/area-epworth/"
+    "href": "/assembly/place/epworth/"
   },
   {
     "text": "Glen Norah",
-    "href": "/assembly/place/area-glen-norah/"
+    "href": "/assembly/place/glen-norah/"
   },
   {
     "text": "Glen View South",
-    "href": "/assembly/place/area-glen-view-south/"
+    "href": "/assembly/place/glen-view-south/"
   },
   {
     "text": "Gokwe",
-    "href": "/assembly/place/area-gokwe/"
+    "href": "/assembly/place/gokwe/"
   },
   {
     "text": "Gokwe-Chireya",
-    "href": "/assembly/place/area-gokwe-chireya/"
+    "href": "/assembly/place/gokwe-chireya/"
   },
   {
     "text": "Gokwe-Gumunyu",
-    "href": "/assembly/place/area-gokwe-gumunyu/"
+    "href": "/assembly/place/gokwe-gumunyu/"
   },
   {
     "text": "Gokwe-Kabuyuni",
-    "href": "/assembly/place/area-gokwe-kabuyuni/"
+    "href": "/assembly/place/gokwe-kabuyuni/"
   },
   {
     "text": "Gokwe-Kana",
-    "href": "/assembly/place/area-gokwe-kana/"
+    "href": "/assembly/place/gokwe-kana/"
   },
   {
     "text": "Gokwe-Mapfungautsi",
-    "href": "/assembly/place/area-gokwe-mapfungautsi/"
+    "href": "/assembly/place/gokwe-mapfungautsi/"
   },
   {
     "text": "Gokwe-Nembudziya",
-    "href": "/assembly/place/area-gokwe-nembudziya/"
+    "href": "/assembly/place/gokwe-nembudziya/"
   },
   {
     "text": "Gokwe-Sengwe",
-    "href": "/assembly/place/area-gokwe-sengwe/"
+    "href": "/assembly/place/gokwe-sengwe/"
   },
   {
     "text": "Gokwe-Sesame",
-    "href": "/assembly/place/area-gokwe-sesame/"
+    "href": "/assembly/place/gokwe-sesame/"
   },
   {
     "text": "Goromonzi North",
-    "href": "/assembly/place/area-goromonzi-north/"
+    "href": "/assembly/place/goromonzi-north/"
   },
   {
     "text": "Goromonzi South",
-    "href": "/assembly/place/area-goromonzi-south/"
+    "href": "/assembly/place/goromonzi-south/"
   },
   {
     "text": "Goromonzi West",
-    "href": "/assembly/place/area-goromonzi-west/"
+    "href": "/assembly/place/goromonzi-west/"
   },
   {
     "text": "Guruve North",
-    "href": "/assembly/place/area-guruve-north/"
+    "href": "/assembly/place/guruve-north/"
   },
   {
     "text": "Guruve South",
-    "href": "/assembly/place/area-guruve-south/"
+    "href": "/assembly/place/guruve-south/"
   },
   {
     "text": "Gutu Central",
-    "href": "/assembly/place/area-gutu-central/"
+    "href": "/assembly/place/gutu-central/"
   },
   {
     "text": "Gutu East",
-    "href": "/assembly/place/area-gutu-east/"
+    "href": "/assembly/place/gutu-east/"
   },
   {
     "text": "Gutu South",
-    "href": "/assembly/place/area-gutu-south/"
+    "href": "/assembly/place/gutu-south/"
   },
   {
     "text": "Gutu West",
-    "href": "/assembly/place/area-gutu-west/"
+    "href": "/assembly/place/gutu-west/"
   },
   {
     "text": "Gwanda Central",
-    "href": "/assembly/place/area-gwanda-central/"
+    "href": "/assembly/place/gwanda-central/"
   },
   {
     "text": "Gwanda North",
-    "href": "/assembly/place/area-gwanda-north/"
+    "href": "/assembly/place/gwanda-north/"
   },
   {
     "text": "Gwanda South",
-    "href": "/assembly/place/area-gwanda-south/"
+    "href": "/assembly/place/gwanda-south/"
   },
   {
     "text": "Gweru Urban",
-    "href": "/assembly/place/area-gweru-urban/"
+    "href": "/assembly/place/gweru-urban/"
   },
   {
     "text": "Harare",
-    "href": "/assembly/place/area-harare/"
+    "href": "/assembly/place/harare/"
   },
   {
     "text": "Harare Cental",
-    "href": "/assembly/place/area-harare-cental/"
+    "href": "/assembly/place/harare-cental/"
   },
   {
     "text": "Harare East",
-    "href": "/assembly/place/area-harare-east/"
+    "href": "/assembly/place/harare-east/"
   },
   {
     "text": "Harare North",
-    "href": "/assembly/place/area-harare-north/"
+    "href": "/assembly/place/harare-north/"
   },
   {
     "text": "Harare South",
-    "href": "/assembly/place/area-harare-south/"
+    "href": "/assembly/place/harare-south/"
   },
   {
     "text": "Harare West",
-    "href": "/assembly/place/area-harare-west/"
+    "href": "/assembly/place/harare-west/"
   },
   {
     "text": "Hatfield",
-    "href": "/assembly/place/area-hatfield/"
+    "href": "/assembly/place/hatfield/"
   },
   {
     "text": "Headlands",
-    "href": "/assembly/place/area-headlands/"
+    "href": "/assembly/place/headlands/"
   },
   {
     "text": "Highfield East",
-    "href": "/assembly/place/area-highfield-east/"
+    "href": "/assembly/place/highfield-east/"
   },
   {
     "text": "Highfield West",
-    "href": "/assembly/place/area-highfield-west/"
+    "href": "/assembly/place/highfield-west/"
   },
   {
     "text": "Hurungwe Central",
-    "href": "/assembly/place/area-hurungwe-central/"
+    "href": "/assembly/place/hurungwe-central/"
   },
   {
     "text": "Hurungwe East",
-    "href": "/assembly/place/area-hurungwe-east/"
+    "href": "/assembly/place/hurungwe-east/"
   },
   {
     "text": "Hurungwe North",
-    "href": "/assembly/place/area-hurungwe-north/"
+    "href": "/assembly/place/hurungwe-north/"
   },
   {
     "text": "Hurungwe West",
-    "href": "/assembly/place/area-hurungwe-west/"
+    "href": "/assembly/place/hurungwe-west/"
   },
   {
     "text": "Hwange East",
-    "href": "/assembly/place/area-hwange-east/"
+    "href": "/assembly/place/hwange-east/"
   },
   {
     "text": "Hwange West",
-    "href": "/assembly/place/area-hwange-west/"
+    "href": "/assembly/place/hwange-west/"
   },
   {
     "text": "Insiza South",
-    "href": "/assembly/place/area-insiza-south/"
+    "href": "/assembly/place/insiza-south/"
   },
   {
     "text": "Insizo North",
-    "href": "/assembly/place/area-insizo-north/"
+    "href": "/assembly/place/insizo-north/"
   },
   {
     "text": "Kadoma Central",
-    "href": "/assembly/place/area-kadoma-central/"
+    "href": "/assembly/place/kadoma-central/"
   },
   {
     "text": "Kambuzuma",
-    "href": "/assembly/place/area-kambuzuma/"
+    "href": "/assembly/place/kambuzuma/"
   },
   {
     "text": "Kariba",
-    "href": "/assembly/place/area-kariba/"
+    "href": "/assembly/place/kariba/"
   },
   {
     "text": "Kuwadzana",
-    "href": "/assembly/place/area-kuwadzana/"
+    "href": "/assembly/place/kuwadzana/"
   },
   {
     "text": "Kuwadzana East",
-    "href": "/assembly/place/area-kuwadzana-east/"
+    "href": "/assembly/place/kuwadzana-east/"
   },
   {
     "text": "Kwekwe Central",
-    "href": "/assembly/place/area-kwekwe-central/"
+    "href": "/assembly/place/kwekwe-central/"
   },
   {
     "text": "Lobengula",
-    "href": "/assembly/place/area-lobengula/"
+    "href": "/assembly/place/lobengula/"
   },
   {
     "text": "Lupane East",
-    "href": "/assembly/place/area-lupane-east/"
+    "href": "/assembly/place/lupane-east/"
   },
   {
     "text": "Lupane West",
-    "href": "/assembly/place/area-lupane-west/"
+    "href": "/assembly/place/lupane-west/"
   },
   {
     "text": "Luveve",
-    "href": "/assembly/place/area-luveve/"
+    "href": "/assembly/place/luveve/"
   },
   {
     "text": "Mabvuku-Tafara",
-    "href": "/assembly/place/area-mabvuku-tafara/"
+    "href": "/assembly/place/mabvuku-tafara/"
   },
   {
     "text": "Magunje",
-    "href": "/assembly/place/area-magunje/"
+    "href": "/assembly/place/magunje/"
   },
   {
     "text": "Magwegwe",
-    "href": "/assembly/place/area-magwegwe/"
+    "href": "/assembly/place/magwegwe/"
   },
   {
     "text": "Makokoba",
-    "href": "/assembly/place/area-makokoba/"
+    "href": "/assembly/place/makokoba/"
   },
   {
     "text": "Makonde",
-    "href": "/assembly/place/area-makonde/"
+    "href": "/assembly/place/makonde/"
   },
   {
     "text": "Makoni Central",
-    "href": "/assembly/place/area-makoni-central/"
+    "href": "/assembly/place/makoni-central/"
   },
   {
     "text": "Makoni North",
-    "href": "/assembly/place/area-makoni-north/"
+    "href": "/assembly/place/makoni-north/"
   },
   {
     "text": "Makoni South",
-    "href": "/assembly/place/area-makoni-south/"
+    "href": "/assembly/place/makoni-south/"
   },
   {
     "text": "Makoni West",
-    "href": "/assembly/place/area-makoni-west/"
+    "href": "/assembly/place/makoni-west/"
   },
   {
     "text": "Mangwe",
-    "href": "/assembly/place/area-mangwe/"
+    "href": "/assembly/place/mangwe/"
   },
   {
     "text": "Manicaland",
-    "href": "/assembly/place/area-manicaland/"
+    "href": "/assembly/place/manicaland/"
   },
   {
     "text": "Maramba Pfungwe",
-    "href": "/assembly/place/area-maramba-pfungwe/"
+    "href": "/assembly/place/maramba-pfungwe/"
   },
   {
     "text": "Marondera Central",
-    "href": "/assembly/place/area-marondera-central/"
+    "href": "/assembly/place/marondera-central/"
   },
   {
     "text": "Marondera West",
-    "href": "/assembly/place/area-marondera-west/"
+    "href": "/assembly/place/marondera-west/"
   },
   {
     "text": "Mashonaland central",
-    "href": "/assembly/place/area-mashonaland-central/"
+    "href": "/assembly/place/mashonaland-central/"
   },
   {
     "text": "Mashonaland East",
-    "href": "/assembly/place/area-mashonaland-east/"
+    "href": "/assembly/place/mashonaland-east/"
   },
   {
     "text": "Mashonaland West",
-    "href": "/assembly/place/area-mashonaland-west/"
+    "href": "/assembly/place/mashonaland-west/"
   },
   {
     "text": "Masvingo",
-    "href": "/assembly/place/area-masvingo/"
+    "href": "/assembly/place/masvingo/"
   },
   {
     "text": "Masvingo Central",
-    "href": "/assembly/place/area-masvingo-central/"
+    "href": "/assembly/place/masvingo-central/"
   },
   {
     "text": "Masvingo North",
-    "href": "/assembly/place/area-masvingo-north/"
+    "href": "/assembly/place/masvingo-north/"
   },
   {
     "text": "Masvingo South",
-    "href": "/assembly/place/area-masvingo-south/"
+    "href": "/assembly/place/masvingo-south/"
   },
   {
     "text": "Masvingo Urban",
-    "href": "/assembly/place/area-masvingo-urban/"
+    "href": "/assembly/place/masvingo-urban/"
   },
   {
     "text": "Masvingo West",
-    "href": "/assembly/place/area-masvingo-west/"
+    "href": "/assembly/place/masvingo-west/"
   },
   {
     "text": "Matebeleland South",
-    "href": "/assembly/place/area-matebeleland-south/"
+    "href": "/assembly/place/matebeleland-south/"
   },
   {
     "text": "Matobo North",
-    "href": "/assembly/place/area-matobo-north/"
+    "href": "/assembly/place/matobo-north/"
   },
   {
     "text": "Matobo South",
-    "href": "/assembly/place/area-matobo-south/"
+    "href": "/assembly/place/matobo-south/"
   },
   {
     "text": "Mazowe Central",
-    "href": "/assembly/place/area-mazowe-central/"
+    "href": "/assembly/place/mazowe-central/"
   },
   {
     "text": "Mazowe North",
-    "href": "/assembly/place/area-mazowe-north/"
+    "href": "/assembly/place/mazowe-north/"
   },
   {
     "text": "Mazowe South",
-    "href": "/assembly/place/area-mazowe-south/"
+    "href": "/assembly/place/mazowe-south/"
   },
   {
     "text": "Mazowe West",
-    "href": "/assembly/place/area-mazowe-west/"
+    "href": "/assembly/place/mazowe-west/"
   },
   {
     "text": "Mbare",
-    "href": "/assembly/place/area-mbare/"
+    "href": "/assembly/place/mbare/"
   },
   {
     "text": "Mberengwa East",
-    "href": "/assembly/place/area-mberengwa-east/"
+    "href": "/assembly/place/mberengwa-east/"
   },
   {
     "text": "Mberengwa South",
-    "href": "/assembly/place/area-mberengwa-south/"
+    "href": "/assembly/place/mberengwa-south/"
   },
   {
     "text": "Mberengwa West",
-    "href": "/assembly/place/area-mberengwa-west/"
+    "href": "/assembly/place/mberengwa-west/"
   },
   {
     "text": "Mbire",
-    "href": "/assembly/place/area-mbire/"
+    "href": "/assembly/place/mbire/"
   },
   {
     "text": "Mbizo",
-    "href": "/assembly/place/area-mbizo/"
+    "href": "/assembly/place/mbizo/"
   },
   {
     "text": "Mhangura",
-    "href": "/assembly/place/area-mhangura/"
+    "href": "/assembly/place/mhangura/"
   },
   {
     "text": "Mhondoro-Mubaira",
-    "href": "/assembly/place/area-mhondoro-mubaira/"
+    "href": "/assembly/place/mhondoro-mubaira/"
   },
   {
     "text": "Mhondoro-Ngezi",
-    "href": "/assembly/place/area-mhondoro-ngezi/"
+    "href": "/assembly/place/mhondoro-ngezi/"
   },
   {
     "text": "Midlands",
-    "href": "/assembly/place/area-midlands/"
+    "href": "/assembly/place/midlands/"
   },
   {
     "text": "Mt Darwin East",
-    "href": "/assembly/place/area-mt-darwin-east/"
+    "href": "/assembly/place/mt-darwin-east/"
   },
   {
     "text": "Mt Darwin North",
-    "href": "/assembly/place/area-mt-darwin-north/"
+    "href": "/assembly/place/mt-darwin-north/"
   },
   {
     "text": "Mt Darwin West",
-    "href": "/assembly/place/area-mt-darwin-west/"
+    "href": "/assembly/place/mt-darwin-west/"
   },
   {
     "text": "Mt Pleasant",
-    "href": "/assembly/place/area-mt-pleasant/"
+    "href": "/assembly/place/mt-pleasant/"
   },
   {
     "text": "Mudzi North",
-    "href": "/assembly/place/area-mudzi-north/"
+    "href": "/assembly/place/mudzi-north/"
   },
   {
     "text": "Mudzi South",
-    "href": "/assembly/place/area-mudzi-south/"
+    "href": "/assembly/place/mudzi-south/"
   },
   {
     "text": "Mudzi West",
-    "href": "/assembly/place/area-mudzi-west/"
+    "href": "/assembly/place/mudzi-west/"
   },
   {
     "text": "Mufakose",
-    "href": "/assembly/place/area-mufakose/"
+    "href": "/assembly/place/mufakose/"
   },
   {
     "text": "Murehwa North",
-    "href": "/assembly/place/area-murehwa-north/"
+    "href": "/assembly/place/murehwa-north/"
   },
   {
     "text": "Murehwa South",
-    "href": "/assembly/place/area-murehwa-south/"
+    "href": "/assembly/place/murehwa-south/"
   },
   {
     "text": "Murehwa West",
-    "href": "/assembly/place/area-murehwa-west/"
+    "href": "/assembly/place/murehwa-west/"
   },
   {
     "text": "Musikavanhu",
-    "href": "/assembly/place/area-musikavanhu/"
+    "href": "/assembly/place/musikavanhu/"
   },
   {
     "text": "Mutare Central",
-    "href": "/assembly/place/area-mutare-central/"
+    "href": "/assembly/place/mutare-central/"
   },
   {
     "text": "Mutare North",
-    "href": "/assembly/place/area-mutare-north/"
+    "href": "/assembly/place/mutare-north/"
   },
   {
     "text": "Mutare South",
-    "href": "/assembly/place/area-mutare-south/"
+    "href": "/assembly/place/mutare-south/"
   },
   {
     "text": "Mutare West",
-    "href": "/assembly/place/area-mutare-west/"
+    "href": "/assembly/place/mutare-west/"
   },
   {
     "text": "Mutasa Central",
-    "href": "/assembly/place/area-mutasa-central/"
+    "href": "/assembly/place/mutasa-central/"
   },
   {
     "text": "Mutasa North",
-    "href": "/assembly/place/area-mutasa-north/"
+    "href": "/assembly/place/mutasa-north/"
   },
   {
     "text": "Mutasa South",
-    "href": "/assembly/place/area-mutasa-south/"
+    "href": "/assembly/place/mutasa-south/"
   },
   {
     "text": "Mutoko East",
-    "href": "/assembly/place/area-mutoko-east/"
+    "href": "/assembly/place/mutoko-east/"
   },
   {
     "text": "Mutoko North",
-    "href": "/assembly/place/area-mutoko-north/"
+    "href": "/assembly/place/mutoko-north/"
   },
   {
     "text": "Mutoko South",
-    "href": "/assembly/place/area-mutoko-south/"
+    "href": "/assembly/place/mutoko-south/"
   },
   {
     "text": "Muzarabani North",
-    "href": "/assembly/place/area-muzarabani-north/"
+    "href": "/assembly/place/muzarabani-north/"
   },
   {
     "text": "Muzarabani south",
-    "href": "/assembly/place/area-muzarabani-south/"
+    "href": "/assembly/place/muzarabani-south/"
   },
   {
     "text": "Muzvezve",
-    "href": "/assembly/place/area-muzvezve/"
+    "href": "/assembly/place/muzvezve/"
   },
   {
     "text": "Mwenezi East",
-    "href": "/assembly/place/area-mwenezi-east/"
+    "href": "/assembly/place/mwenezi-east/"
   },
   {
     "text": "Mwenezi West",
-    "href": "/assembly/place/area-mwenezi-west/"
-  },
-  {
-    "text": "N/A",
-    "href": "/assembly/place/area-n-a/"
+    "href": "/assembly/place/mwenezi-west/"
   },
   {
     "text": "Nkayi North",
-    "href": "/assembly/place/area-nkayi-north/"
+    "href": "/assembly/place/nkayi-north/"
   },
   {
     "text": "Nkayi South",
-    "href": "/assembly/place/area-nkayi-south/"
+    "href": "/assembly/place/nkayi-south/"
   },
   {
     "text": "Nketa",
-    "href": "/assembly/place/area-nketa/"
+    "href": "/assembly/place/nketa/"
   },
   {
     "text": "Nkulumane",
-    "href": "/assembly/place/area-nkulumane/"
+    "href": "/assembly/place/nkulumane/"
   },
   {
     "text": "Non Constituency",
-    "href": "/assembly/place/area-non-constituency/"
+    "href": "/assembly/place/non-constituency/"
   },
   {
     "text": "Norton",
-    "href": "/assembly/place/area-norton/"
+    "href": "/assembly/place/norton/"
   },
   {
     "text": "Nyanga North",
-    "href": "/assembly/place/area-nyanga-north/"
+    "href": "/assembly/place/nyanga-north/"
   },
   {
     "text": "Nyanga South",
-    "href": "/assembly/place/area-nyanga-south/"
+    "href": "/assembly/place/nyanga-south/"
   },
   {
     "text": "Pelandaba-Mpopoma",
-    "href": "/assembly/place/area-pelandaba-mpopoma/"
+    "href": "/assembly/place/pelandaba-mpopoma/"
   },
   {
     "text": "Pumula",
-    "href": "/assembly/place/area-pumula/"
+    "href": "/assembly/place/pumula/"
   },
   {
     "text": "Redcliff",
-    "href": "/assembly/place/area-redcliff/"
+    "href": "/assembly/place/redcliff/"
   },
   {
     "text": "Rushinga",
-    "href": "/assembly/place/area-rushinga/"
+    "href": "/assembly/place/rushinga/"
   },
   {
     "text": "Sanyati",
-    "href": "/assembly/place/area-sanyati/"
+    "href": "/assembly/place/sanyati/"
   },
   {
     "text": "Seke",
-    "href": "/assembly/place/area-seke/"
+    "href": "/assembly/place/seke/"
   },
   {
     "text": "Shamva North",
-    "href": "/assembly/place/area-shamva-north/"
+    "href": "/assembly/place/shamva-north/"
   },
   {
     "text": "Shamva South",
-    "href": "/assembly/place/area-shamva-south/"
+    "href": "/assembly/place/shamva-south/"
   },
   {
     "text": "Shurugwi North",
-    "href": "/assembly/place/area-shurugwi-north/"
+    "href": "/assembly/place/shurugwi-north/"
   },
   {
     "text": "Shurugwi South",
-    "href": "/assembly/place/area-shurugwi-south/"
+    "href": "/assembly/place/shurugwi-south/"
   },
   {
     "text": "Silobela",
-    "href": "/assembly/place/area-silobela/"
+    "href": "/assembly/place/silobela/"
   },
   {
     "text": "Southerton",
-    "href": "/assembly/place/area-southerton/"
+    "href": "/assembly/place/southerton/"
   },
   {
     "text": "St Mary's",
-    "href": "/assembly/place/area-st-mary-s/"
+    "href": "/assembly/place/st-mary-s/"
   },
   {
     "text": "Sunningdale",
-    "href": "/assembly/place/area-sunningdale/"
+    "href": "/assembly/place/sunningdale/"
   },
   {
     "text": "Tsholotsho North",
-    "href": "/assembly/place/area-tsholotsho-north/"
+    "href": "/assembly/place/tsholotsho-north/"
   },
   {
     "text": "Tsholotsho South",
-    "href": "/assembly/place/area-tsholotsho-south/"
+    "href": "/assembly/place/tsholotsho-south/"
   },
   {
     "text": "Umzingwane",
-    "href": "/assembly/place/area-umzingwane/"
+    "href": "/assembly/place/umzingwane/"
   },
   {
     "text": "Uzumba",
-    "href": "/assembly/place/area-uzumba/"
+    "href": "/assembly/place/uzumba/"
   },
   {
     "text": "Vungu",
-    "href": "/assembly/place/area-vungu/"
+    "href": "/assembly/place/vungu/"
   },
   {
     "text": "Wedza North",
-    "href": "/assembly/place/area-wedza-north/"
+    "href": "/assembly/place/wedza-north/"
   },
   {
     "text": "Wedza South",
-    "href": "/assembly/place/area-wedza-south/"
+    "href": "/assembly/place/wedza-south/"
   },
   {
     "text": "Zaka Central",
-    "href": "/assembly/place/area-zaka-central/"
+    "href": "/assembly/place/zaka-central/"
   },
   {
     "text": "Zaka East",
-    "href": "/assembly/place/area-zaka-east/"
+    "href": "/assembly/place/zaka-east/"
   },
   {
     "text": "Zaka North",
-    "href": "/assembly/place/area-zaka-north/"
+    "href": "/assembly/place/zaka-north/"
   },
   {
     "text": "Zaka West",
-    "href": "/assembly/place/area-zaka-west/"
+    "href": "/assembly/place/zaka-west/"
   },
   {
     "text": "Zengeza East",
-    "href": "/assembly/place/area-zengeza-east/"
+    "href": "/assembly/place/zengeza-east/"
   },
   {
     "text": "Zengeza West",
-    "href": "/assembly/place/area-zengeza-west/"
+    "href": "/assembly/place/zengeza-west/"
   },
   {
     "text": "Zhombe",
-    "href": "/assembly/place/area-zhombe/"
+    "href": "/assembly/place/zhombe/"
   },
   {
     "text": "Zvimba East",
-    "href": "/assembly/place/area-zvimba-east/"
+    "href": "/assembly/place/zvimba-east/"
   },
   {
     "text": "Zvimba North",
-    "href": "/assembly/place/area-zvimba-north/"
+    "href": "/assembly/place/zvimba-north/"
   },
   {
     "text": "Zvimba South",
-    "href": "/assembly/place/area-zvimba-south/"
+    "href": "/assembly/place/zvimba-south/"
   },
   {
     "text": "Zvimba West",
-    "href": "/assembly/place/area-zvimba-west/"
+    "href": "/assembly/place/zvimba-west/"
   },
   {
     "text": "Zvishavane-Ngezi",
-    "href": "/assembly/place/area-zvishavane-ngezi/"
+    "href": "/assembly/place/zvishavane-ngezi/"
   },
   {
     "text": "Zvishavane-Runde",
-    "href": "/assembly/place/area-zvishavane-runde/"
+    "href": "/assembly/place/zvishavane-runde/"
   },
   {
     "text": "Jane Chifamba",
@@ -2149,11 +2145,11 @@ callback([
   },
   {
     "text": "MDC",
-    "href": "/senate/organisation/party-mdc/"
+    "href": "/senate/organisation/mdc/"
   },
   {
     "text": "MDC-T",
-    "href": "/senate/organisation/party-mdc-t/"
+    "href": "/senate/organisation/mdc-t/"
   },
   {
     "text": "Senate",
@@ -2161,55 +2157,55 @@ callback([
   },
   {
     "text": "ZANU PF",
-    "href": "/senate/organisation/party-zanu-pf/"
+    "href": "/senate/organisation/zanu-pf/"
   },
   {
     "text": "Bulawayo",
-    "href": "/senate/place/area-bulawayo/"
+    "href": "/senate/place/bulawayo/"
   },
   {
     "text": "Harare",
-    "href": "/senate/place/area-harare/"
+    "href": "/senate/place/harare/"
   },
   {
     "text": "Manicaland",
-    "href": "/senate/place/area-manicaland/"
+    "href": "/senate/place/manicaland/"
   },
   {
     "text": "Mashonaland central",
-    "href": "/senate/place/area-mashonaland-central/"
+    "href": "/senate/place/mashonaland-central/"
   },
   {
     "text": "Mashonaland East",
-    "href": "/senate/place/area-mashonaland-east/"
+    "href": "/senate/place/mashonaland-east/"
   },
   {
     "text": "Mashonaland North",
-    "href": "/senate/place/area-mashonaland-north/"
+    "href": "/senate/place/mashonaland-north/"
   },
   {
     "text": "Mashonaland South",
-    "href": "/senate/place/area-mashonaland-south/"
+    "href": "/senate/place/mashonaland-south/"
   },
   {
     "text": "Mashonaland West",
-    "href": "/senate/place/area-mashonaland-west/"
+    "href": "/senate/place/mashonaland-west/"
   },
   {
     "text": "Masvingo",
-    "href": "/senate/place/area-masvingo/"
+    "href": "/senate/place/masvingo/"
   },
   {
     "text": "Matebeleland North",
-    "href": "/senate/place/area-matebeleland-north/"
+    "href": "/senate/place/matebeleland-north/"
   },
   {
     "text": "Matebeleland South",
-    "href": "/senate/place/area-matebeleland-south/"
+    "href": "/senate/place/matebeleland-south/"
   },
   {
     "text": "Midlands",
-    "href": "/senate/place/area-midlands/"
+    "href": "/senate/place/midlands/"
   },
   {
     "text": "Why KuvakaZim?",
